@@ -1,9 +1,9 @@
 # BlogOfKifary
 
-========================================
+```
 NexT version 8.13.0
 Documentation: https://theme-next.js.org
-========================================
+
 hexo: 6.3.0
 hexo-cli: 4.3.0
 os: darwin 21.6.0 12.6
@@ -25,4 +25,5 @@ tz: 2022a
 unicode: 14.0
 ngtcp2: 0.1.0-DEV
 nghttp3: 0.1.0-DEV
+```
 
