@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"swiftbman.github.io","root":"/","images":"/images","scheme":"Gemini","version":"8.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="了解 Objective-C 语言的起源  Objective-C 为 C 语言添加了面向对象特性，是其超集。Objective-C 使用动态绑定的消息结构，也就是说，在运行时才会检查对象类型。接收一条信息之后，究竟应执行何种代码，由运行环境而非编译器来决定。 理解 C 语言的核心概念有助于写好 Objective-C 程序。尤其要掌握内存模型与指针。   在类的头文件中尽量少引入其他头文件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="编写高质量 iOS 与 OS X代码的 52 个有效方法（读书笔记）">
+<meta property="og:url" content="https://swiftbman.github.io/2021/02/23/iOS/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95%EF%BC%88%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%89/index.html">
+<meta property="og:site_name" content="Blog of JokerZheng">
+<meta property="og:description" content="了解 Objective-C 语言的起源  Objective-C 为 C 语言添加了面向对象特性，是其超集。Objective-C 使用动态绑定的消息结构，也就是说，在运行时才会检查对象类型。接收一条信息之后，究竟应执行何种代码，由运行环境而非编译器来决定。 理解 C 语言的核心概念有助于写好 Objective-C 程序。尤其要掌握内存模型与指针。   在类的头文件中尽量少引入其他头文件">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-02-23T13:10:50.000Z">
+<meta property="article:modified_time" content="2021-02-23T13:22:11.450Z">
+<meta property="article:author" content="Zheng Qihui">
+<meta property="article:tag" content="iOS">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://swiftbman.github.io/2021/02/23/iOS/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95%EF%BC%88%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%89/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://swiftbman.github.io/2021/02/23/iOS/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95%EF%BC%88%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%89/","path":"2021/02/23/iOS/编写高质量iOS与OS X代码的52个有效方法（读书笔记）/","title":"编写高质量 iOS 与 OS X代码的 52 个有效方法（读书笔记）"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>编写高质量 iOS 与 OS X代码的 52 个有效方法（读书笔记） | Blog of JokerZheng</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Blog of JokerZheng</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Light and dark coexist</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">14</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">16</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">15</span></a></li>
+        <li class="menu-item menu-item-documentation"><a href="/documentation/" rel="section"><i class="fa fa-book fa-fw"></i>文档</a></li>
+        <li class="menu-item menu-item-video-tutorial"><a href="/video-tutorial/" rel="section"><i class="fa fa-play-circle fa-fw"></i>视频教程</a></li>
+        <li class="menu-item menu-item-recommended-site"><a href="/recommended-site/" rel="section"><i class="fa fa-star fa-fw"></i>推荐站点</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于我</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-overview">
+            <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Zheng Qihui"
+      src="/images/tiga_avatar.jpeg">
+  <p class="site-author-name" itemprop="name">Zheng Qihui</p>
+  <div class="site-description" itemprop="description">Sharing various IT technologies</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/SwiftBMan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;SwiftBMan" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:swiftbman@163.com" title="E-Mail → mailto:swiftbman@163.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://theme-next.js.org/" title="https:&#x2F;&#x2F;theme-next.js.org" rel="noopener" target="_blank">NexT</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://hexo.io/" title="https:&#x2F;&#x2F;hexo.io" rel="noopener" target="_blank">Hexo</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://fontawesome.com/" title="https:&#x2F;&#x2F;fontawesome.com" rel="noopener" target="_blank">Font Awesome</a>
+        </li>
+    </ul>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://swiftbman.github.io/2021/02/23/iOS/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95%EF%BC%88%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/tiga_avatar.jpeg">
+      <meta itemprop="name" content="Zheng Qihui">
+      <meta itemprop="description" content="Sharing various IT technologies">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of JokerZheng">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          编写高质量 iOS 与 OS X代码的 52 个有效方法（读书笔记）
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-02-23 21:10:50 / 修改时间：21:22:11" itemprop="dateCreated datePublished" datetime="2021-02-23T21:10:50+08:00">2021-02-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/iOS/" itemprop="url" rel="index"><span itemprop="name">iOS</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <ol>
+<li><p>了解 <strong>Objective-C</strong> 语言的起源</p>
+<ul>
+<li><strong>Objective-C</strong> 为 <strong>C</strong> 语言添加了面向对象特性，是其超集。<strong>Objective-C</strong> 使用动态绑定的消息结构，也就是说，在运行时才会检查对象类型。接收一条信息之后，究竟应执行何种代码，由运行环境而非编译器来决定。</li>
+<li>理解 <strong>C</strong> 语言的核心概念有助于写好 <strong>Objective-C</strong> 程序。尤其要掌握<strong>内存模型与指针</strong>。</li>
+</ul>
+</li>
+<li><p>在类的头文件中尽量少引入其他头文件</p>
+<ul>
+<li>除非确有必要，否则不要引入头文件。一般来说，应在某个类的头文件中使用向前声明来提及别的类，并在实现文件中引入那些类的头文件。这样做可以尽量降低类之间的耦合。</li>
+<li>有时无法使用向前声明，比如要声明某个类遵循一项协议。在这种情况下，尽量把<strong>“该类遵循某协议”</strong>的这条声明移至<strong>“class-continuation分类”</strong>中。如果不行的话，就把协议单独放在一个头文件中，然后将其引入。</li>
+</ul>
+<span id="more"></span>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; .h</span><br><span class="line">@class ClassName</span><br><span class="line">&#x2F;&#x2F; .m</span><br><span class="line">#import </span><br></pre></td></tr></table></figure></li>
+<li><p>多用字面量语法，少用与之等价的方法</p>
+<ul>
+<li>应该使用字面量语法来创建字符串、数值、数组、字典。与创建此类对象的常规方法相比，这么做更加简明扼要。</li>
+<li>应该通过取下标操作来访问数组下标或字典中的键所对应的元素。</li>
+<li>用字面量语法创建数组或字典时，若值中有 <strong>nil</strong>，则会抛出异常。因此，务必确保值里不含 <strong>nil</strong>。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">NSString *someString &#x3D; @&quot;string&quot;;</span><br><span class="line">NSNumber *someNumber &#x3D; @1;</span><br><span class="line">NSNumber *expressionNumber &#x3D; @(x * y);</span><br><span class="line">NSArray *array &#x3D; @[ob1, ob2, ob3];</span><br><span class="line">NSDictionary *personData &#x3D; @&#123;@&quot;&quot; : @&quot;&quot;&#125;;</span><br><span class="line">NSMutableArray *mutable &#x3D; [@[@1, @2] mutableCopy]</span><br></pre></td></tr></table></figure></li>
+<li><p>多用类型常量，少用 <strong>#define</strong> 预处理指令</p>
+<ul>
+<li>不要用预处理指令定义常量。这样定义出来的常量不含类型信息，编译器只是会在编译前据此执行查找与替换操作。即使有人重新定义了常量值，编译器也不会产生警告信息，这将导致应用程序中的常量值不一致。</li>
+<li>在实现文件中使用 <strong>static const</strong> 来定义<strong>“只在编译单元内可见的常量”</strong>。由于此类常量不在全局符号表中，所以无须为其名称加前缀。</li>
+<li>在头文件中使用extern来声明全局常量，并在相关实现文件中定义其值。这种常量要出现在全局符号表中，所以其名称应以区隔，<strong>通常用与之相关的类名做前缀</strong>。</li>
+</ul>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="built_in">NSTimeInterval</span> kAnimationDuration = <span class="number">0.3</span>f;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="built_in">NSTimeInterval</span> EOCViewClassAnimationDuration = <span class="number">0.3</span>f;</span><br><span class="line"></span><br><span class="line"><span class="comment">// .h</span></span><br><span class="line"><span class="keyword">extern</span> <span class="built_in">NSString</span> *<span class="keyword">const</span> EOCStringConstant;</span><br><span class="line"><span class="comment">// .m</span></span><br><span class="line"><span class="built_in">NSString</span> *<span class="keyword">const</span> EOCStringConstant = <span class="string">@&quot;VALUE&quot;</span>;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li><p>用枚举表示状态、选项、状态码</p>
+<ul>
+<li>应该用枚举来表示状态机的状态、传递给方法的选项以及状态码等值，给这些值起个易懂的名字。</li>
+<li>如果把传递给某个方法的选项表示为枚举类型，而多个选项又可同时使用，那么就将各选项值定义为<strong>2的幂</strong>，以便通过<strong>按位或操作</strong>将其组合起来。</li>
+<li>用 <strong>NS_ENUM</strong> 与 <strong>NS_OPTIONS</strong> 宏来定义枚举类型，并指明其底层数据类型。这样做可以确保枚举是用开发者所选的底层数据类型实现出来的，而不会采用编译器所选的类型。</li>
+<li>在处理枚举类型的 <strong>switch</strong> 语句中不要实现 <strong>default</strong> 分支。这样的话，加入新枚举之后，编译器就会提示开发者：<strong>switch</strong> 语句并未处理所有枚举。</li>
+</ul>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="built_in">NS_ENUM</span>(<span class="built_in">NSUInteger</span>, EOCConnectionState) &#123;</span><br><span class="line">	EOCConnectionStateDisconnected,</span><br><span class="line">	<span class="comment">// ...</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">NS_OPTIONS</span>(<span class="built_in">NSUInteger</span>, EOCPermittedDirection) &#123;</span><br><span class="line">	EOCPermittedDirectionUp = <span class="number">1</span> &lt;&lt; <span class="number">0</span>,</span><br><span class="line">	<span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>理解 <strong>“属性”</strong> 这一概念</p>
+<ul>
+<li>可以用 <strong>@property</strong> 语法来定义对象中所封装的数据。</li>
+<li>通过 <strong>“特质”</strong> 来指定存储数据所需的正确语义。</li>
+<li>在设置属性所对应的实例变量时，一定要遵从该属性所声明的语义。</li>
+<li>开发 <strong>iOS</strong> 程序时应该使用 <strong>nonatomic</strong> 属性，因为 <strong>atomic</strong> 属性会严重影响性能。</li>
+</ul>
+</li>
+<li><p>在对象内部尽量直接访问实例变量</p>
+<ul>
+<li>在对象内部读取数据时，应该直接通过实例变量来读，而写入数据时，则应通过属性来写。</li>
+<li>在初始化方法及 <strong>dealloc</strong> 方法中，总是应该直接通过实例变量来读写数据。</li>
+<li>有时会使用惰性初始化技术配置某份数据，这种情况下，需要通过属性来读取数据。</li>
+</ul>
+</li>
+<li><p>理解 <strong>“对象等同性”</strong> 这一概念</p>
+<ul>
+<li>若想检测对象的等同性，请提供 <strong>“isEqual：”</strong> 与 <strong>hash</strong> 方法。</li>
+<li>相同的对象必须具有相同的哈希码，但是两个哈希码相同的对象却未必相同。</li>
+<li>不要盲目地逐个检测每条属性，而是应该依照具体需求来制定检测方案。</li>
+<li>编写 <strong>hash</strong> 方法时，应该使用计算速度快而且哈希码碰撞几率低的算法。</li>
+</ul>
+</li>
+<li><p>以 <strong>“类族模式”</strong> 隐藏实现细节</p>
+<ul>
+<li>类族模式可以把实现细节隐藏在一套简单的公共接口后面。</li>
+<li>系统框架中经常使用类族。</li>
+<li>从类族的公共抽象基类中继承子类时要当心，若有开发文档，则应首先阅读。</li>
+</ul>
+</li>
+<li><p>在既有类中使用关联对象存放自定义数据</p>
+<ul>
+<li>可以通过 <strong>“关联对象”</strong> 机制来把两个对象连起来。</li>
+<li>定义关联对象时可指定内存管理语义，用以模仿定义属性时所采用的 <strong>“拥有关系”</strong> 与 <strong>“非拥有关系”</strong>。</li>
+<li>只有在其他做法不可行时才应选用关联对象，因为这种做法通常会引入难于查找的 <strong>bug</strong>。</li>
+</ul>
+</li>
+<li><p>理解 <strong>objc_msgSend</strong> 的作用</p>
+<ul>
+<li>消息由<strong>接收者</strong>、<strong>选择子</strong>及<strong>参数</strong>构成。给某对象 <strong>“发送消息”</strong> 也就相当于在该对象上 <strong>“调用方法”</strong>。</li>
+<li>发给某对象的全部消息都要由 <strong>“动态消息派发系统”</strong> 来处理，该系统会查出对应的方法，并执行其代码。</li>
+</ul>
+</li>
+<li><p>理解消息转发机制</p>
+<ul>
+<li>若对象无法响应某个选择子，则进入消息转发流程。</li>
+<li>通过运行期的动态方法解析功能，我们可以在需要用到某个方法时再将其加入类中。</li>
+<li>对象可以把其无法解读的某些选择子转交给其他对象来处理。</li>
+<li>经过上述两步之后，如果还是没有办法处理选择子，那就启动完整的消息转发机制。</li>
+</ul>
+</li>
+<li><p>用 <strong>“方法调配技术”</strong> 调试 <strong>“黑盒方法”</strong></p>
+<ul>
+<li>在运行期，可以向类中新增或替换选择子所对应的方法实现。</li>
+<li>使用另一份实现来替换原有的方法实现，这道工序叫做 <strong>“方法调配”</strong>，开发者常用此技术向原有实现中添加新功能。</li>
+<li>一般来说，只有调试程序的时候才需要在运行期修改方法实现，这种做法不宜滥用。</li>
+</ul>
+</li>
+<li><p>理解 <strong>“类对象”</strong> 的用意</p>
+<ul>
+<li>每个实例都有一个指向 <strong>Class</strong> 对象的指针，用已表明其类型，而这些 <strong>Class</strong> 对象则构成了类的继承体系。</li>
+<li>如果对象类型无法在编译期确定，那么就应该使用类型信息查询方法来探知。</li>
+<li>尽量使用类型信息查询方法来确定对象类型，而不要直接比较类对象，因为某些对象可能实现了消息转发功能。</li>
+</ul>
+</li>
+<li><p>用前缀避免命名空间冲突</p>
+<ul>
+<li>选择与你的公司、应用程序或二者皆有关联之名称作为类名的前缀，并在所有代码中均使用这一前缀。</li>
+<li>若自己所开发的程序库中用到了第三方库，则应为其中的名称加上前缀。</li>
+</ul>
+</li>
+<li><p>提供 <strong>“全能初始化方法”</strong></p>
+<ul>
+<li>在类中提供一个全能初始化方法，并与文档里指明。其他初始化方法均应调用此方法。</li>
+<li>若全能初始化方法与超类不同，则需覆写超类中的对应方法。</li>
+<li>如果超类的初始化方法不适用于子类，那么应该覆写这个超类方法，并在其中抛出异常。</li>
+</ul>
+</li>
+<li><p>实现 <strong>description</strong> 方法</p>
+<ul>
+<li>实现 <strong>description</strong> 方法返回一个有意义的字符串，用以描述该实例。</li>
+<li>若想在调试时打印出更详尽的对象描述信息，则应实现 <strong>debugDescription</strong> 方法。</li>
+</ul>
+</li>
+<li><p>尽量使用不可变对象</p>
+<ul>
+<li>尽量创建不可变的对象。</li>
+<li>若某属性仅可与对象内部修改，则在 <strong>“class-continuation分类”</strong> 中将其由 <strong>readonly</strong> 属性扩展为 <strong>readwrite</strong> 属性。</li>
+<li>不要把可变的 <strong>collection</strong> 作为属性公开，而应提供相关方法，以此修改对象中的可变 <strong>collection</strong>。</li>
+</ul>
+</li>
+<li><p>使用清晰而协调的命名方式</p>
+<ul>
+<li>起名时应遵从标准的 <strong>Objective-C</strong> 命名规范，这样创建出来的接口更容易为开发者所理解。</li>
+<li>方法名要言简意赅，从左至右读起来要像个日常用语中的句子才好。</li>
+<li>方法名里不要使用缩略后的类型名称。</li>
+<li>给方法起名时的第一要务就是确保其风格与你自己的代码或所要集成的框架相符。</li>
+</ul>
+</li>
+<li><p>为私有方法名加前缀</p>
+<ul>
+<li>给私有方法的名称加上前缀，这样可以很容易地将其同公共方法区分开。</li>
+<li>不要单用一个下划线做私有方法的前缀，因为这种做法是预留给苹果公司用的。</li>
+</ul>
+</li>
+<li><p>理解 <strong>Objective-C</strong> 错误模型</p>
+<ul>
+<li>只有发生了可使整个应用程序奔溃的严重错误时，才应使用异常。</li>
+<li>在错误不那么严重的情况下，可以指派 <strong>“委托方法”</strong> 来处理错误，也可以把错误的信息放在 <strong>NSError</strong> 对象里，经由 <strong>“输出参数”</strong> 返回给调用者。</li>
+</ul>
+</li>
+<li><p>理解 <strong>NSCopying</strong> 协议</p>
+<ul>
+<li>若想令自己所写的对象具有拷贝功能，则需要实现 <strong>NSCopying</strong> 协议。</li>
+<li>如果自定义的对象分为可变版本与不可变版本，那么就要同时实现 <strong>NSCopying</strong> 与 <strong>NSMutableCopying</strong> 协议。</li>
+<li>复制对象时需决定采用浅拷贝还是深拷贝，一般情况下应该尽量执行浅拷贝。</li>
+<li>如果你所写的对象需要深拷贝，那么可考虑新增一个专门执行深拷贝的方法。</li>
+</ul>
+</li>
+<li><p>通过委托与数据源协议进行对象间通信</p>
+<ul>
+<li>委托模式为对象提供了一套接口，使其可由此将相关事件告知其他对象。</li>
+<li>将委托对象应该支持的接口定义成协议，在协议中把可能需要处理的事件定义成方法。</li>
+<li>当某对象需要从另一个对象中获取数据时，可以使用委托模式。这种情境下，该模式亦称 <strong>“数据源协议”</strong>。</li>
+<li>若有必要，可实现含有位段的结构体，将委托对象是否能响应相关协议方法这一信息缓存至其中。</li>
+</ul>
+</li>
+<li><p>将类的实现代码分散到便于管理的数个分类之中</p>
+<ul>
+<li>使用分类机制把类的实现代码划分成易于管理的小块。</li>
+<li>将应该视为 <strong>“私有”</strong> 的方法归入名叫 <strong>Private</strong> 的分类中，以隐藏实现细节。</li>
+</ul>
+</li>
+<li><p>总是为第三方类的分类名称加前缀</p>
+<ul>
+<li>向第三方类中添加分类时，总应给其名称加上你专用的前缀。</li>
+<li>向第三方类中添加分类时，总应给其中的方法名加上你专用的前缀。</li>
+</ul>
+</li>
+<li><p>勿在分类中声明属性</p>
+<ul>
+<li>把封装数据所用的全部属性都定义在主接口里。</li>
+<li>在 <strong>“class-continuation分类”</strong> 之外的其他分类中，可以定义存取方法，但尽量不要定义属性。</li>
+</ul>
+</li>
+<li><p>使用 <strong>“class-continuation分类”</strong> 隐藏实现细节</p>
+<ul>
+<li>通过 <strong>“class-continuation分类”</strong> 向类中新增实例变量。</li>
+<li>如果某属性在主接口中声明为 <strong>“只读”</strong>，而类的内部又要用设置方法修改此属性，那么就在<strong>“class-continuation分类”</strong> 中将其扩展为 <strong>“可读写”</strong>。</li>
+<li>把私有方法的原型声明在 <strong>“class-continuation分类”</strong> 里面。</li>
+<li>若想使类所遵循的协议不为人所知，则可于 <strong>“class-continuation分类”</strong> 中声明。</li>
+</ul>
+</li>
+<li><p>通过协议提供匿名对象</p>
+<ul>
+<li>协议可在某种程度上提供匿名类型。具体的对象类型可以淡化成遵从某协议的 <strong>id</strong> 类型，协议里规定了对象所应实现的方法。</li>
+<li>使用匿名对象来隐藏类型名称（或类名）。</li>
+<li>如果具体类型不重要，重要的是对象能够响应（定义在协议里的）特定方法，那么可使用匿名对象来表示。</li>
+</ul>
+</li>
+<li><p>理解引用计数</p>
+<ul>
+<li>引用计数机制通过可以递增递减的计数器来管理内存。对象创建好之后，其保留计数至少为1。若保留计数为正，则对象继续存活。当保留计数降为0时，对象就被销毁了。</li>
+<li>在对象生命期中，其余对象通过引用来保留或释放此对象。保留与释放操作分别会递增及递减保留计数。</li>
+</ul>
+</li>
+<li><p>以 <strong>ARC</strong> 简化引用计数</p>
+<ul>
+<li>有 <strong>ARC</strong> 之后，程序员就无须担心内存管理问题了。使用 <strong>ARC</strong> 来编程，可省去类中的许多 <strong>“样板代码”</strong>。</li>
+<li><strong>ARC</strong> 管理对象生命期的办法基本上就是：在合适的地方插入 <strong>“保留”</strong> 及 <strong>“释放”</strong> 操作。在ARC环境下，变量的内存管理语义可以通过修饰符指明，而原来则需要手工执行 <strong>“保留”</strong> 及 <strong>“释放”</strong> 操作。</li>
+<li>由方法所返回的对象，其内存管理语义总是通过方法名来体现。<strong>ARC</strong> 将此确定为开发者必须遵守的规则。</li>
+<li><strong>ARC</strong> 只负责管理 <strong>Objective-C</strong> 对象的内存。尤其要注意：<strong>CoreFoundation</strong> 对象不归 <strong>ARC</strong> 管理，开发者必须适时调用 <strong>CFRetain/CFRelease</strong>。</li>
+</ul>
+</li>
+<li><p>在dealloc方法中只释放引用并解除监听</p>
+<ul>
+<li>在dealloc方法里，应该做的事情就是释放指向其他对象的引用，并取消原来订阅的“键值观测”（KVO）或NSNotificationCenter等通知，不要做其他事情。</li>
+<li>如果对象持有文件描述符等系统资源，那么应该专门编写一个方法来释放此种资源。这样的类要和其使用者约定：用完资源后必须调用close方法。</li>
+<li>执行异步任务的方法不应该在dealloc里调用；只能在正常状态下执行的那些方法也不应在dealloc里调用，因为此时对象已处于正在回收的状态了。</li>
+</ul>
+</li>
+<li><p>编写“异常安全代码”时留意内存管理问题</p>
+<ul>
+<li>捕获异常时，一定要注意将try块内所创立的对象清理干净。</li>
+<li>在默认情况下，ARC不生成安全处理异常所需的清理代码。开启编译器标志后，可生成这种代码，不过会导致应用程序变大，而且会降低运行效率。</li>
+</ul>
+</li>
+<li><p>以弱引用避免保留环</p>
+<ul>
+<li>将某些引用设为weak，可避免出现“保留环”。</li>
+<li>weak引用可以自动清空，也可以不自动清空。自动清空是随着ARC而引入的新特性，由运行期系统来实现。在具备自动清空功能的弱引用上，可以随意读取其数据，因为这种引用不会指向已经回收过的对象。</li>
+</ul>
+</li>
+<li><p>以“自动释放池块”降低内存峰值</p>
+<ul>
+<li>自动释放池排布在栈中，对象收到autorelease消息后，系统将其放入最顶端的池里。</li>
+<li>合理运用自动释放池，可降低应用程序的内存峰值。</li>
+<li>@autoreleasepool这种新式写法能创建出更为轻便的字段释放池。</li>
+</ul>
+</li>
+<li><p>用“僵尸对象”调试内存管理问题</p>
+<ul>
+<li>系统在回收对象时，可以不将其真的回收，而是把它转化为僵尸对象。通过环境变量NSZombieEnabled可开启此功能。</li>
+<li>系统会修改对象的isa指针，令其指向特殊的僵尸类，从而使该对象变为僵尸对象。僵尸类能够响应所有的选择子，响应方式为：打印一条包含消息内容及其接收者的消息，然后终止应用程序。</li>
+</ul>
+</li>
+<li><p>不要使用retainCount</p>
+<ul>
+<li>对象的保留计数看似有用，实则不然，因为任何给定时间点上的“绝对保留计数”都无法反映对象生命期的全貌。</li>
+<li>引入ARC之后，retainCount方法就正式废止了，在ARC下调用该方法会导致编译器报错。</li>
+</ul>
+</li>
+<li><p>理解“块”这一慨念</p>
+<ul>
+<li>块是C、C++、Objective-C中的词法闭包。</li>
+<li>块可接受参数，也可返回值。</li>
+<li>块可以分配在栈或堆上，也可以是全局的。分配在栈上的块可拷贝到堆里，这样的话，就和标准的Objective-C对象一样，具备引用计数了。</li>
+</ul>
+</li>
+<li><p>为常用的块类型创建typedef</p>
+<ul>
+<li>以typedef重新定义块类型，可令块变量用起来更加简单。</li>
+<li>定义新类型时应遵从现有的命名习惯，勿使其名称与别的类型相冲突。</li>
+<li>不妨为同一个块签名定义多个类型别名。如果要重构的代码使用了块类型的某个别名，那么只需修改相应typedef中的块签名即可，无须改动其他typedef。</li>
+</ul>
+</li>
+<li><p>用handler块降低代码分散程度</p>
+<ul>
+<li>在创建对象时，可以使用内联的handler块将相关业务逻辑一并声明。</li>
+<li>在有多个实例需要监控时，如果采用委托模式，那么经常需要根据传入的对象来切换，而若改用handler块来实现，则可直接将块与相关对象放在一起。</li>
+<li>设计API时如果用到了handler块，那么可以增加一个参数，使调用者可通过此参数来决定应该把块安排在哪个队列上执行。</li>
+</ul>
+</li>
+<li><p>用块引用其所属对象时不要出现保留环</p>
+<ul>
+<li>如果块所捕获的对象直接或间接地保留了块本身，那么就得当心保留环问题。</li>
+<li>一定要找个适当的时机解除保留环，而不能把责任推给API的调用者。</li>
+</ul>
+</li>
+<li><p>多用派发队列，少用同步锁</p>
+<ul>
+<li>派发队列可用来表述同步语义，这种做法要比使用@synchronized块或NSLock对象更简单。</li>
+<li>将同步与异步派发结合起来，可以实现与普通加锁机制一样的同步行为，而这么做却不会阻塞执行异步派发的线程。</li>
+<li>使用同样队列及栅栏块，可以令同步行为更加高效。</li>
+</ul>
+</li>
+<li><p>多用GCD，少用performSelector系列方法</p>
+<ul>
+<li>performSelector系列方法在内存管理方面容易有疏失。它无法确定将要执行的选择子具体是什么，因而ARC编译器也就无法插入适当的内存管理方法。</li>
+<li>performSelector系列方法所能处理的选择子太过于局限了，选择子的返回值类型及发送给方法的参数个数都受到限制。</li>
+<li>如果想把任务放在另一个线程上执行，那么最好不要用performSelector系列方法，而是应该把任务封装到块里，然后调用大的中枢派发机制的相关方法来实现。</li>
+</ul>
+</li>
+<li><p>掌握GCD及操作队列的使用时机</p>
+<ul>
+<li>在解决多线程与任务管理问题时，派发队列并非唯一方案。</li>
+<li>操作队列提供了一套高层的Objective-C API，能实现纯GCD所具备的绝大部分功能，而且还能完成一些更为复杂的操作，那些操作若改用GCD来实现，则需另外编写代码。</li>
+</ul>
+</li>
+<li><p>通过Dispatch Group机制，根据系统资源状况来执行任务</p>
+<ul>
+<li>一系列任务可归入一个dispatch group之中。开发者可以在这组任务执行完毕时获得通知。</li>
+<li>通过dispatch group，可以在并发式派发队列里同时执行多项任务。此时GCD会根据系统资源状况来调度这些并发执行的任务。开发者若自己来实现此功能，则需编写大量代码。</li>
+</ul>
+</li>
+<li><p>使用dispatch_once来执行只需运行一次的线程安全代码</p>
+<ul>
+<li>经常需要编写“只需执行一次的线程安全代码”。通过GCD所提供的dispatch——once函数，很容易就能实现此功能。</li>
+<li>标记应该声明在static或global作用域中，这样的话，在把只需执行一次的块传给dispatch_once函数时，传进去的标记也是相同的。</li>
+</ul>
+</li>
+<li><p>不要使用dispatch_get_current_queue</p>
+<ul>
+<li>dispatch_get_current_queue函数的行为常常与开发者所预期的不同。此函数已经废弃，只应做调试之用。</li>
+<li>由于派发队列是按层级来组织的，所以无法单用某个队列对象来描述“当前队列”这一概念。</li>
+<li>dispatch_get_current_queue函数用于解决由不可重入的代码所引发的死锁，然而能用此函数解决的问题，通常也能改用“队列特定数据”来解决。</li>
+</ul>
+</li>
+<li><p>熟悉系统框架</p>
+<ul>
+<li>许多系统框架都可以直接使用。其中最重要的是Foundation与CoreFoundation，这两个框架提供了构建应用程序所需的许多核心功能。</li>
+<li>很多常见任务都能用框架来做，例如音频与视频处理、网络通信、数据管理等。</li>
+<li>请记住：用纯C写成的框架与用Objective-C写成的一样重要，若想成为优秀的Objective-C开发者，应该掌握C语言的核心概念。</li>
+</ul>
+</li>
+<li><p>多用块枚举，少用for循环</p>
+<ul>
+<li>遍历collection有四种方式。最基本的办法是for循环，其次是NSEnumerator遍历法及快速遍历法，最新、最先进的方式则是“块枚举法”。</li>
+<li>“块枚举法”本身就能通过GCD来并发执行遍历操作，无须另行编写代码。而采用其他遍历方法则无法轻易实现这一点。</li>
+<li>若提前知道待遍历的collection含有何种对象，则应修改块签名，指出对象的具体类型。</li>
+</ul>
+</li>
+<li><p>对自定义其内存管理语义的collection使用无缝桥接</p>
+<ul>
+<li>通过无缝桥接技术，可以在Foundation框架中的Objective-C对象与CoreFoundation框架中的C语言数据结构之间来回转换。</li>
+<li>在CoreFoundation层面创建collection时，可以指定许多回调函数，这些函数表示此collection应如何处理其元素。然后，可运用无缝桥接技术，将其转换成具备特殊内存管理语义的Objective-C collection。</li>
+</ul>
+</li>
+<li><p>构建缓存时选用NSCache而非NSDictionary</p>
+<ul>
+<li>实现缓存时应选用NSCache而非NSDictionary对象。因为NSCache可以 提供优雅的自动删减功能，而且是“线程安全的”，此外，它与字典不同，并不会拷贝键。</li>
+<li>可以给NSCache对象设置上限，用以限制缓存中的对象总个数及“总成本”，而这些尺度则定义了缓存删减其中对象的时机。但是绝对不要把这些尺度当成可靠的“硬限制”，它们仅对NSCache起指导作用。</li>
+<li>将NSPurgeableData与NSCache搭配使用，可实现自动清除数据的功能，也就是说，当NSPurgeableData对象所占内存为系统所丢弃时，该对象自身也会从缓存中移除。</li>
+<li>如果缓存使用得当，那么应用程序的响应速度就能提高。只有那种“重新计算起来很费事的”数据，才值得放入缓存，比如那些需要从网络获取或从磁盘读取的数据。</li>
+</ul>
+</li>
+<li><p>精简initialize与load的实现代码</p>
+<ul>
+<li>在加载阶段，如果类实现了load方法，那么系统就会调用它。分类里也可以定义此方法，类的load方法要比分类中的先调用。与其他方法不同，load方法不参与覆写机制。</li>
+<li>首次使用某个类之前，系统会向其发送initialize消息。由于此方法遵从普通的覆写规则，所以通常应该在里面判断当前要初始化的是哪个类。</li>
+<li>load与initialize方法都应该实现得精简一些，这有助于保持应用程序的响应能力，也能减少引入“依赖环”的几率。</li>
+<li>无法在编译器期设定的全局常量，可以放在initialize方法里初始化。</li>
+</ul>
+</li>
+<li><p>别忘了NSTimer会保留其目标对象</p>
+<ul>
+<li>NSTimer对象会保留其目标，直到计时器本身失效为止，调用invalidate方法可令计时器失效，另外，一次性的计时器在触发完任务之后也会失效。</li>
+<li>反复执行任务的计时器，很容易引入保留环，如果这种计时器的目标对象又保留了计时器本身，那肯定会导致保留环。这种环状保留关系，可能是直接发送的，也可能是通过对象图里的其他对象间接发生的。</li>
+<li>可以扩充NSTimer的功能，用“块”来打破保留环。不过，除非NSTimer将来在公共接口提供此功能，否则必须创建分类，将相关实现代码加入其中。</li>
+</ul>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>小哥哥小姐姐赞助一下下</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.jpg" alt="Zheng Qihui 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.jpg" alt="Zheng Qihui 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/iOS/" rel="tag"><i class="fa fa-tag"></i> iOS</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/02/23/FFmpeg/FFmpeg/" rel="prev" title="FFmpeg">
+                  <i class="fa fa-chevron-left"></i> FFmpeg
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2021/02/23/iOS/%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/" rel="next" title="静态库和动态库">
+                  静态库和动态库 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2017 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Zheng Qihui</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":"forest","js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.12.0/dist/mermaid.min.js","integrity":"sha256-0dD7vUjUCTGJjeLnPotQQJIcSzug5fO6WDMYYyNIX4c="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
