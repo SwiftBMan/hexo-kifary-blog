@@ -6,7 +6,7 @@
 # 网站标题
 title: Blog Of Kifary
 
- # 网站副标题
+# 网站副标题
 subtitle: 承认自己的有限性
 
 # 网站描述
@@ -19,12 +19,12 @@ keywords: iOS
 author: Kifary
 
 # 网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有 zh-Hans和 zh-CN。
-language: 
+language:
   - zh-CN
   - en
 
 # 网站时区。Hexo 默认使用您电脑的时区。请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。一般的，对于中国大陆地区可以使用 Asia/Shanghai。
-timezone: 
+timezone:
 
 # 网址
 # 网址, 必须以 http:// 或 https:// 开头
@@ -43,9 +43,9 @@ permalink_defaults:
 # 改写 permalink 的值来美化 URL
 pretty_urls:
   # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
-  trailing_index: true 
+  trailing_index: true
   # 是否在永久链接中保留尾部的 .html, 设置为 false 时去除 (对尾部的 index.html无效)
-  trailing_html: true 
+  trailing_html: true
 
 # 目录
 # 资源文件夹，这个文件夹用来存放内容。
@@ -77,20 +77,20 @@ skip_render:
 
 # 文章
 # 新文章的文件名称
-new_post_name: :lang/:title.md 
+new_post_name: :lang/:title.md
 
 # 预设布局
 # Hexo 有三种默认布局：post、page 和 draft
 default_layout: post
 
 # 在中文和英文之间加入空格
-titlecase: false 
+titlecase: false
 
 # 在新标签中打开链接
 external_link:
   enable: true # 在新标签中打开链接
   field: site # 对整个网站（site）生效或仅对文章（post）生效
-  exclude: '' # 需要排除的域名。主域名和子域名如 www 需分别配置
+  exclude: "" # 需要排除的域名。主域名和子域名如 www 需分别配置
 
 # 把文件名称转换为 (1) 小写或 (2) 大写
 filename_case: 0
@@ -98,7 +98,7 @@ filename_case: 0
 # 显示草稿
 render_drafts: false
 
-# 启动 Asset 文件夹 
+# 启动 Asset 文件夹
 # https://hexo.io/zh-cn/docs/asset-folders
 post_asset_folder: true
 marked:
@@ -111,14 +111,14 @@ relative_link: false
 # 显示未来的文章
 future: true
 
-# 代码块的设置, 请参考 Highlight.js 进行设置 
+# 代码块的设置, 请参考 Highlight.js 进行设置
 # https://hexo.io/docs/syntax-highlight#Highlight-js
 highlight:
   enable: true
   line_number: true
   auto_detect: false
   line_threshold: 0
-  tab_replace: ''
+  tab_replace: ""
   exclude_languages:
     - example
     - mermaid
@@ -132,14 +132,14 @@ prismjs:
   preprocess: true
   line_number: true
   line_threshold: 0
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -161,7 +161,7 @@ date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 # 当 Front Matter 中没有指定 updated 时 updated 的取值
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # 分页
 # 每页显示的文章量 (0 = 关闭分页功能)
@@ -184,7 +184,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # 当前主题名称。值为false时禁用主题
 # next、icarus、fluid、butterfly
-theme: next 
+theme: next
 
 # 主题的配置文件。在这里放置的配置会覆盖主题目录下的 _config.yml 中的配置
 theme_config:
@@ -193,7 +193,7 @@ theme_config:
 ## Docs: https://hexo.io/docs/one-command-deployment
 # 部署部分的设置
 deploy:
-  type: ''
+  type: ""
 
 # Metadata elements
 # Meta generator 标签。 值为 false 时 Hexo 不会在头部插入该标签
@@ -203,18 +203,17 @@ meta_generator: true
 # hexo-generator-sitemap
 # https://github.com/hexojs/hexo-generator-sitemap
 sitemap:
-  path: 
+  path:
     - sitemap.xml
     - sitemap.txt
-  template: 
-  template_txt: 
+  template:
+  template_txt:
   rel: false
   tags: true
   categories: true
 
 tag_generator:
   enable_index_page: false
-
 # three:
 #   enable: true
 #   defer: true
