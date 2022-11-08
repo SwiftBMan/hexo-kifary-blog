@@ -1981,12 +1981,12 @@ header.header {
 }
 @media (min-width: 992px) {
   .post-body {
-    text-align: justify;
+    text-align: justify-all;
   }
 }
 @media (max-width: 991px) {
   .post-body {
-    text-align: justify;
+    text-align: justify-all;
   }
 }
 .post-body h1 .header-anchor,

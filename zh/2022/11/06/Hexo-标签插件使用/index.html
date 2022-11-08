@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/hexo-kifary-blog/images/apple-touch-icon-k.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/hexo-kifary-blog/images/favicon-32x32-k.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/hexo-kifary-blog/images/favicon-16x16-k.png">
+  <link rel="mask-icon" href="/hexo-kifary-blog/images/safari-pinned-tab-k.svg" color="#222">
+
+<link rel="stylesheet" href="/hexo-kifary-blog/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"swiftbman.github.io","root":"/hexo-kifary-blog/","images":"/hexo-kifary-blog/images","scheme":"Gemini","darkmode":true,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/hexo-kifary-blog/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/hexo-kifary-blog/js/config.js"></script>
+
+    <meta name="description" content="如何在 Hexo 博客中使用标签插件">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Hexo 标签插件使用">
+<meta property="og:url" content="https://swiftbman.github.io/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/index.html">
+<meta property="og:site_name" content="Blog Of Kifary">
+<meta property="og:description" content="如何在 Hexo 博客中使用标签插件">
+<meta property="og:locale">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/favicon.ico">
+<meta property="article:published_time" content="2022-11-06T12:57:12.000Z">
+<meta property="article:modified_time" content="2022-11-08T08:49:37.229Z">
+<meta property="article:author" content="Kifary">
+<meta property="article:tag" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/favicon.ico">
+
+
+<link rel="canonical" href="https://swiftbman.github.io/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":true,"isHome":false,"isPost":true,"lang":"zh","comments":true,"permalink":"https://swiftbman.github.io/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/","path":"zh/2022/11/06/Hexo-标签插件使用/","title":"Hexo 标签插件使用"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Hexo 标签插件使用 | Blog Of Kifary</title>
+  
+
+  <script src="/hexo-kifary-blog/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?5486e8952107ba59162e9ebcb2e33032"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/hexo-kifary-blog/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/hexo-kifary-blog/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Blog Of Kifary</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">承认自己的有限性</p>
+      <img class="custom-logo-image" src="/hexo-kifary-blog/uploads/k_logo.png" alt="Blog Of Kifary">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/hexo-kifary-blog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/hexo-kifary-blog/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/hexo-kifary-blog/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">1</span></a></li><li class="menu-item menu-item-categories"><a href="/hexo-kifary-blog/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a></li><li class="menu-item menu-item-archives"><a href="/hexo-kifary-blog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">1</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%95%E7%94%A8%E5%9D%97"><span class="nav-number">1.</span> <span class="nav-text">引用块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BE%8B%E5%AD%90"><span class="nav-number">1.1.</span> <span class="nav-text">例子</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%B2%A1%E6%9C%89%E6%8F%90%E4%BE%9B%E5%8F%82%E6%95%B0%E6%99%AE%E9%80%9A%E7%9A%84-blockquote"><span class="nav-number">1.1.1.</span> <span class="nav-text">没有提供参数，普通的
+blockquote</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%95%E7%94%A8%E4%B9%A6%E4%B8%8A%E7%9A%84%E5%8F%A5%E5%AD%90"><span class="nav-number">1.1.2.</span> <span class="nav-text">引用书上的句子</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%BC%95%E7%94%A8%E9%93%BE%E6%8E%A5"><span class="nav-number">1.1.3.</span> <span class="nav-text">引用链接</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">2.</span> <span class="nav-text">代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BE%8B%E5%AD%90-1"><span class="nav-number">2.1.</span> <span class="nav-text">例子</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%99%AE%E9%80%9A%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">2.1.1.</span> <span class="nav-text">普通代码块</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E5%8F%82%E6%95%B0%E5%AE%8C%E6%95%B4%E7%9A%84%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">2.1.2.</span> <span class="nav-text">一个参数完整的代码块</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#jsfiddle"><span class="nav-number">3.</span> <span class="nav-text">jsFiddle</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gist"><span class="nav-number">4.</span> <span class="nav-text">Gist</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#iframe"><span class="nav-number">5.</span> <span class="nav-text">iframe</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#image"><span class="nav-number">6.</span> <span class="nav-text">Image</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#link"><span class="nav-number">7.</span> <span class="nav-text">Link</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#include-code"><span class="nav-number">8.</span> <span class="nav-text">Include Code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#youtube"><span class="nav-number">9.</span> <span class="nav-text">Youtube</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%95%E7%94%A8%E6%96%87%E7%AB%A0"><span class="nav-number">10.</span> <span class="nav-text">引用文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#embed-image"><span class="nav-number">11.</span> <span class="nav-text">Embed
+image</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#raw"><span class="nav-number">12.</span> <span class="nav-text">Raw</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81%E5%92%8C%E6%88%AA%E6%96%AD"><span class="nav-number">13.</span> <span class="nav-text">文章摘要和截断</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Kifary"
+      src="https://avatars.githubusercontent.com/u/15168530?v=4">
+  <p class="site-author-name" itemprop="name">Kifary</p>
+  <div class="site-description" itemprop="description">专注于 IT 技术分享</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/hexo-kifary-blog/archives/">
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/hexo-kifary-blog/categories/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/hexo-kifary-blog/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/SwiftBMan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;SwiftBMan" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:zheng.qi.hui@qq.com" title="E-Mail → mailto:zheng.qi.hui@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://hexo.io/zh-cn/" title="https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;" rel="noopener" target="_blank">hexo-zh-cn</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://theme-next.js.org/" title="https:&#x2F;&#x2F;theme-next.js.org" rel="noopener" target="_blank">hexo-theme-next</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://fontawesome.com/" title="https:&#x2F;&#x2F;fontawesome.com&#x2F;" rel="noopener" target="_blank">fontawesome</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://swiftbman.github.io/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/15168530?v=4">
+      <meta itemprop="name" content="Kifary">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog Of Kifary">
+      <meta itemprop="description" content="专注于 IT 技术分享">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Hexo 标签插件使用 | Blog Of Kifary">
+      <meta itemprop="description" content="如何在 Hexo 博客中使用标签插件">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hexo 标签插件使用
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-11-06 20:57:12" itemprop="dateCreated datePublished" datetime="2022-11-06T20:57:12+08:00">2022-11-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-11-08 16:49:37" itemprop="dateModified" datetime="2022-11-08T16:49:37+08:00">2022-11-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/hexo-kifary-blog/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>720</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">如何在 Hexo 博客中使用标签插件</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h3 id="引用块">引用块</h3>
+<blockquote><p>{% blockquote [author[, source]] [link] [source_link_title] %}</br>
+content</br> {% endblockquote %}</p>
+</blockquote>
+<h4 id="例子">例子</h4>
+<h5 id="没有提供参数普通的-blockquote">没有提供参数，普通的
+<strong>blockquote</strong></h5>
+<blockquote><p>{% blockquote %}</br> 普通的 blockquote</br> {% endblockquote %}</p>
+</blockquote>
+<blockquote><p>普通的 blockquote</p>
+</blockquote>
+<h5 id="引用书上的句子">引用书上的句子</h5>
+<blockquote><p>{% blockquote David Levithan, Wide Awake %}</br> Do not just seek
+happiness for yourself. Seek happiness for all. Through kindness.
+Through mercy.</br> {% endblockquote %}</p>
+</blockquote>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all.
+Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+<h5 id="引用链接">引用链接</h5>
+<blockquote><p>{% blockquote Seth Godin
+http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html
+Welcome to Island Marketing %}</br> Every interaction is both precious
+and an opportunity to delight.</br> {% endblockquote %}</p>
+</blockquote>
+<blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
+<footer><strong>Seth Godin</strong><cite><a target="_blank" rel="noopener" href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html">Welcome to Island Marketing</a></cite></footer></blockquote>
+<h3 id="代码块">代码块</h3>
+<blockquote><p>{% codeblock [title] [lang:language] [url] [link text] [additional
+options] %}</br> code snippet</br> {% endcodeblock %}</p>
+</blockquote>
+<h4 id="例子-1">例子</h4>
+<h5 id="普通代码块">普通代码块</h5>
+<blockquote><p>{% codeblock %}</br> alert('Hello World!');</br> {% endcodeblock
+%}</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
+<h5 id="一个参数完整的代码块">一个参数完整的代码块</h5>
+<blockquote><p>{% codeblock 这是一个 oc 代码 lang:objc http://www.baidu.com 百度搜索
+line_number:true line_threshold:0 highlight:true first_line:0 mark:1
+wrap:true %}</br> [rectangle setX: 10 y: 10 width: 20 height: 20];</br>
+[rectangle setX: 10 y: 10 width: 20 height: 20];</br> {% endcodeblock
+%}</p>
+</blockquote>
+<figure class="highlight objc"><figcaption><span>这是一个 oc 代码</span><a target="_blank" rel="noopener" href="http://www.baidu.com">百度搜索</a></figcaption><table><tr><td class="gutter"><pre><span class="line">0</span><br><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br><span class="line marked">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+<h3 id="jsfiddle">jsFiddle</h3>
+<p>在文中嵌入<a target="_blank" rel="noopener" href="https://jsfiddle.net">jsFiddle</a>，<a
+target="_blank" rel="noopener" href="https://jsfiddle.net">jsFiddle</a>是一款HTML, CSS,
+JAVASCRIPT在线调试工具 <blockquote><p>{% jsfiddle shorttag [tabs] [skin] [width] [height] %}</br> {%
+jsfiddle Kifary/zp6n3sh0/1 js,html,css,result light %}</p>
+</blockquote></p>
+<iframe scrolling="no" width="100%" height="300" src="https://jsfiddle.net/Kifary/zp6n3sh0/1/embedded/js,html,css,result/light" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<h3 id="gist">Gist</h3>
+<blockquote><p>{% gist 35b1d8ab0323a44c289b62f365b7a302 test1 %}</br> {% gist
+35b1d8ab0323a44c289b62f365b7a302 test2 %}</p>
+</blockquote>
+<script src="//gist.github.com/35b1d8ab0323a44c289b62f365b7a302.js?file=test1"></script>
+<script src="//gist.github.com/35b1d8ab0323a44c289b62f365b7a302.js?file=test2"></script>
+<h3 id="iframe">iframe</h3>
+<p>使用 iframe 嵌入 <a target="_blank" rel="noopener" href="https://www.bilibili.com">bilibili</a> 视频
+<blockquote><p>{% iframe url [width] [height] %}</br> {% iframe
+//player.bilibili.com/player.html?aid=730017073&amp;bvid=BV11D4y167FQ&amp;cid=819030469&amp;page=1
+930 542 %}</p>
+</blockquote> <iframe src="//player.bilibili.com/player.html?aid=730017073&bvid=BV11D4y167FQ&cid=819030469&page=1" width="930" height="542" frameborder="0" loading="lazy" allowfullscreen></iframe></p>
+<p>使用 iframe 嵌入 <a target="_blank" rel="noopener" href="https://music.163.com">网易云音乐</a></p>
+<blockquote><p>{% iframe
+//music.163.com/outchain/player?type=0&amp;id=2320041657&amp;auto=1&amp;height=430
+330 450 %}</br></p>
+<p>{% iframe
+//music.163.com/outchain/player?type=0&amp;id=2320041657&amp;auto=1&amp;height=90
+330 110 %}</br></p>
+<p>{% iframe
+//music.163.com/outchain/player?type=0&amp;id=2320041657&amp;auto=1&amp;height=32
+298 52 %}</p>
+</blockquote>
+<iframe src="//music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=430" width="330" height="450" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<iframe src="//music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=90" width="330" height="110" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<iframe src="//music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=32" width="298" height="52" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<h3 id="image">Image</h3>
+<blockquote><p>{% img [class names] /path/to/image [width] [height] '"title text"
+"alt text"' %}</br> {% img
+https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/android-chrome-512x512.png
+100 100 %}</p>
+</blockquote>
+<img src="https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/favicon.ico" class="" width="44" height="44">
+<h3 id="link">Link</h3>
+<blockquote><p>{% link text url [external] [title] %}</br> {% link 百度一下
+https://www.baidu.com [external] [超连接] %}</p>
+</blockquote>
+<a href="https://www.baidu.com/" title="[external] [超连接]" target="">百度一下</a>
+<h3 id="include-code">Include Code</h3>
+<blockquote><p>{% include_code [title] [lang:language] [from:line] [to:line]
+path/to/file %}</br> {% include_code file lang:javascript from:1 to:20
+file.js %}</p>
+</blockquote>
+<figure class="highlight javascript"><figcaption><span>file</span><a href="/hexo-kifary-blog/downloads/code/file.js">view raw</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> { readFile, readFileSync, stat, statSync } = <span class="built_in">require</span>(<span class="string">&#x27;hexo-fs&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">File</span> {</span><br><span class="line">  <span class="title function_">constructor</span>(<span class="params">{ source, path, params, type }</span>) {</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">source</span> = source;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">path</span> = path;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">params</span> = params;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">type</span> = type;</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="title function_">read</span>(<span class="params">options</span>) {</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">readFile</span>(<span class="variable language_">this</span>.<span class="property">source</span>, options);</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="title function_">readSync</span>(<span class="params">options</span>) {</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">readFileSync</span>(<span class="variable language_">this</span>.<span class="property">source</span>, options);</span><br><span class="line">  }</span><br></pre></td></tr></table></figure>
+<h3 id="youtube">Youtube</h3>
+<blockquote><p>视频</br> {% youtube lJIrF4YjHfQ %}</br> 播放列表</br> {% youtube
+PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' %}</br> 禁止 YouTube
+cookie</br> {% youtube lJIrF4YjHfQ false %}</br> {% youtube
+PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' false %}</p>
+</blockquote>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=lJIrF4YjHfQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+<h3 id="引用文章"><a
+target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins#引用文章">引用文章</a></h3>
+<blockquote><p>{% post_path Hexo-标签插件使用 false %}</br> {% post_link
+Hexo-标签插件使用 '<b>插件使用</b>' false %}</p>
+</blockquote>
+/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/
+<p></br> <a href="/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/" title="Hexo 标签插件使用">插件使用</a></p>
+<h3 id="embed-image"><a
+target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins#Embed-image">Embed
+image</a></h3>
+<h3 id="raw"><a
+target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins#Raw">Raw</a></h3>
+<h3 id="文章摘要和截断"><a
+target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins#文章摘要和截断">文章摘要和截断</a></h3>
+
+    </div>
+
+    
+    
+    
+      
+
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Kifary
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://swiftbman.github.io/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/" title="Hexo 标签插件使用">https://swiftbman.github.io/hexo-kifary-blog/zh/2022/11/06/Hexo-标签插件使用/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/hexo-kifary-blog/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+          </div>
+
+        
+
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2015 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-commenting"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Kifary</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">1k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">3 分钟</span>
+  </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="/hexo-kifary-blog/js/comments.js"></script><script src="/hexo-kifary-blog/js/utils.js"></script><script src="/hexo-kifary-blog/js/motion.js"></script><script src="/hexo-kifary-blog/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/hexo-kifary-blog/js/third-party/search/local-search.js"></script>
+<script class="next-config" data-name="gitter" type="application/json">{"enable":true,"room":"Blog-of-Kifary/my-blog-one"}</script>
+<script src="/hexo-kifary-blog/js/third-party/chat/gitter.js"></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.1.7/mermaid.min.js","integrity":"sha256-G58AID1YoX5YaEtWfXSI0VLrZ6N4kvNvwg0BI8zUFxE="}}</script>
+  <script src="/hexo-kifary-blog/js/third-party/tags/mermaid.js"></script>
+
+  <script src="/hexo-kifary-blog/js/third-party/fancybox.js"></script>
+
+  <script src="/hexo-kifary-blog/js/third-party/pace.js"></script>
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"ams","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/hexo-kifary-blog/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
