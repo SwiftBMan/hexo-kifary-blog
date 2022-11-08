@@ -207,7 +207,7 @@ toc:
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
-  max_depth: 3
+  max_depth: 6
 
 
 # ---------------------------------------------------------------
@@ -360,8 +360,8 @@ preconnect: true
 # Set the text alignment in posts / pages.
 text_align:
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
-  desktop: justify
-  mobile: justify
+  desktop: justify-all 
+  mobile: justify-all 
 
 # Reduce padding / margin indents on devices with narrow width.
 mobile_layout_economy: true
