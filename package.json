@@ -19,7 +19,9 @@
     "clean-server-inet": "npm run clean && npm run serve-inet",
     "clean-build": "npm run clean && npm run build",
     "clean-build-deploy": "npm run clean-build && npm run deploy",
-    "clean-deploy": "hexo clean && hexo deploy"
+    "push-clean-build-deploy": "git add . && git commit -m 'Blog Update' && git push && npm run clean-build && npm run deploy",
+    "clean-deploy": "hexo clean && hexo deploy",
+    "blog-auto-deploy": "npm run push-clean-build-deploy"
   },
   "hexo": {
     "version": "6.3.0"
@@ -27,12 +29,12 @@
   "dependencies": {
     "hexo": "^6.3.0",
     "hexo-deployer-git": "^3.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-sitemap": "^3.0.1",
-    "hexo-generator-tag": "^1.0.0",
+    "hexo-generator-tag": "^2.0.0",
     "hexo-related-posts": "^1.5.1",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-pandoc": "^0.3.1",
