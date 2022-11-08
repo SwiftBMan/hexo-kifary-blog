@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello Worldqy</title>
+    <url>/hexo-kifary-blog/tw/2022/11/06/Hello-Worldqy/</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello Worldq</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/Hello-Worldq-1/</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello Worldq</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/Hello-Worldq/</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello Worldqy</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/Hello-Worldqy/</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello Worldqydddd</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/Hello-Worldqydddd/</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo 学习</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/Hexo-%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>https://hexo.io/zh-cn/docs/asset-folders</p>
+<img src="/hexo-kifary-blog/zh/2022/11/06/Hexo-%E5%AD%A6%E4%B9%A0/alipay.jpg" class="" title="This is an example image">
+<p><span class="math display">\[\begin{equation} \label{eq1}
+e=mc^2
+\end{equation}\]</span></p>
+<p>The famous matter-energy equation <span
+class="math inline">\(\eqref{eq1}\)</span> proposed by Einstein...</p>
+<p><span class="math display">\[\begin{equation} \label{eq2}
+\begin{aligned}
+a &amp;= b + c \\
+  &amp;= d + e + f + g \\
+  &amp;= h + i
+\end{aligned}
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{align}
+a &amp;= b + c \label{eq3} \\
+x &amp;= yz \label{eq4} \\
+l &amp;= m - n \label{eq5}
+\end{align}\]</span></p>
+<p>There are three aligned equations: equation <span
+class="math inline">\(\eqref{eq3}\)</span>, equation <span
+class="math inline">\(\eqref{eq4}\)</span> and equation <span
+class="math inline">\(\eqref{eq5}\)</span>.</p>
+<p><span class="math display">\[\begin{align}
+-4 + 5x &amp;= 2 + y \nonumber \\
+w + 2 &amp;= -1 + w \\
+ab &amp;= cb
+\end{align}\]</span></p>
+<p><span class="math display">\[x+1\over\sqrt{1-x^2}
+\tag{i}\label{eq_tag}\]</span></p>
+<a class="btn" href="#">Text</a>
+<a class="btn" href="#">Text</a>
+<a class="btn" href="#" title="Title">Text & Title</a>
+<a class="btn" href="#"><i class="fa fa-home fa-5x"></i></a>
+<a class="btn" href="#"><i class="fa fa-home fa-4x"></i></a>
+<a class="btn" href="#"><i class="fa fa-home fa-3x"></i></a>
+<a class="btn" href="#"><i class="fa fa-home fa-2x"></i></a>
+<a class="btn" href="#"><i class="fa fa-home fa-lg"></i></a>
+<a class="btn" href="#"><i class="fa fa-home"></i></a>
+<a class="btn" href="#"><i class="fa fa-home"></i>Text & Icon (buggy)</a>
+<a class="btn" href="#"><i class="fa fa-home fa-fw"></i>Text & Icon (fixed width)</a>
+<a class="btn" href="#"><i class="fa fa-home fa-fw fa-lg"></i>Text & Large Icon</a>
+<a class="btn" href="#" title="Title"><i class="fa fa-home fa-fw fa-lg"></i>Text & Large Icon & Title</a>
+<p>Lorem <a class="btn" href="#"><i class="fa fa-home fa-fw fa-lg"></i>Lorem</a> ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident <a class="btn" href="#"><i class="fa fa-home fa-fw fa-lg"></i>Ipsum</a>, sunt in culpa qui
+officia deserunt mollit anim id est laborum.</p>
+<div class="note info"><p><a class="btn" href="#"><i class="fa fa-home fa-fw"></i>Text &amp;
+Icon</a></p>
+<p><a class="btn" href="#" title="Title"><i class="fa fa-home"></i></a><a class="btn" href="#">Text</a></p>
+<p><a href="#">Link</a></p>
+</div>
+<div class="text-center">
+<div>
+<a class="btn" href="#"><i class="fa fa-heading"></i></a>
+<a class="btn" href="#"><i class="fab fa-edge"></i></a>
+<a class="btn" href="#"><i class="fa fa-times"></i></a>
+<a class="btn" href="#"><i class="fa fa-circle-notch"></i></a>
+</div>
+<div>
+<a class="btn" href="#"><i class="fa fa-italic"></i></a>
+<a class="btn" href="#"><i class="fab fa-scribd"></i></a>
+</div>
+<div>
+<a class="btn" href="#"><i class="fab fa-google"></i></a>
+<a class="btn" href="#"><i class="fab fa-chrome"></i></a>
+<a class="btn" href="#"><i class="fab fa-opera"></i></a>
+<a class="btn" href="#"><i class="fa fa-gem fa-rotate-270"></i></a>
+</div>
+</div>
+<div class="text-center">
+<a class="btn" href="#" title="Previous Chapter (Full Image)"><i class="fa fa-arrow-left fa-fw fa-lg"></i>Previous Chapter</a>
+<a class="btn" href="#" title="Next Chapter (Label)"><i class="fa fa-arrow-right fa-fw fa-lg"></i>Next Chapter</a>
+</div>
+<div class="text-center">
+<a class="btn" href="https://github.com" title="GitHub"><i class="fab fa-github fa-fw fa-lg"></i>GitHub</a>
+</div>
+<p>https://theme-next.js.org/docs/tag-plugins/group-pictures.html
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="android-chrome-512x512.png" /></div><div class="group-picture-column"><img
+src="android-chrome-512x512.png" /></div><div class="group-picture-column"><img
+src="android-chrome-512x512.png" /></div></div></div></p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="android-chrome-512x512.png" /></div><div class="group-picture-column"><img
+src="android-chrome-512x512.png" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img
+src="android-chrome-512x512.png" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img
+src="android-chrome-512x512.png" /></div><div class="group-picture-column"><img
+src="android-chrome-512x512.png" /></div></div></div>
+<p>Lorem <mark class="label ">ipsum</mark> <mark class="label primary">dolor sit</mark> amet, consectetur <mark class="label success">adipiscing elit,</mark>
+sed <mark class="label info">do eiusmod</mark> tempor incididunt ut labore et dolore magna
+aliqua.</p>
+<p>Ut enim <em><mark class="label warning">ad</mark></em> minim veniam, quis
+<strong><mark class="label danger">nostrud</mark></strong> exercitation ullamco laboris nisi ut
+aliquip ex ea commodo consequat.</p>
+<p>Duis aute irure dolor in reprehenderit in voluptate
+<del><mark class="label default">velit</mark></del> <mark>esse</mark> cillum dolore eu fugiat
+nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="link-grid"><div class="link-grid-container">
+<object class="link-grid-image" data="/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div></div>
+<pre class="mermaid">
+graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+</pre>
+<pre class="mermaid">
+sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+</pre>
+<pre class="mermaid">
+gantt
+dateFormat  YYYY-MM-DD
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+</pre>
+<pre class="mermaid">
+classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+&lt;&lt;interface&gt;&gt; Class01
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &lt;&lt;service&gt;&gt;
+  int id
+  size()
+}
+</pre>
+<pre class="mermaid">
+stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+</pre>
+<pre class="mermaid">
+pie
+&quot;Dogs&quot; : 386
+&quot;Cats&quot; : 85
+&quot;Rats&quot; : 15
+</pre>
+<pre class="mermaid">
+journey
+title My working day
+section Go to work
+  Make tea: 5: Me
+  Go upstairs: 3: Me
+  Do work: 1: Me, Cat
+section Go home
+  Go downstairs: 5: Me
+  Sit down: 3: Me
+</pre>
+<div class="note "><h4 id="header">Header</h4>
+<p>(without define class style)</p>
+</div>
+<div class="note default"><h4 id="default-header">Default Header</h4>
+<p>Welcome to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note primary"><h4 id="primary-header">Primary Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note info"><h4 id="info-header">Info Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note success"><h4 id="success-header">Success Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note warning"><h4 id="warning-header">Warning Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note danger"><h4 id="danger-header">Danger Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note info no-icon"><h4 id="no-icon-note">No icon note</h4>
+<p>Note <strong>without</strong> icon:
+<code>note info no-icon</code></p>
+</div>
+<details class="note primary"><summary><p>This is a summary</p>
+</summary>
+<h4 id="details-and-summary">Details and summary</h4>
+<p>Note with summary: <code>note primary This is a summary</code></p>
+
+</details>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<h4 id="details-and-summary-no-icon">Details and summary (No icon)</h4>
+<p>Note with summary:
+<code>note info no-icon This is a summary</code></p>
+
+</details>
+<div class="note success"><h4 id="codeblock-in-note">Codeblock in note</h4>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">code block in note tag</span><br><span class="line">code block in note tag</span><br><span class="line">code block in note tag</span><br></pre></td></tr></table></figure>
+</div>
+<div class="note default"><h4 id="lists-in-note">Lists in note</h4>
+<ul>
+<li>ul</li>
+<li>ul
+<ul>
+<li>ul</li>
+<li>ul</li>
+</ul></li>
+<li>ul</li>
+</ul>
+<ol type="1">
+<li>ol</li>
+<li>ol
+<ol type="1">
+<li>ol</li>
+<li>ol</li>
+</ol></li>
+<li>ol</li>
+</ol>
+</div>
+<h4 id="table-in-note">Table in Note</h4>
+<div class="note default"><table>
+<thead>
+<tr class="header">
+<th>1</th>
+<th>2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabs" id="first-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#first-unique-name-1">First unique name 1</a></li><li class="tab"><a href="#first-unique-name-2">First unique name 2</a></li><li class="tab"><a href="#first-unique-name-3">First unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="first-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="first-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<div class="tabs" id="second-unique-name"><ul class="nav-tabs"><li class="tab"><a href="#second-unique-name-1">Second unique name 1</a></li><li class="tab"><a href="#second-unique-name-2">Second unique name 2</a></li><li class="tab active"><a href="#second-unique-name-3">Second unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane" id="second-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="second-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane active" id="second-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<div class="tabs" id="third-unique-name"><ul class="nav-tabs"><li class="tab"><a href="#third-unique-name-1">Third unique name 1</a></li><li class="tab"><a href="#third-unique-name-2">Third unique name 2</a></li><li class="tab"><a href="#third-unique-name-3">Third unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane" id="third-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="third-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="third-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<div class="tabs" id="fourth-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#fourth-unique-name-1">Solution 1</a></li><li class="tab"><a href="#fourth-unique-name-2">Solution 2</a></li><li class="tab"><a href="#fourth-unique-name-3">Solution 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="fourth-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="fourth-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="fourth-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<div class="tabs" id="fifth-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#fifth-unique-name-1"><i class="fa fa-text-width"></i></a></li><li class="tab"><a href="#fifth-unique-name-2"><i class="fa fa-font"></i></a></li><li class="tab"><a href="#fifth-unique-name-3"><i class="fa fa-bold"></i></a></li></ul><div class="tab-content"><div class="tab-pane active" id="fifth-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="fifth-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="fifth-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<div class="tabs" id="sixth-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#sixth-unique-name-1"><i class="fa fa-text-width"></i>Solution 1</a></li><li class="tab"><a href="#sixth-unique-name-2"><i class="fa fa-font"></i>Solution 2</a></li><li class="tab"><a href="#sixth-unique-name-3"><i class="fa fa-bold"></i>Solution 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="sixth-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="sixth-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="sixth-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<p>Permalink for &gt; <a href="#tab-one">Tab one</a>. Permalink for &gt;
+<a href="#tab-one-1">Tab one 1</a>. Permalink for &gt; <a
+href="#tab-one-2">Tab one 2</a>. Permalink for &gt; <a
+href="#tab-one-3">Tab one 3</a>.</p>
+<p>Permalink for &gt; <a href="#tab-two">Tab two</a>. Permalink for &gt;
+<a href="#tab-two-1">Tab two 1</a>. Permalink for &gt; <a
+href="#tab-two-2">Tab two 2</a>. Permalink for &gt; <a
+href="#tab-two-3">Tab two 3</a>.</p>
+<div class="tabs" id="tab-one"><ul class="nav-tabs"><li class="tab active"><a href="#tab-one-1">Tab one 1</a></li><li class="tab"><a href="#tab-one-2">Tab one 2</a></li><li class="tab"><a href="#tab-one-3">Tab one 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-one-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="tab-one-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="tab-one-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<div class="tabs" id="tab-two"><ul class="nav-tabs"><li class="tab active"><a href="#tab-two-1">Tab two 1</a></li><li class="tab"><a href="#tab-two-2">Tab two 2</a></li><li class="tab"><a href="#tab-two-3">Tab two 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-two-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="tab-two-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="tab-two-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<div class="tabs" id="tags"><ul class="nav-tabs"><li class="tab active"><a href="#tags-1">Tags 1</a></li><li class="tab"><a href="#tags-2">Tags 2</a></li><li class="tab"><a href="#tags-3">Tags 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tags-1"><p><strong>This is Tab 1.</strong></p>
+<ol type="1">
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ol>
+<p>Indented code block:</p>
+<pre><code>nano /etc</code></pre>
+<p>Tagged code block:</p>
+<figure class="highlight plaintext">
+<table>
+<tr>
+<td class="gutter">
+<pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre>
+</td>
+<td class="code">
+<pre><span class="line">code tag</span><br><span class="line">code tag</span><br><span class="line">code tag</span><br></pre>
+</td>
+</tr>
+</table>
+</figure>
+<div class="note default">
+<p>
+Note default tag.
+</p>
+</div></div><div class="tab-pane" id="tags-2"><p><strong>This is Tab 2.</strong></p>
+<ul>
+<li>Five</li>
+<li>Six</li>
+<li>Seven</li>
+</ul>
+<div class="note primary">
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/Kt7u5kr_P5o" frameborder="0" loading="lazy" allowfullscreen>
+</iframe>
+</div>
+</div></div><div class="tab-pane" id="tags-3"><p><strong>This is Tab 3.</strong></p>
+<div id="sub-tabs" class="tabs">
+<ul class="nav-tabs">
+<li class="tab active">
+<a href="#sub-tabs-1">Sub Tabs 1</a>
+</li>
+<li class="tab">
+<a href="#sub-tabs-2">Sub Tabs 2</a>
+</li>
+<li class="tab">
+<a href="#sub-tabs-3">Sub Tabs 3</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="sub-tabs-1" class="tab-pane active">
+<strong>This is Sub Tab 1.</strong>
+<div class="note success">
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+nibh. Nullam mollis. Ut justo. Suspendisse potenti. Pellentesque
+fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut,
+elementum vulputate, nunc.
+</p>
+<div class="note warning">
+<p>
+Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing,
+commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit
+tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
+sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.
+Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+</p>
+</div>
+<p>
+Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a
+ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero
+dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius,
+adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam
+pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida
+vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
+vulputate vel, nisl.
+</p>
+</div>
+</div>
+<div id="sub-tabs-2" class="tab-pane">
+<strong>This is Sub Tab 2.</strong>
+<div class="note success">
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+nibh. Nullam mollis. Ut justo. Suspendisse potenti. Pellentesque
+fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut,
+elementum vulputate, nunc.
+</p>
+<p>
+Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing,
+commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit
+tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
+sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.
+Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+</p>
+<div class="note danger">
+<p>
+Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a
+ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero
+dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius,
+adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam
+pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida
+vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
+vulputate vel, nisl.
+</p>
+</div>
+</div>
+</div>
+<div id="sub-tabs-3" class="tab-pane">
+<p>
+<strong>This is Sub Tab 3.</strong>
+</p>
+<div id="sub-sub-tabs" class="tabs">
+<ul class="nav-tabs">
+<li class="tab active">
+<a href="#sub-sub-tabs-1">Sub-Sub Tabs 1</a>
+</li>
+<li class="tab">
+<a href="#sub-sub-tabs-2">Sub-Sub Tabs 2</a>
+</li>
+<li class="tab">
+<a href="#sub-sub-tabs-3">Sub-Sub Tabs 3</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="sub-sub-tabs-1" class="tab-pane active">
+<strong>This is Sub-Sub Tab 1 of Sub Tab 3.</strong>
+<div class="note success">
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+nibh. Nullam mollis. Ut justo. Suspendisse potenti. Pellentesque
+fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut,
+elementum vulputate, nunc.
+</p>
+<p>
+Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing,
+commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit
+tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
+sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.
+Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+</p>
+<p>
+Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a
+ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero
+dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius,
+adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam
+pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida
+vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
+vulputate vel, nisl.
+</p>
+</div>
+</div>
+<div id="sub-sub-tabs-2" class="tab-pane">
+<strong>This is Sub-Sub Tab 2 of Sub Tab 3.</strong>
+<div class="note success">
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+nibh. Nullam mollis. Ut justo. Suspendisse potenti. Pellentesque
+fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut,
+elementum vulputate, nunc.
+</p>
+<div class="note warning">
+<p>
+Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing,
+commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit
+tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
+sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.
+Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+</p>
+<p>
+Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a
+ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero
+dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius,
+adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam
+pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida
+vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
+vulputate vel, nisl.
+</p>
+</div>
+</div>
+</div>
+<div id="sub-sub-tabs-3" class="tab-pane">
+<p>
+<strong>This is Sub-Sub Tab 3 of Sub Tab 3.</strong>
+</p>
+<div class="note success">
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+nibh. Nullam mollis. Ut justo. Suspendisse potenti. Pellentesque
+fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut,
+elementum vulputate, nunc.
+</p>
+<div class="note warning">
+<p>
+Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing,
+commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit
+tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
+sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.
+Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+</p>
+<div class="note danger">
+<p>
+Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a
+ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero
+dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius,
+adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam
+pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida
+vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
+vulputate vel, nisl.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div>
+]]></content>
+      <categories>
+        <category>Diary</category>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>iOS</tag>
+        <tag>iOSd</tag>
+        <tag>iOSdd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>dd</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/dd/</url>
+    <content><![CDATA[<p><img
+src="https://raw.githubusercontent.com/SwiftBMan/iFigureBed/main/Blogs/Kifary/apple-touch-icon-k.png"
+alt="apple-touch-icon-k" /> <img
+src="https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/android-chrome-192x192.png"
+alt="android-chrome-192x192" /></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/hexo-kifary-blog/zh/2022/09/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<span id="more"></span>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>zhengqihui</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/zhengqihui/</url>
+    <content><![CDATA[<h2 id="标签插件">标签插件</h2>
+<figure>
+<img src="./images/alipay.jpg" alt="ss" />
+<figcaption aria-hidden="true">ss</figcaption>
+</figure>
+<h3 id="引用块">引用块</h3>
+<blockquote><p>没有提供参数，则只输出普通的 blockquote</p>
+<footer><strong>line_threshold:1</strong></footer></blockquote>
+<blockquote><p>引用书上的句子</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+<p></br> <blockquote><p>引用 Twitter</p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote></p>
+<h3 id="代码块">代码块</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight objc"><table><tr><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br><span class="line"></span><br><span class="line">&lt;table&gt;</span><br><span class="line">    &lt;thead&gt;</span><br><span class="line">        &lt;tr&gt;</span><br><span class="line">            &lt;th colspan=<span class="string">&quot;2&quot;</span>&gt;The table header&lt;/th&gt;</span><br><span class="line">        &lt;/tr&gt;</span><br><span class="line">    &lt;/thead&gt;</span><br><span class="line">    &lt;tbody&gt;</span><br><span class="line">        &lt;tr&gt;</span><br><span class="line">            &lt;td&gt;The table body&lt;/td&gt;</span><br><span class="line">            &lt;td&gt;with two columns&lt;/td&gt;</span><br><span class="line">        &lt;/tr&gt;</span><br><span class="line">    &lt;/tbody&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><figcaption><span>Array.map</span></figcaption><table><tr><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
+<figure class="highlight objc"><figcaption><span>_.compact</span><a href="http://underscorejs.org/#compact">Underscore.js</a></figcaption><table><tr><td class="code"><pre><span class="line marked">_.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);</span><br><span class="line">=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">_.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);</span><br><span class="line">=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">_.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);</span><br><span class="line">=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">_.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);</span><br><span class="line">=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line marked">_.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);</span><br><span class="line">=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">_.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="literal">false</span>, <span class="number">2</span>, <span class="string">&#x27;&#x27;</span>, <span class="number">3</span>]);</span><br><span class="line">=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
+<h3 id="反引号代码块">反引号代码块</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight objc"><table><tr><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><figcaption><span>Array.map</span><a href="http://underscorejs.org/#compact">url</a></figcaption><table><tr><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
+<blockquote class="pullquote [class]"><p>content</p>
+</blockquote>
+]]></content>
+  </entry>
+</search>
