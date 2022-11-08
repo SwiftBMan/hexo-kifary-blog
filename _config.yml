@@ -28,10 +28,10 @@ timezone:
 
 # 网址
 # 网址, 必须以 http:// 或 https:// 开头
-url: https://swiftbman.github.io
+url: https://swiftbman.github.io/hexo-kifary-blog
 
 # 网站根目录
-root: /
+root: /hexo-kifary-blog/
 
 # 文章的 永久链接 格式 https://hexo.io/zh-cn/docs/permalinks
 permalink: :lang/:year/:month/:day/:title/
@@ -193,7 +193,10 @@ theme_config:
 ## Docs: https://hexo.io/docs/one-command-deployment
 # 部署部分的设置
 deploy:
-  type: ""
+  type: git # 设置发布类型，如git，rsync
+  repo: https://github.com/SwiftBMan/hexo-kifary-blog.git
+  branch: "hexo-kifary-blog"                                                
+  message: Site updated at {{ now("YYYY-MM-DD HH:mm:ss") }} 
 
 # Metadata elements
 # Meta generator 标签。 值为 false 时 Hexo 不会在头部插入该标签
