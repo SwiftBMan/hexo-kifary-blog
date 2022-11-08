@@ -6,6 +6,8 @@ tags:
 
 ## 标签插件
 
+![ss](./images/alipay.jpg)
+
 ### 引用块
 
 {% blockquote line_threshold:1 %}

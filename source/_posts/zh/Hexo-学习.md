@@ -5,7 +5,7 @@ mathjax: true
 mermaid: true
 header: true
 post_link: ''
-description: 描述
+#description: 描述
 sidebar: true
 sticky: 10
 tags:
@@ -18,13 +18,12 @@ categories:
 ---
 
 https://hexo.io/zh-cn/docs/asset-folders
-![](hero.png)
+
+
+{% asset_img alipay.jpg This is an example image %}
 
 
 
-<% for (var link in site.data.menu) { %>
-  <a href="<%= site.data.menu[link] %>"> <%= link %> </a>
-<% } %>
 
 $$\begin{equation} \label{eq1}
 e=mc^2
@@ -96,17 +95,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 https://theme-next.js.org/docs/tag-plugins/group-pictures.html
 {% grouppicture 3-3 %}
-![](hero.png)
-![](hero.png)
-![](hero.png)
+![](android-chrome-512x512.png)
+![](android-chrome-512x512.png)
+![](android-chrome-512x512.png)
 {% endgrouppicture %}
 
 {% gp 5-2 %}
-![](hero.png)
-![](hero.png)
-![](hero.png)
-![](hero.png)
-![](hero.png)
+![](android-chrome-512x512.png)
+![](android-chrome-512x512.png)
+![](android-chrome-512x512.png)
+![](android-chrome-512x512.png)
+![](android-chrome-512x512.png)
 {% endgp %}
 
 

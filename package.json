@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "serve-inet": "hexo serve -i 192.168.1.8",
+    "serve-inet": "hexo serve -i 192.168.1.101",
     "list-post": "hexo list post",
     "version": "hexo version",
     "server-log": "hexo server --log",
