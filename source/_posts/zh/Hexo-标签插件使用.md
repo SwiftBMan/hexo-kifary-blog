@@ -102,16 +102,11 @@ alert('Hello World!');
 \{\% jsfiddle Kifary/zp6n3sh0/1  js,html,css,result light \%\}
 {% endblockquote %}
 
-{% jsfiddle Kifary/zp6n3sh0/1  js,html,css,result light %}
-
 ### Gist
 {% blockquote %}
 \{\% gist 35b1d8ab0323a44c289b62f365b7a302 test1 \%\}</br>
 \{\% gist 35b1d8ab0323a44c289b62f365b7a302 test2 \%\}
 {% endblockquote %}
-
-{% gist 35b1d8ab0323a44c289b62f365b7a302 test1 %}
-{% gist 35b1d8ab0323a44c289b62f365b7a302 test2 %}
 
 ### iframe
 使用 iframe 嵌入 [bilibili](https://www.bilibili.com) 视频
@@ -169,12 +164,6 @@ alert('Hello World!');
 \{\% youtube lJIrF4YjHfQ false \%\}</br>
 \{\% youtube PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' false \%\}
 {% endblockquote %}
-{% youtube lJIrF4YjHfQ %}
-
-{% youtube PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' %}
-
-{% youtube lJIrF4YjHfQ false %}
-{% youtube PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' false %}
 
 ### [引用文章](https://hexo.io/zh-cn/docs/tag-plugins#引用文章)
 {% blockquote %}
