@@ -54,13 +54,10 @@ href="https://jsfiddle.net">jsFiddle</a>是一款HTML, CSS,
 JAVASCRIPT在线调试工具 <blockquote><p>{% jsfiddle shorttag [tabs] [skin] [width] [height] %}</br> {%
 jsfiddle Kifary/zp6n3sh0/1 js,html,css,result light %}</p>
 </blockquote></p>
-<iframe scrolling="no" width="100%" height="300" src="https://jsfiddle.net/Kifary/zp6n3sh0/1/embedded/js,html,css,result/light" frameborder="0" loading="lazy" allowfullscreen></iframe>
 <h3 id="gist">Gist</h3>
 <blockquote><p>{% gist 35b1d8ab0323a44c289b62f365b7a302 test1 %}</br> {% gist
 35b1d8ab0323a44c289b62f365b7a302 test2 %}</p>
 </blockquote>
-<script src="//gist.github.com/35b1d8ab0323a44c289b62f365b7a302.js?file=test1"></script>
-<script src="//gist.github.com/35b1d8ab0323a44c289b62f365b7a302.js?file=test2"></script>
 <h3 id="iframe">iframe</h3>
 <p>使用 iframe 嵌入 <a href="https://www.bilibili.com">bilibili</a> 视频
 <blockquote><p>{% iframe url [width] [height] %}</br> {% iframe
@@ -105,10 +102,6 @@ PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' %}</br> 禁止 YouTube
 cookie</br> {% youtube lJIrF4YjHfQ false %}</br> {% youtube
 PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' false %}</p>
 </blockquote>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=lJIrF4YjHfQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
-<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
 <h3 id="引用文章"><a
 href="https://hexo.io/zh-cn/docs/tag-plugins#引用文章">引用文章</a></h3>
 <blockquote><p>{% post_path Hexo-标签插件使用 false %}</br> {% post_link
