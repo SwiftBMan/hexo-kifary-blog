@@ -195,6 +195,17 @@ links:
   hexo-zh-cn: https://hexo.io/zh-cn/
   hexo-theme-next: https://theme-next.js.org
   fontawesome: https://fontawesome.com/
+  stylus: https://stylus-lang.com
+  nunjucks: https://mozilla.github.io/nunjucks/
+  pug: https://pugjs.org/api/getting-started.html
+  markdown: https://daringfireball.net/projects/markdown/
+  ejs: https://ejs.co/
+  babel: https://babel.dev/
+  postcss: https://postcss.org/
+  sass: https://sass-lang.com/
+  less: https://lesscss.org/
+  jsdelivr: https://www.jsdelivr.com/ # 更智能的镜像+缓存+流量导流
+
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
@@ -905,11 +916,12 @@ vendors:
   # The CDN provider of NexT internal scripts.
   # Available values: local | jsdelivr | unpkg | cdnjs | custom
   # Warning: If you are using the latest master branch of NexT, please set `internal: local`
-  internal: local
+  # 如果 next 主题是最新版的一定要要选择 local
+  internal: jsdelivr #local
   # The default CDN provider of third-party plugins.
   # Available values: local | jsdelivr | unpkg | cdnjs | custom
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
-  plugins: cdnjs
+  plugins: jsdelivr #cdnjs
   # Custom CDN URL
   # For example:
   # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
