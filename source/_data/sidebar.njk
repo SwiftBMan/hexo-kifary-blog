@@ -1,3 +1,88 @@
-<div class="cc-license animated" itemprop="sponsor">
+{# <div class="cc-license animated" itemprop="sponsor">
   <a href="https://www.netlify.com" class="cc-opacity" title="Deploy with Netlify → https://www.netlify.com" target="_blank"><img width="80" src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Netlify"></a>
+</div> #}
+
+{# {{ page }}
+
+{{ page["lang"] }} #}
+
+{# {{ page | title }}
+{{ page | join(",") }}
+{{ page | replace("lang", "bar") | capitalize }} #}
+{# {% block header %}
+This is the default content
+{% endblock %} #}
+
+{# {%- if theme.links %}
+It is true
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title">
+      {%- if theme.links_settings.icon %}<i class="{{ theme.links_settings.icon }} fa-fw"></i>{% endif %}
+      {{ theme.links_settings.title }}
+    </div>
+    <ul class="links-of-blogroll-list">
+      {%- for blogrollText, blogrollURL in theme.links %}
+        <li class="links-of-blogroll-item">
+          {{ next_url(blogrollURL, blogrollText + " " + '<i class="fa fa-external-link-alt"></i>', {title: blogrollURL}) }}
+        </li>
+      {%- endfor %}
+    </ul>
+  </div>
+{%- endif %} #}
+
+{# let a = 10 #}
+{# {{ a }} #}
+
+
+{# var food = {
+  'ketchup': '5 tbsp',
+  'mustard': '1 tbsp',
+  'pickle': '0 tbsp'
+}; #}
+
+{# {{ food }}
+
+{% for ingredient, amount in food %}
+  Use {{ amount }} of {{ ingredient }}
+{% endfor %} #}
+
+{# {% set food = {
+  'ketchup': '5 tbsp',
+  'mustard': '1 tbsp',
+  'pickle': '0 tbsp'
+}
+%}
+
+{% 
+  set items = [{ title: "foo", id: 1 }, { title: "bar", id: 2}]
+%}
+
+{% for ingredient, amount in food %}
+  <p>Use {{ amount }} of {{ ingredient }}</p>
+{% endfor %}
+
+<h1>Posts</h1>
+<ul>
+{% for item in items %}
+  <li>{{ item.title }}</li>
+{% else %}
+  <li>This would display if the 'item' collection were empty</li>
+{% endfor %}
+</ul>
+
+
+{% macro field(name, value='', type='text') %}
+<div class="field">
+  <input type="{{ type }}" name="{{ name }}"
+         value="{{ value | escape }}" />
 </div>
+{% endmacro %}
+
+{{ field('user') }}
+{{ field('pass', type='password') }} #}
+
+{{ username }}
+{% set username = "joe" %}
+{{ username }}
+
+{{ -3 | abs }}
