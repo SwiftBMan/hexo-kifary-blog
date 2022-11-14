@@ -192,6 +192,7 @@ links_settings:
   layout: block
 
 links:
+  阮一峰的个人网站: https://www.ruanyifeng.com
   hexo-zh-cn: https://hexo.io/zh-cn/
   hexo-theme-next: https://theme-next.js.org
   fontawesome: https://fontawesome.com/
