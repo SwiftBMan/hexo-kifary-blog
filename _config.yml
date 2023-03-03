@@ -195,8 +195,8 @@ theme_config:
 deploy:
   type: git # 设置发布类型，如git，rsync
   repo: https://github.com/SwiftBMan/hexo-kifary-blog.git
-  branch: "hexo-kifary-blog"                                                
-  message: Site updated at {{ now("YYYY-MM-DD HH:mm:ss") }} 
+  branch: "hexo-kifary-blog"
+  message: Site updated at {{ now("YYYY-MM-DD HH:mm:ss") }}
 
 # Metadata elements
 # Meta generator 标签。 值为 false 时 Hexo 不会在头部插入该标签

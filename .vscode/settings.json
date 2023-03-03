@@ -1,3 +1,21 @@
 {
-    "compile-hero.disable-compile-files-on-did-save-code": true
+    "compile-hero.disable-compile-files-on-did-save-code": true,
+    "yaml.schemaStore.enable": false,
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        "_config*.yml"
+    ],
+    "cSpell.words": [
+        "browsersync",
+        "endlinkgrid",
+        "inet",
+        "linkgrid",
+        "pandoc",
+        "searchdb"
+    ]
 }

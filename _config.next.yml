@@ -103,6 +103,8 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  # 站点导航
+  site-navigation: /site-navigation/ || fa fa-sitemap
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -112,7 +114,7 @@ menu:
   #     default: /getting-started/ || fa fa-flag
   #     Installation: /installation.html || fa fa-download
   #     Configuration: /configuration.html || fa fa-wrench
-    
+
   #   Third Party Services:
   #     default: /third-party-services/ || fa fa-puzzle-piece
   #     Math Equations: /math-equations.html || fa fa-square-root-alt
@@ -372,8 +374,8 @@ preconnect: true
 # Set the text alignment in posts / pages.
 text_align:
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
-  desktop: justify-all 
-  mobile: justify-all 
+  desktop: justify-all
+  mobile: justify-all
 
 # Reduce padding / margin indents on devices with narrow width.
 mobile_layout_economy: true
