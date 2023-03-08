@@ -48,3 +48,28 @@ Cmacked | https://cmacked.com | 破解软件 | ../images/apple-touch-icon-k.png
 阮一峰的个人网站 | http://www.ruanyifeng.com/home.html | 阮老师的博客网站 | http://www.ruanyifeng.com/blog/images/person2_s.jpg
 JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimages.jspang.com/blogtouxiang1.jpg
 {% endlinkgrid %}
+
+# 游戏资源
+- [上游世界](https://www.vgter.com)
+- [OldManEmu](https://www.oldmanemu.net)
+- [游侠网](https://www.ali213.net)
+- [游民星空](https://www.gamersky.com)
+- [3DMGAME](https://www.3dmgame.com/)
+- [Switch520](https://xxxxx520.com)
+- [小象游戏](https://www.dxdjyx.com/)
+- [fitgirl](https://fitgirl-repacks.site/)
+
+# 动漫资源
+- [Mikan](https://mikanani.me/)
+- [天空树](https://www.comicat.org/complete-1.html)
+- [动漫花园](https://acg.rip/team/84)
+
+# 电影资源
+- [追新番](http://fanxinzhui.com/)
+- [RARBG](https://rargb.to/)
+- [美剧天堂](https://www.meijutt.tv/)
+- [布谷TV](https://www.bugutv.net/)
+- [电影天堂](https://www.dytt8.net/index2.htm)
+
+# 综合资源
+- [海盗湾](https://thepiratebay.org/index.html)
