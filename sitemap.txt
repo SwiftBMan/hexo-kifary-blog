@@ -1,5 +1,5 @@
-https://swiftbman.github.io/hexo-kifary-blog/site-navigation/index.html
 https://swiftbman.github.io/hexo-kifary-blog/software-recommendation/index.html
+https://swiftbman.github.io/hexo-kifary-blog/site-navigation/index.html
 https://swiftbman.github.io/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/
 https://swiftbman.github.io/hexo-kifary-blog/404/index.html
 https://swiftbman.github.io/hexo-kifary-blog/docs/third-party-services/comments.html
