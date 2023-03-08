@@ -32,6 +32,7 @@ date: 2023-03-06 14:22:16
 
 # 终端
 - [Warp](https://www.warp.dev) - Warp 是一个非常快的、基于 Rust 的终端
+- [FinalShell](http://www.hostbuf.com/t/988.html) - FinalShell 是一体化的的服务器，网络管理软件，不仅是ssh客户端，还是功能强大的开发，运维工具，充分满足开发，运维需求
 
 # 浏览器
 - [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/) - Chrome，不一样的浏览器体验
@@ -49,20 +50,36 @@ date: 2023-03-06 14:22:16
 - [iFonts字体助手](https://ifonts.com/client) - iFonts 字体助手是一款字体管理工具
 - [字由](https://www.hellofont.cn/) - 字体管理工具
 - [uTools](https://u.tools/) - 效率工具
+- [飞书](https://activity.feishu.cn/) - 飞书，先进企业协作与管理平台
+- [Apifox]([Apifox](https://www.apifox.cn/)) - API 一体化协作平台
+- [Charles](https://www.charlesproxy.com/) - 抓包工具
+- [Dash](https://kapeli.com/dash) - 离线文档
+- [iMazing](https://imazing.com/zh) - Mac 和 PC 上最好的 iOS 设备管理器
+- [InjectionIII](https://github.com/johnno1962/InjectionIII/releases) - iOS 模拟器热重载
+- [Lookin](https://lookin.work/) - 开源免费的 iOS UI 调试软件
+- [Numi](https://numi.app/) - Beautiful calculator app for Mac
+- [UninstallPKG](https://www.corecode.io/) - remove unwanted packages from your Mac
+- [WPS Office](https://www.wps.cn/) - WPS Office，让你高效解决办公问题
+- [XMind](https://xmind.cn/) - XMind 是一款 全功能 的思维导图和头脑风暴软件
 
-# 游戏模拟器
-- [yuzu](https://yuzu-emu.org) - yuzu 是由 Citra 开发的一款实验性的任天堂 Switch 开源模拟器
-- [ppsspp](https://www.ppsspp.org/index.html) - psp 模拟器
-- [Dolphin](https://cn.dolphin-emu.org/download/?ref=btn) - Dolphin 是一款对应任天堂游戏主机 GameCube 和 Wii 的模拟器
-- [OpenEmu](http://openemu.org) - 全能的游戏模拟器
-- [RetroArch](https://www.retroarch.com/index.php) - 全能的游戏模拟器
-- [Cemu](http://cemu.info/index.html#download) - Wii U 游戏模拟器
-- [xenia](https://www.xbox360emulator.com/download) - Xbox 360 游戏模拟器
-- [Citra](https://citra-emu.org) - 3DS 模拟器
-- [RPCS3](https://rpcs3.net) - 索尼 PS3 模拟器
-- [PCSX2](https://pcsx2.net) - 索尼 PS2 模拟器
-- [ePSXe](http://www.epsxe.com/download.php) - 索尼 PS1 模拟器
-- [DeSmuMe](https://desmume.org) - 任天堂 DS 模拟器
+# 模拟器
+- 游戏模拟器
+  - [yuzu](https://yuzu-emu.org) - yuzu 是由 Citra 开发的一款实验性的任天堂 Switch 开源模拟器
+  - [ppsspp](https://www.ppsspp.org/index.html) - psp 模拟器
+  - [Dolphin](https://cn.dolphin-emu.org/download/?ref=btn) - Dolphin 是一款对应任天堂游戏主机 GameCube 和 Wii 的模拟器
+  - [OpenEmu](http://openemu.org) - 全能的游戏模拟器
+  - [RetroArch](https://www.retroarch.com/index.php) - 全能的游戏模拟器
+  - [Cemu](http://cemu.info/index.html#download) - Wii U 游戏模拟器
+  - [xenia](https://www.xbox360emulator.com/download) - Xbox 360 游戏模拟器
+  - [Citra](https://citra-emu.org) - 3DS 模拟器
+  - [RPCS3](https://rpcs3.net) - 索尼 PS3 模拟器
+  - [PCSX2](https://pcsx2.net) - 索尼 PS2 模拟器
+  - [ePSXe](http://www.epsxe.com/download.php) - 索尼 PS1 模拟器
+  - [DeSmuMe](https://desmume.org) - 任天堂 DS 模拟器
+- 安卓模拟器
+  - [网易MuMu](https://mumu.163.com/mac/index.html)
+- 环境模拟
+  - [DOSBox](https://www.dosbox.com/) - DOS 模拟器
 
 # IDE
 - [Android Studio](https://developer.android.google.cn/studio/) - 安卓开发
@@ -87,13 +104,16 @@ date: 2023-03-06 14:22:16
 - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/) - 面向 .NET 开发人员的 IDE
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html) - 微信小程序
 
-# 游戏 IDE
-- [Unity Hub](https://unity.cn/) - C# 游戏开发工具
-- [Godot_mono](https://godotengine.org/) - The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.
-- [Epic Games Launcher](https://www.epicgames.com/site/zh-CN/home) - 虚幻引擎
-- [CocosDashboard](https://docs.cocos.com/creator/3.0/manual/zh/getting-started/dashboard/) - Cocos
-- [唤境引擎](https://act.evkworld.cn/new/100001/31?c=600037&sc=600042) - 免费游戏制作工具
-- [Laya](https://layaair.layabox.com/#/engineDownload) - web 游戏
+# 游戏
+- IDE
+  - [Unity Hub](https://unity.cn/) - C# 游戏开发工具
+  - [Godot_mono](https://godotengine.org/) - The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.
+  - [Epic Games Launcher](https://www.epicgames.com/site/zh-CN/home) - 虚幻引擎
+  - [CocosDashboard](https://docs.cocos.com/creator/3.0/manual/zh/getting-started/dashboard/) - Cocos
+  - [唤境引擎](https://act.evkworld.cn/new/100001/31?c=600037&sc=600042) - 免费游戏制作工具
+  - [Laya](https://layaair.layabox.com/#/engineDownload) - web 游戏
+- 游戏加速器
+  - [UU 加速器](https://uu.163.com/)
 
 # 编辑器
 - [Visual Studio Code](https://code.visualstudio.com) - 微软免费的跨平台编辑器
@@ -132,6 +152,7 @@ date: 2023-03-06 14:22:16
 - [Downie](https://www.downie.cn/) - Downie支持youtube、instagram、头条、bilibili、新片场等多达千余网站
 - [Folx](https://mac.eltima.com/cn/download-manager.html)
 - [Transmit](https://panic.com/transmit/) - FTP
+- [qBittorrent](https://www.qbittorrent.org/) - BT 下载工具
 
 # 播放器
 - [IINA](https://iina.io/) - macOS 的现代媒体播放器
