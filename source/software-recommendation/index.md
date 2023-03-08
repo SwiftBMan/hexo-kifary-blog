@@ -48,6 +48,7 @@ date: 2023-03-06 14:22:16
 - [He3](https://he3-website-20230216-1309519128.cos-website.ap-hongkong.myqcloud.com/index.html) - 自由、现代、高效开发人员工具箱
 - [iFonts字体助手](https://ifonts.com/client) - iFonts 字体助手是一款字体管理工具
 - [字由](https://www.hellofont.cn/) - 字体管理工具
+- [uTools](https://u.tools/) - 效率工具
 
 # 游戏模拟器
 - [yuzu](https://yuzu-emu.org) - yuzu 是由 Citra 开发的一款实验性的任天堂 Switch 开源模拟器
@@ -86,6 +87,14 @@ date: 2023-03-06 14:22:16
 - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/) - 面向 .NET 开发人员的 IDE
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html) - 微信小程序
 
+# 游戏 IDE
+- [Unity Hub](https://unity.cn/) - C# 游戏开发工具
+- [Godot_mono](https://godotengine.org/) - The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.
+- [Epic Games Launcher](https://www.epicgames.com/site/zh-CN/home) - 虚幻引擎
+- [CocosDashboard](https://docs.cocos.com/creator/3.0/manual/zh/getting-started/dashboard/) - Cocos
+- [唤境引擎](https://act.evkworld.cn/new/100001/31?c=600037&sc=600042) - 免费游戏制作工具
+- [Laya](https://layaair.layabox.com/#/engineDownload) - web 游戏
+
 # 编辑器
 - [Visual Studio Code](https://code.visualstudio.com) - 微软免费的跨平台编辑器
 - [Sublime Text](https://www.sublimetext.com) - 好用的代码编辑器
@@ -113,3 +122,18 @@ date: 2023-03-06 14:22:16
 - [Sketch](https://www.sketch.com/) - macOS 专用设计软件
 - [Spline](https://spline.design/) - 轻量级建模软件
 - [ZBrush](https://www.maxon.net/zh/zbrush) - 雕刻软件
+
+# 下载工具、网盘
+- [阿里云盘](https://www.aliyundrive.com/)
+- [百度网盘](https://pan.baidu.com/)
+- [城通网盘](https://www.ctfile.com/p/login?ref=https%3A%2F%2Fhome.ctfile.com%2F%23item-files)
+- [夸克网盘](https://www.myquark.cn/?ct=empl&si=u_wc)
+- [迅雷](https://dl.xunlei.com/)
+- [Downie](https://www.downie.cn/) - Downie支持youtube、instagram、头条、bilibili、新片场等多达千余网站
+- [Folx](https://mac.eltima.com/cn/download-manager.html)
+- [Transmit](https://panic.com/transmit/) - FTP
+
+# 播放器
+- [IINA](https://iina.io/) - macOS 的现代媒体播放器
+- [Movist Pro](https://movistprime.com/)
+- [VLC](https://www.videolan.org/vlc/)
