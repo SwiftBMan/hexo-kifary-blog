@@ -28,7 +28,7 @@ date: 2023-03-06 14:22:16
 # 虚拟机
 - [VMware（收费）](https://www.vmware.com/products/workstation-player.html) - 使用 VMware Workstation Player 在 Windows或Linux PC 上轻松运行多个操作系统作为虚拟机
 - [VirtualBox](https://www.virtualbox.org) - VirtualBox 是一款强大的 x86 和 AMD64/Intel64 虚拟化产品，适用于企业和家庭
-- [Parallels](https://www.parallels.cn) - 一款运行快速、操作简单、功能强大的应用程序，无需重启即可在您的 Intel 或 Apple M 系列 Mac 上运行 Windows。包含 40 多种一键式工具，可简化 Mac 和 Windows 上的日常任务
+- [Parallels（收费）](https://www.parallels.cn) - 一款运行快速、操作简单、功能强大的应用程序，无需重启即可在您的 Intel 或 Apple M 系列 Mac 上运行 Windows。包含 40 多种一键式工具，可简化 Mac 和 Windows 上的日常任务
 
 # 终端
 - [Warp](https://www.warp.dev) - Warp 是一个非常快的、基于 Rust 的终端
