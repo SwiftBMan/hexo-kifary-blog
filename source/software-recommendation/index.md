@@ -52,6 +52,7 @@ date: 2023-03-06 14:22:16
 - [uTools](https://u.tools/) - 效率工具
 - [飞书](https://activity.feishu.cn/) - 飞书，先进企业协作与管理平台
 - [Apifox]([Apifox](https://www.apifox.cn/)) - API 一体化协作平台
+- [MeterSphere](https://fit2cloud.com/metersphere/api-testing.html) - 集 Postman 的易用与 JMeter 的灵活于一体，接口管理、多协议支持、场景自动化，你想要的全都有
 - [Charles](https://www.charlesproxy.com/) - 抓包工具
 - [Dash](https://kapeli.com/dash) - 离线文档
 - [iMazing](https://imazing.com/zh) - Mac 和 PC 上最好的 iOS 设备管理器
@@ -103,6 +104,7 @@ date: 2023-03-06 14:22:16
 - [Qt Creator](https://doc.qt.io/qtcreator/) - 跨平台 C++ IDE
 - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/) - 面向 .NET 开发人员的 IDE
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html) - 微信小程序
+- [Lightly](https://lightly.teamcode.com/) - 新一代的 C IDE
 
 # 游戏
 - IDE
