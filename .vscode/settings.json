@@ -11,6 +11,7 @@
         "_config*.yml"
     ],
     "cSpell.words": [
+        "antd",
         "Apifox",
         "Axure",
         "bilibili",
@@ -44,12 +45,15 @@
         "pandoc",
         "PCSX",
         "ppsspp",
+        "QMUI",
         "RARBG",
         "RPCS",
         "Scilab",
         "searchdb",
         "Typora",
         "UMOOCs",
+        "Vant",
+        "Vultr",
         "Xclient",
         "yuzu"
     ]

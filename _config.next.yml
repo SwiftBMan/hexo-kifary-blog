@@ -107,6 +107,8 @@ menu:
   site-navigation: /site-navigation/ || fa fa-sitemap
   # 软件推荐
   software-recommendation: /software-recommendation/ || fa fa-th-large
+  # 开发
+  develop: /develop/ || fa fa-code
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat

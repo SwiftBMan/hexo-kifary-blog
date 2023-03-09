@@ -59,10 +59,20 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 - [小象游戏](https://www.dxdjyx.com/)
 - [fitgirl](https://fitgirl-repacks.site/)
 
+# 云游戏
+- [START](https://start.qq.com/)
+- [网易云游戏](https://cg.163.com/)
+- [咪咕快游](https://www.migufun.com)
+- [虎牙云游戏](https://yowa.huya.com)
+- [斗鱼云游戏](https://cloudgame.douyu.com)
+
 # 动漫资源
 - [Mikan](https://mikanani.me/)
 - [天空树](https://www.comicat.org/complete-1.html)
 - [动漫花园](https://acg.rip/team/84)
+- [诸神字幕组](https://subs.kamigami.org)
+- [爱恋动漫](http://www.kisssub.org)
+- [萌番组](https://bangumi.moe)
 
 # 电影资源
 - [追新番](http://fanxinzhui.com/)
@@ -70,6 +80,36 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 - [美剧天堂](https://www.meijutt.tv/)
 - [布谷TV](https://www.bugutv.net/)
 - [电影天堂](https://www.dytt8.net/index2.htm)
+- [蓝光电影网](https://www.1080.cn)
+- [高清网](https://www.gaoqingw.com)
+- [中国蓝光网](http://www.languangdy.com)
+- [蓝光原盘分享网](http://www.hdshare.cn)
+- [Subtitles](https://www.opensubtitles.org/en/search/subs) - 字幕
+- [BT 之家](http://btbtt15.com/forum-index-fid-951.htm)
+- [大连生活网](https://www.dlkoo.cc)
+- [BTNull](https://www.btnull.nu)
 
 # 综合资源
 - [海盗湾](https://thepiratebay.org/index.html)
+
+# 在线视频
+- [B 站](https://www.bilibili.com)
+- [优酷](https://www.youku.com/channel/webhome)
+- [爱奇艺](https://www.iqiyi.com)
+
+# 找工作
+- [BOSS 直聘](https://www.zhipin.com) - 互联网招聘神器
+
+# 开发
+- 内测
+  - [蒲公英](https://www.pgyer.com)
+  - [第八区](https://www.dibaqu.com)
+  - [fir.im](https://www.betaqr.com/apps)
+- 云
+  - [优刻得](https://www.ucloud.cn)
+  - [阿里云](https://www.aliyun.com)
+  - [腾讯云](https://cloud.tencent.com)
+  - [百度云](https://cloud.baidu.com)
+  - [Vultr](https://my.vultr.com)
+  - [七牛云](https://www.qiniu.com)
+  - [华为云](https://activity.huaweicloud.com)
