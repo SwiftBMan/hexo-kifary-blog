@@ -17,11 +17,11 @@ date: 2023-03-03 15:18:05
 UMOOCs | https://moocs.unipus.cn | 中国高校外语慕课平台 | https://sce5a1b5c3d6ru-sb-qn.qiqiuyun.net/files/system/2018/09-04/175542e398ff503802.png
 考试酷 | https://www.examcoo.com/index/ku | 免费在线考试系统 | https://img.examcoo.com/1458/themes/metro/images/v1_3e.jpg
 希赛网 | https://www.educity.cn | 软考教育平台 | https://lstatic.xisaiwang.com/educity/pc/cmsng/img/index/img_logo.png
-w3 school | https://www.w3schools.com/ | With the world's largest web developer site | /images/apple-touch-icon-next.png
-北大电子书 | https://pup6.yunzhan365.com/bookcase/kiru/index.html | 电子书 | /images/apple-touch-icon-next.png
-小专栏 | https://xiaozhuanlan.com/ | 专业人士的创作知识社区 | /images/apple-touch-icon-next.png
-NSHipster | https://nshipster.cn/ | 关注被忽略的 Objective-C、Swift 和 Cocoa 特性 | /images/apple-touch-icon-next.png
-% Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | /images/apple-touch-icon-next.png
+w3 school | https://www.w3schools.com/ | With the world's largest web developer site | ../images/apple-touch-icon-k.png
+北大电子书 | https://pup6.yunzhan365.com/bookcase/kiru/index.html | 电子书 | ../images/apple-touch-icon-k.png
+小专栏 | https://xiaozhuanlan.com/ | 专业人士的创作知识社区 | ../images/apple-touch-icon-k.png
+NSHipster | https://nshipster.cn/ | 关注被忽略的 Objective-C、Swift 和 Cocoa 特性 | ../images/apple-touch-icon-k.png
+% Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | ../images/apple-touch-icon-k.png
 {% endlinkgrid %}
 
 # 在线电子书
