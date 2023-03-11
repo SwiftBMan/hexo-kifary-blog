@@ -19,6 +19,8 @@ UMOOCs | https://moocs.unipus.cn | 中国高校外语慕课平台 | https://sce5
 希赛网 | https://www.educity.cn | 软考教育平台 | https://lstatic.xisaiwang.com/educity/pc/cmsng/img/index/img_logo.png
 w3 school | https://www.w3schools.com/ | With the world's largest web developer site | /images/apple-touch-icon-next.png
 北大电子书 | https://pup6.yunzhan365.com/bookcase/kiru/index.html | 电子书 | /images/apple-touch-icon-next.png
+小专栏 | https://xiaozhuanlan.com/ | 专业人士的创作知识社区 | /images/apple-touch-icon-next.png
+NSHipster | https://nshipster.cn/ | 关注被忽略的 Objective-C、Swift 和 Cocoa 特性 | /images/apple-touch-icon-next.png
 % Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | /images/apple-touch-icon-next.png
 {% endlinkgrid %}
 
@@ -123,3 +125,7 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
   - [stackover flow](https://survey.stackoverflow.co/)
   - [spectrum](https://spectrum.ieee.org/)
   - [pypl](https://pypl.github.io/)
+
+# 娱乐
+- [GGTalk](https://talk.swift.gg/) - 程序员的闲聊节目
+-
