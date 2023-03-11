@@ -161,3 +161,5 @@ date: 2023-03-06 14:22:16
 - [Movist Pro](https://movistprime.com/)
 - [VLC](https://www.videolan.org/vlc/)
 
+# windows
+- [Magpie](https://github.com/Blinue/Magpie/releases) - 游戏窗口分辨率调节工具

@@ -17,6 +17,8 @@ date: 2023-03-03 15:18:05
 UMOOCs | https://moocs.unipus.cn | 中国高校外语慕课平台 | https://sce5a1b5c3d6ru-sb-qn.qiqiuyun.net/files/system/2018/09-04/175542e398ff503802.png
 考试酷 | https://www.examcoo.com/index/ku | 免费在线考试系统 | https://img.examcoo.com/1458/themes/metro/images/v1_3e.jpg
 希赛网 | https://www.educity.cn | 软考教育平台 | https://lstatic.xisaiwang.com/educity/pc/cmsng/img/index/img_logo.png
+w3 school | https://www.w3schools.com/ | With the world's largest web developer site | /images/apple-touch-icon-next.png
+北大电子书 | https://pup6.yunzhan365.com/bookcase/kiru/index.html | 电子书 | /images/apple-touch-icon-next.png
 % Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | /images/apple-touch-icon-next.png
 {% endlinkgrid %}
 
@@ -91,6 +93,7 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 
 # 综合资源
 - [海盗湾](https://thepiratebay.org/index.html)
+- [pixabay](https://pixabay.com/music/)
 
 # 在线视频
 - [B 站](https://www.bilibili.com)
@@ -113,3 +116,10 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
   - [Vultr](https://my.vultr.com)
   - [七牛云](https://www.qiniu.com)
   - [华为云](https://activity.huaweicloud.com)
+
+# 编程语言排名
+  - [tiobe](https://www.tiobe.com/tiobe-index/)
+  - [octoverse](https://octoverse.github.com/2022/top-programming-languages)
+  - [stackover flow](https://survey.stackoverflow.co/)
+  - [spectrum](https://spectrum.ieee.org/)
+  - [pypl](https://pypl.github.io/)

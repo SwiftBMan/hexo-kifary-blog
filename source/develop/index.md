@@ -4,12 +4,31 @@ date: 2023-03-09 15:21:22
 ---
 
 # Github
-- [awesome](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
+- 资料
+  - [awesome](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
+  - [cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) - 计算机自学指南
+  - [rk](https://gitee.com/hyzsbook/rk) - 软考资料
+  - [free programming books](https://github.com/EbookFoundation/free-programming-books) - 免费的编程电子书
+  - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free
+- 模拟器
+  - [Citra](https://github.com/citra-emu/citra) - 3DS 模拟器
+  - [ppsspp](https://github.com/hrydgard/ppsspp) - PSP 模拟器
+- 图形库
+  - [SDL](https://github.com/libsdl-org/SDL/tree/main)- 跨平台图形库
+    - [libSDL](https://www.libsdl.org/)
+  - [OpenGL](https://www.opengl.org/)
 
 # 移动端
-### iOS
-- [awesome-ios](https://github.com/vsouza/awesome-ios#readme)
-- [QMUI iOS](https://qmuiteam.com/ios) - 致力于提高项目 UI 开发效率的解决方案
+- iOS
+  - [awesome-ios](https://github.com/vsouza/awesome-ios#readme)
+  - [QMUI iOS](https://qmuiteam.com/ios) - 致力于提高项目 UI 开发效率的解决方案
+  - [AAChartKit](https://github.com/AAChartModel/AAChartKit) - 图表
+  - [Charts](https://github.com/danielgindi/Charts) - 图表
+  - [CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController) - 自定义 TabBarController
+  - [JLRoutes](https://github.com/joeldev/JLRoutes) - 路由
+  - [JSPatch](https://github.com/bang590/JSPatch) - 热更新
+  - [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - H5 交互
+  - [YYKit](https://github.com/ibireme/YYKit) - 常用工具库，值得学习，已经不更新了
 
 ### 鸿蒙
 - [华为鸿蒙](https://www.harmonyos.com)
@@ -19,32 +38,49 @@ date: 2023-03-09 15:21:22
 - [openEuler](https://www.openeuler.org/zh/)
 - [CentOS](https://www.centos.org/#top)
 - [Ubuntu](https://cn.ubuntu.com/)
+- [dashdash](https://dashdash.io/) - 命令行文档
 
 # Shell
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell
 - [starship](https://starship.rs/zh-cn/) - 轻量、迅速、可无限定制的高颜值终端！
 
 # 前端
-### [Vue](https://cn.vuejs.org)
-- [Cube UI](https://didi.github.io/cube-ui/#/zh-CN) - 基于 Vue.js 实现的精致移动端组件库
-- [Mini UI](https://mint-ui.github.io/#!/zh-cn) - 基于 Vue.js 的移动端组件库
-- [View Design](https://www.iviewui.com) - 基于 Vue.js 3 的企业级 UI 组件库和中后台系统解决方案，为数万开发者服务
-- [WeUI](https://weui.io) - WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一
-- [Element Plus](https://element-plus.org/zh-CN/#/zh-CN) - 基于 Vue 3，面向设计师和开发者的组件库
-- [AT UI](https://at-ui.github.io/at-ui/#/zh) - 一款轻量级、模块化的前端 UI 组件库
-- [Vant](https://vant-ui.github.io/vant/#/zh-CN) - 轻量、可定制的移动端 Vue 组件库
+- [Vue](https://cn.vuejs.org)
+  - 框架
+    - [Cube UI](https://didi.github.io/cube-ui/#/zh-CN) - 基于 Vue.js 实现的精致移动端组件库
+    - [Mini UI](https://mint-ui.github.io/#!/zh-cn) - 基于 Vue.js 的移动端组件库
+    - [View Design](https://www.iviewui.com) - 基于 Vue.js 3 的企业级 UI 组件库和中后台系统解决方案，为数万开发者服务
+    - [WeUI](https://weui.io) - WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一
+    - [Element Plus](https://element-plus.org/zh-CN/#/zh-CN) - 基于 Vue 3，面向设计师和开发者的组件库
+    - [AT UI](https://at-ui.github.io/at-ui/#/zh) - 一款轻量级、模块化的前端 UI 组件库
+    - [Vant](https://vant-ui.github.io/vant/#/zh-CN) - 轻量、可定制的移动端 Vue 组件库
+    - [NutUI](https://nutui.jd.com/3x/?from=thosefree.com#/) - 京东风格的轻量级移动端 Vue 组件库
+    - [BalmUI](https://material.balmjs.com/guide/intro)
+    - [VARLET](https://varlet.gitee.io/varlet-ui/?from=thosefree.com#/zh-CN/index) - Varlet 是一个基于 Vue3 开发的 Material 风格移动端组件库，全面拥抱 Vue3 生态，由社区团队维护
+    - [PrimeVue](https://primevue.org/) - vue3 UI 框架
+  - 资源
+    - [Vue3-resource](https://hu-snail.github.io/vue3-resource/platform/web/ui.html) - vue3 资源大全
+- [React](https://react.docschina.org)
+- [Svelte](https://svelte.dev/)
+- Icon
+  - [FontAwesome](https://fontawesome.com/) - Take the hassle out of icons in your website
 
-### [React](https://react.docschina.org)
+# 设计
+- [arco.design](https://arco.design/?from=thosefree.com) - 字节跳动出品的企业级设计系统
 - [Ant Design](https://ant.design/index-cn) - antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品
-
-### [Svelte](https://svelte.dev/)
+- [TDesign](https://tdesign.tencent.com/) - 企业级设计体系
+- [Aseprite](https://www.aseprite.org/)
 
 # 后端
-### Go
-- [Gin](https://gin-gonic.com/zh-cn/) - Go语言最快的全功能Web框架
+- Go
+  - [Gin](https://gin-gonic.com/zh-cn/) - Go语言最快的全功能Web框架
+- [BuildAdmin](https://wonderful-code.gitee.io/) - 使用流行技术栈快速创建商业级后台管理系统
 
 # 跨平台
 - [Flutter](https://flutter.cn)
+- [dotnet](https://dotnet.microsoft.com/zh-cn/)
+- [ruby motion](http://www.rubymotion.com/cn/)
+- [Xamarin](https://dotnet.microsoft.com/zh-cn/apps/xamarin)
 
 # SDK
 - [友盟](https://www.umeng.com) - 分享统计
@@ -58,13 +94,123 @@ date: 2023-03-09 15:21:22
 - [tool](https://tool.lu) - 程序员的工具箱
 - [Json](https://www.bejson.com/jsonviewernew/) - Json
 - [在线屏幕检测](https://screen.bmcx.com/#welcome)
-- [Vite](https://cn.vitejs.dev) - 下一代的前端工具链
 - [Table Generator](https://www.tablesgenerator.com/latex_tables)
 - [Slidev](https://cn.sli.dev/) - 为开发者打造的演示文稿工具
 - [pyenv-win](https://pyenv-win.github.io/pyenv-win/) - pyenv for Windows
+- 构建工具
+  - [Vite](https://cn.vitejs.dev) - 下一代的前端工具链
+  - [webpack](https://webpack.js.org/) - 强大的前端构建工具
+  - [CMake](https://cmake.org/) - C/C++ 构建工具
+- [Swagger](https://swagger.io/) - API Development for Everyone
+- [unicode](https://home.unicode.org/) - 查看 unicode
+
+# AI
+- [interiorai](https://interiorai.com/) - 室内装修
+- [AI 模型](https://hub.baai.ac.cn/?tag_id=90)
+- [easy ai](https://easyai.tech/) - 产品经理的人工智能学习库
 
 # 字体
 - [nerdfonts](https://www.nerdfonts.com/)
+- [source-code-pro](https://adobe-fonts.github.io/source-code-pro/)
+- [FiraCode](https://github.com/tonsky/FiraCode)
+- [jetbrains Mono](https://www.jetbrains.com/lp/mono/)
+- [Google font](https://fonts.google.com/) - 需要翻墙
+- [DejaVu](https://dejavu-fonts.github.io/)
 
-# 博客框架
+# 框架
 - [Astro](https://astro.build/)
+- [elm](https://elm-lang.org/)
+
+# 包管理
+- JavaScript
+  - [pnpm](https://www.pnpm.cn/) - 速度快、节省磁盘空间的软件包管理器
+  - [npm](https://www.npmjs.com/) - Take your JavaScript development up a notch
+  - [yarn](https://yarnpkg.com/) - Safe, stable, reproducible projects
+- macOS
+  - [HomeBrew](https://brew.sh/index_zh-cn) - macOS（或 Linux）缺失的软件包的管理器
+- C/C++
+  - [vcpkg](https://vcpkg.io/en/index.html) - C/C++ dependency manager from Microsoft
+  - [clibs](https://www.clibs.org/) - Package manager for the C programming language
+
+# 编译器/解释器/编程语言
+- [LLVM](https://llvm.org/) - The LLVM Compiler Infrastructure
+- C/C++
+  - [clang](https://clang.llvm.org/) - a C language family frontend for LLVM
+  - [gcc](https://gcc.gnu.org/) - GCC, the GNU Compiler Collection
+  - [picoc](https://github.com/jpoirier/picoc) - c 语言解释器
+  - [Dev-C++](https://sourceforge.net/projects/devcpp/)
+  - [MinGW-w64](https://www.mingw-w64.org/)
+  - [Turbo C++](https://turbo-c.soft32.com/)
+- [Rust](https://www.rust-lang.org/) - A language empowering everyone to build reliable and efficient software
+- JavaScript
+  - [bun](https://bun.sh/)
+  - [Node.js](https://nodejs.org/zh-cn/) - Node.js® 是一个开源、跨平台的 JavaScript 运行时环境
+  - [Deno](https://deno.land/) - The easiest, most secure JavaScript runtime
+- [TypeScript](https://www.typescriptlang.org/) - TypeScript is JavaScript with syntax for types
+  - [TypeScript 中文手册](https://typescript.bootcss.com/)
+- [PureScript](https://www.purescript.org/) - A strongly-typed functional programming language that compiles to JavaScript
+- [Scala](https://www.scala-lang.org/)
+- [Ruby](https://www.ruby-lang.org/zh_cn/)
+- [Clojure](https://clojure.org/)
+- [ClojureScript](https://clojurescript.org/)
+- [Erlang](https://www.erlang.org/) - Practical functional programming for a parallel world
+- [Julia](https://julialang.org/)
+- [R](https://www.r-project.org/)
+- [D](https://dlang.org/)
+- [Dart](https://dart.dev/)
+- [Kotlin](https://kotlinlang.org/)
+- [Caml](https://caml.inria.fr/)
+- [php](https://www.php.net/)
+- [V](https://vlang.io/)
+- [C#](https://learn.microsoft.com/zh-cn/dotnet/csharp/)
+- [Perl](https://www.perl.org/)
+- [Yasm](http://yasm.tortall.net/) - 汇编
+- [Haskell](https://www.haskell.org/)
+- [Python](https://www.python.org/)
+  - [Pypy](https://www.pypy.org/) - 高性能的 Python 解释器
+  - [codon](https://docs.exaloop.io/codon)
+  - [ipython](https://ipython.org/)
+  - [pyston](https://www.pyston.org/)
+  - [RustPython](https://rustpython.github.io/)
+  - [jython](https://www.jython.org/)
+  - [IronPython](https://ironpython.net/)
+- [elixir](https://elixir-lang.org/)
+- [Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011210)
+- [Java-ORACLE](https://www.oracle.com/cn/java/technologies/)
+- [FreePascal](https://www.freepascal.org/)
+
+# 代码托管
+- [Coding](https://coding.net/)
+
+# 命令行工具
+- [Git](https://git-scm.com/) - 分布式版本管理
+
+# 游戏开发
+- [Unreal Engine](https://www.unrealengine.com/zh-CN)
+- [Unity](https://unity.cn/)
+- [Cocos](https://www.cocos.com/)
+- [cry engine](https://www.cryengine.com/)
+- [egret](https://www.egret.com/)
+- [laya box](https://www.layabox.com/)
+- [WebGAL](https://docs.msfasr.com/) - 界面美观、功能强大、易于开发的全新网页端视觉小说引擎
+- [bevy engine](https://bevyengine.org/)
+- [amethyst](https://amethyst.rs/)
+- [piston](https://www.piston.rs/)
+
+# 低代码平台
+- [illa](https://www.illacloud.com/zh-CN)
+
+# 镜像源
+- [腾讯软件源](https://mirrors.cloud.tencent.com/)
+- [阿里巴巴开源镜像站](https://developer.aliyun.com/mirror/)
+- [清华大学镜像站](https://tuna.moe/)
+- [GHCup](http://mirrors.ustc.edu.cn/help/ghcup.html)
+- [npm mirror 镜像站](http://www.npmmirror.com/)
+
+# CDN
+- [cdnjs](https://cdnjs.com/)
+- [unpkg](https://unpkg.com/)
+- [jsdelivr](https://www.jsdelivr.com/)
+
+# 部署
+- [netlify](https://app.netlify.com/)
