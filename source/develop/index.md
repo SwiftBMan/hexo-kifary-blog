@@ -10,6 +10,9 @@ date: 2023-03-09 15:21:22
   - [rk](https://gitee.com/hyzsbook/rk) - 软考资料
   - [free programming books](https://github.com/EbookFoundation/free-programming-books) - 免费的编程电子书
   - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free
+  - [zju-icicles](https://github.com/QSCTech/zju-icicles) - 浙江大学课程攻略共享计划
+  - [REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) - 清华大学计算机系课程攻略
+  - [计算机速成课](https://github.com/1c7/Crash-Course-Computer-Science-Chinese)
 - 模拟器
   - [Citra](https://github.com/citra-emu/citra) - 3DS 模拟器
   - [ppsspp](https://github.com/hrydgard/ppsspp) - PSP 模拟器
@@ -17,6 +20,7 @@ date: 2023-03-09 15:21:22
   - [SDL](https://github.com/libsdl-org/SDL/tree/main)- 跨平台图形库
     - [libSDL](https://www.libsdl.org/)
   - [OpenGL](https://www.opengl.org/)
+- [create-dmg](https://github.com/sindresorhus/create-dmg) - Create a good-looking DMG for your macOS app in seconds
 
 # 移动端
 - iOS
@@ -81,6 +85,9 @@ date: 2023-03-09 15:21:22
 - [dotnet](https://dotnet.microsoft.com/zh-cn/)
 - [ruby motion](http://www.rubymotion.com/cn/)
 - [Xamarin](https://dotnet.microsoft.com/zh-cn/apps/xamarin)
+- [Qt](https://www.qt.io/zh-cn/)
+- [ReactNative](https://reactnative.cn/)
+- [ionic framework](https://ionicframework.com/docs)
 
 # SDK
 - [友盟](https://www.umeng.com) - 分享统计
@@ -103,6 +110,7 @@ date: 2023-03-09 15:21:22
   - [CMake](https://cmake.org/) - C/C++ 构建工具
 - [Swagger](https://swagger.io/) - API Development for Everyone
 - [unicode](https://home.unicode.org/) - 查看 unicode
+- [tower](https://tower.im/) - 高效办公
 
 # AI
 - [interiorai](https://interiorai.com/) - 室内装修
@@ -181,6 +189,7 @@ date: 2023-03-09 15:21:22
 
 # 代码托管
 - [Coding](https://coding.net/)
+- [Gitee](https://gitee.com/)
 
 # 命令行工具
 - [Git](https://git-scm.com/) - 分布式版本管理
@@ -214,3 +223,12 @@ date: 2023-03-09 15:21:22
 
 # 部署
 - [netlify](https://app.netlify.com/)
+
+# 电子书/文档
+- [C 语言教程](https://wangdoc.com/clang/)
+- [PyTorch](https://pytorch123.com/) - PyTorch 是一个基于 Torch 的 Python 开源机器学习库，用于自然语言处理等应用程序
+- [NumPy](https://www.numpy.org.cn/) — NumPy 是用 Python 进行科学计算的基础软件包
+- [Pandas](https://www.pypandas.cn/) — Pandas 是一个强大的分析结构化数据的工具集
+- [Keras](https://keras.io/zh/#_2) — 基于 Python 的深度学习库
+- [TensorFlow](https://tensorflow.google.cn/?hl=zh_cn) — 一个核心开源库，可以帮助您开发和训练机器学习模型
+- [Matplotlib](https://www.matplotlib.org.cn/) — Matplotlib 是一个 Python 的 2D 绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形
