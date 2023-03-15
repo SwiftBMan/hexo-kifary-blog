@@ -31,6 +31,7 @@ CS-Notes | http://www.cyc2018.xyz/#算法 | 算法、计算机基础、数据库
 
 # 工具
 {% linkgrid %}
+AI 帮个忙 | https://ai-toolbox.codefuture.top/ | 多功能 AI 小帮手 | https://ai-toolbox.codefuture.top/icon.png
 AI 导航网 | https://www.ainav.cn | 整理最前沿的人工智能工具平台 | ../images/apple-touch-icon-k.png
 AI 研究所 | http://www.aiyjs.com | 国内外 AI 工具资讯首发站 | http://www.aiyjs.com/wp-content/uploads/2023/02/AI研究所logo-2.png
 Futurepedia | https://www.futurepedia.io | 最大的 AI 工具目录，每天更新 | https://www.futurepedia.io/_next/static/media/futurepedia.85a9d4b9.svg
