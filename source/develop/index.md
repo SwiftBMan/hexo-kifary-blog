@@ -34,7 +34,7 @@ date: 2023-03-09 15:21:22
   - [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - H5 交互
   - [YYKit](https://github.com/ibireme/YYKit) - 常用工具库，值得学习，已经不更新了
 
-### 鸿蒙
+# 鸿蒙
 - [华为鸿蒙](https://www.harmonyos.com)
 - [鸿蒙学堂](https://hmxt.org)
 
@@ -68,6 +68,14 @@ date: 2023-03-09 15:21:22
 - [Svelte](https://svelte.dev/)
 - Icon
   - [FontAwesome](https://fontawesome.com/) - Take the hassle out of icons in your website
+- 小程序
+  - [京东小程序](https://mp.jd.com/)
+  - [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/)
+  - [百度小程序](https://smartprogram.baidu.com/developer/index.html)
+  - [支付宝小程序](https://opendocs.alipay.com/mini)
+  - [快应用](https://www.finclip.com/downloads)
+  - [字节跳动小程序](https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/introduction/usage-guide)
+  - [QQ 小程序](https://q.qq.com/wiki/tools/devtool/)
 
 # 设计
 - [arco.design](https://arco.design/?from=thosefree.com) - 字节跳动出品的企业级设计系统
@@ -78,6 +86,7 @@ date: 2023-03-09 15:21:22
 # 后端
 - Go
   - [Gin](https://gin-gonic.com/zh-cn/) - Go语言最快的全功能Web框架
+  - [docker](https://www.docker.com/) - Develop faster. Run anywhere.
 - [BuildAdmin](https://wonderful-code.gitee.io/) - 使用流行技术栈快速创建商业级后台管理系统
 
 # 跨平台
@@ -88,6 +97,7 @@ date: 2023-03-09 15:21:22
 - [Qt](https://www.qt.io/zh-cn/)
 - [ReactNative](https://reactnative.cn/)
 - [ionic framework](https://ionicframework.com/docs)
+- [Taro](https://taro.zone/) - 小程序
 
 # SDK
 - [友盟](https://www.umeng.com) - 分享统计
@@ -111,11 +121,15 @@ date: 2023-03-09 15:21:22
 - [Swagger](https://swagger.io/) - API Development for Everyone
 - [unicode](https://home.unicode.org/) - 查看 unicode
 - [tower](https://tower.im/) - 高效办公
+- [cryptography](https://crypto-online.cn/) - 在线密码学
+- [91 化简](https://91huajian.cn/) - 一款开源的、免费的简历设计神器
 
 # AI
 - [interiorai](https://interiorai.com/) - 室内装修
 - [AI 模型](https://hub.baai.ac.cn/?tag_id=90)
 - [easy ai](https://easyai.tech/) - 产品经理的人工智能学习库
+- [Kagi](https://labs.kagi.com/ai/sum) - url 文章总结器
+- [帮小忙](https://tool.browser.qq.com/) - 帮小忙, 万能工具宝藏
 
 # 字体
 - [nerdfonts](https://www.nerdfonts.com/)
@@ -232,3 +246,4 @@ date: 2023-03-09 15:21:22
 - [Keras](https://keras.io/zh/#_2) — 基于 Python 的深度学习库
 - [TensorFlow](https://tensorflow.google.cn/?hl=zh_cn) — 一个核心开源库，可以帮助您开发和训练机器学习模型
 - [Matplotlib](https://www.matplotlib.org.cn/) — Matplotlib 是一个 Python 的 2D 绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形
+- [docker_practice](https://yeasy.gitbook.io/docker_practice/) - docker 教程
