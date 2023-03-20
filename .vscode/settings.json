@@ -1,4 +1,29 @@
 {
+    // editor 编辑器相关
+    // 控制换行方式, 根据窗口大小换行
+    "editor.wordWrap": "off",
+    // 控制编辑器是否应在输入后自动格式化行。
+    "editor.formatOnType": true,
+    // 控制编辑器是否应自动格式化粘贴的内容。必须有一个格式化程序，并且该格式化程序应该能够格式化文档中的一个范围。
+    "editor.formatOnPaste": true,
+    // 在保存时格式化文件。格式器必须可用，延迟后不能保存文件，编辑器不能关闭。
+    "editor.formatOnSave": true,
+    // 在编辑器顶部的滚动过程中显示嵌套的当前作用域。
+    "editor.stickyScroll.enabled": true,
+    // 连字符
+    "editor.fontLigatures": false,
+    // 终端 terminal
+    // 控制是否启用终端铃声，这在终端名称旁边显示为视觉对象铃铛。
+    "terminal.integrated.enableBell": true,
+    // 文件 files
+    // 设置文件立即保存
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    // code-runner 插件
+    // 运行在终端
+    "code-runner.runInTerminal": true,
+    // 控制终端输出是否清除之前的数据
+    "code-runner.clearPreviousOutput": true,
     "compile-hero.disable-compile-files-on-did-save-code": true,
     "yaml.schemaStore.enable": false,
     "cSpell.ignorePaths": [
@@ -18,6 +43,7 @@
         "Axure",
         "bilibili",
         "browsersync",
+        "bvid",
         "Calcpad",
         "Caml",
         "Cemu",
@@ -28,11 +54,15 @@
         "Deno",
         "DMGAME",
         "Downie",
+        "endblockquote",
+        "endcodeblock",
         "endlinkgrid",
+        "endquote",
         "Fira",
         "fitgirl",
         "Futurepedia",
         "Gitee",
+        "Godin",
         "Graffle",
         "Houdinni",
         "IINA",
@@ -43,22 +73,27 @@
         "ipython",
         "Jetbrains",
         "jsdelivr",
+        "jsfiddle",
         "jython",
         "Kagi",
         "Keras",
         "krita",
         "Laya",
+        "Levithan",
         "linkgrid",
         "Lookin",
         "Luminar",
         "Mathematica",
+        "mathjax",
         "Mikan",
         "Minitab",
         "Movist",
         "nerdfonts",
         "Nume",
         "Numi",
+        "objc",
         "octoverse",
+        "outchain",
         "pandoc",
         "PCSX",
         "picoc",
@@ -73,10 +108,12 @@
         "RPCS",
         "Scilab",
         "searchdb",
+        "shorttag",
         "Slidev",
         "stackover",
         "tiobe",
         "Typora",
+        "Ufsc",
         "UMOOCs",
         "Vant",
         "Vultr",
