@@ -205,6 +205,21 @@ alt="X理论——Y理论" /></li>
 <li>requirements tracing: 需求跟踪</li>
 <li>actual cost of work performed(ACWP): 已完成工作实际成本(AC)</li>
 <li>activity description(AD): 活动描述</li>
+<li>arrow diagramming method(ADM): 箭线图法</li>
+<li>actual finish date(AF): 实际完工日期</li>
+<li>activity on arrow(AOA): 双代号网络图（活动在箭线）</li>
+<li>activity on node(AON): 单代号网络图（活动在终点）</li>
+<li>actual start date(AS): 实际开工时间</li>
+<li>budget at completion(BAC): 完成工作预算</li>
+<li>budgeted cost of work performed:(BCWP): 已完成工作预算成本（挣值，EV）</li>
+<li>budgeted cost for work scheduled(BCWS): 计划完成工作预算成本（PV）</li>
+<li>change control board(CCB): 变更控制委员会</li>
+<li>cost plus fixed fee(CPFF): 成本加固定费用（合同）</li>
+<li>cost plus incentive fee(CPIF): 成本加奖励费用（合同）</li>
+<li>cost performance index(CPI): 成本绩效指数（费用绩效指数）</li>
+<li>critical path method(CPM): 关键路径法</li>
+<li>cost variance(CV): 成本偏差</li>
+<li>data date(DD): 数据日期</li>
 </ul>
 ]]></content>
       <categories>
