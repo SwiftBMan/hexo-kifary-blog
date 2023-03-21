@@ -42,6 +42,8 @@
         "Aseprite",
         "Astro",
         "Axure",
+        "BCWP",
+        "BCWS",
         "bilibili",
         "browsersync",
         "bvid",
@@ -51,6 +53,8 @@
         "Citra",
         "clibs",
         "Cmacked",
+        "CPFF",
+        "CPIF",
         "dashdash",
         "Deno",
         "DMGAME",
@@ -120,6 +124,7 @@
         "Vultr",
         "Xclient",
         "Yasm",
-        "yuzu"
+        "yuzu",
+        "zarm"
     ]
 }

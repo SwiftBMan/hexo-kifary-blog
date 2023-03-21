@@ -65,6 +65,7 @@ date: 2023-03-09 15:21:22
   - 资源
     - [Vue3-resource](https://hu-snail.github.io/vue3-resource/platform/web/ui.html) - vue3 资源大全
 - [React](https://react.docschina.org)
+  - [zarm](https://zarm.design/#/) - 追求极致的用户体验，做有温度的组件库
 - [Svelte](https://svelte.dev/)
 - Icon
   - [FontAwesome](https://fontawesome.com/) - Take the hassle out of icons in your website
