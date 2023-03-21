@@ -193,7 +193,18 @@ alt="X理论——Y理论" /></li>
 <li>contract closure: 合同收尾</li>
 <li>project configuration management: 项目配置管理</li>
 <li>configuration management planning: 编制配置管理计划</li>
-<li></li>
+<li>configuration item identification: 配置标识</li>
+<li>version management: 版本管理</li>
+<li>change management: 变更管理</li>
+<li>configuration audit: 配置审核</li>
+<li>status reporting: 状态报告</li>
+<li>software requirements management: 软件需求管理</li>
+<li>requirements management planning: 编制需求管理计划</li>
+<li>manage requirement changes: 需求管理变更</li>
+<li>version control of SRS: 需求说明书版本控制</li>
+<li>requirements tracing: 需求跟踪</li>
+<li>actual cost of work performed(ACWP): 已完成工作实际成本(AC)</li>
+<li>activity description(AD): 活动描述</li>
 </ul>
 ]]></content>
       <categories>
