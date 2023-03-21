@@ -211,8 +211,10 @@ alt="X理论——Y理论" /></li>
 <li>activity on node(AON): 单代号网络图（活动在终点）</li>
 <li>actual start date(AS): 实际开工时间</li>
 <li>budget at completion(BAC): 完成工作预算</li>
-<li>budgeted cost of work performed:(BCWP): 已完成工作预算成本（挣值，EV）</li>
-<li>budgeted cost for work scheduled(BCWS): 计划完成工作预算成本（PV）</li>
+<li>budgeted cost of work performed:(BCWP):
+已完成工作预算成本（挣值，EV）</li>
+<li>budgeted cost for work scheduled(BCWS):
+计划完成工作预算成本（PV）</li>
 <li>change control board(CCB): 变更控制委员会</li>
 <li>cost plus fixed fee(CPFF): 成本加固定费用（合同）</li>
 <li>cost plus incentive fee(CPIF): 成本加奖励费用（合同）</li>
@@ -220,6 +222,15 @@ alt="X理论——Y理论" /></li>
 <li>critical path method(CPM): 关键路径法</li>
 <li>cost variance(CV): 成本偏差</li>
 <li>data date(DD): 数据日期</li>
+<li>duration(DU): 持续时间</li>
+<li>estimate at completion(EAC): 完成工作估算（完工估算）</li>
+<li>early finish date(EF): 最早完工日期</li>
+<li>early start date(ES): 最早开工日期</li>
+<li>estimate (or estimated) to complete(ETC):
+到完成时的估算（剩余工作的成本）</li>
+<li>earned value(EV): 挣值</li>
+<li>free float, finish to finish(FF): 自由时差，完成 - 完成关系</li>
+<li>firm fixed price(FFP): 完全固定总价（合同）</li>
 </ul>
 ]]></content>
       <categories>
