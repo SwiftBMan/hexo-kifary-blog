@@ -27,4 +27,5 @@ unicode: 14.0
 ngtcp2: 0.8.1
 nghttp3: 0.7.0
 ```
-
+# 一些问题帮助
+- [Vscode + Github + Picgo 免费配置markdown图床攻略](https://zhuanlan.zhihu.com/p/532669042)
