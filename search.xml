@@ -436,10 +436,12 @@ href="https://hexo.io/zh-cn/docs/tag-plugins#文章摘要和截断">文章摘要
 </ul></li>
 <li><strong><mark class="label ">监控项目工作</mark></strong>
 <ul>
-<li>输入</li>
+<li>输入
+<ul>
 <li>项目管理计划</li>
 <li>工作绩效信息</li>
 <li>拒绝的变更申请</li>
+</ul></li>
 <li>工具</li>
 <li>项目管理方法论</li>
 <li>项目管理信息系统</li>
@@ -481,6 +483,31 @@ href="https://hexo.io/zh-cn/docs/tag-plugins#文章摘要和截断">文章摘要
 <li>批准的缺陷修复</li>
 <li>经验证的缺陷修复</li>
 <li>可交付成果</li>
+</ul></li>
+</ul></li>
+<li><strong><mark class="label ">项目收尾</mark></strong>
+<ul>
+<li>输入
+<ul>
+<li>项目管理计划</li>
+<li>合同</li>
+<li>企业环境因素</li>
+<li>组织过程资产</li>
+<li>工作绩效信息</li>
+<li>可交付成果</li>
+</ul></li>
+<li>工具
+<ul>
+<li>项目管理方法论</li>
+<li>项目管理信息系统</li>
+<li>专家判断</li>
+</ul></li>
+<li>输出
+<ul>
+<li>管理收尾规程</li>
+<li>合同收尾规程</li>
+<li>最终产品、服务或项目结果</li>
+<li><mark class="label success">组织过程资产（更新）</mark></li>
 </ul></li>
 </ul></li>
 </ul>
