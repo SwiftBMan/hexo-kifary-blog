@@ -442,17 +442,21 @@ href="https://hexo.io/zh-cn/docs/tag-plugins#文章摘要和截断">文章摘要
 <li>工作绩效信息</li>
 <li>拒绝的变更申请</li>
 </ul></li>
-<li>工具</li>
+<li>工具
+<ul>
 <li>项目管理方法论</li>
 <li>项目管理信息系统</li>
 <li>挣值管理</li>
 <li>专家判断</li>
-<li>输出</li>
+</ul></li>
+<li>输出
+<ul>
 <li>推荐的纠正措施</li>
 <li>推荐的预防措施</li>
 <li>预测</li>
 <li>推荐的缺陷修复</li>
 <li>变更申请</li>
+</ul></li>
 </ul></li>
 <li><strong><mark class="label ">整体变更控制</mark></strong>
 <ul>
