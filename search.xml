@@ -211,10 +211,8 @@ alt="X理论——Y理论" /></li>
 <li>activity on node(AON): 单代号网络图（活动在终点）</li>
 <li>actual start date(AS): 实际开工时间</li>
 <li>budget at completion(BAC): 完成工作预算</li>
-<li>budgeted cost of work performed:(BCWP):
-已完成工作预算成本（挣值，EV）</li>
-<li>budgeted cost for work scheduled(BCWS):
-计划完成工作预算成本（PV）</li>
+<li>budgeted cost of work performed:(BCWP): 已完成工作预算成本（挣值，EV）</li>
+<li>budgeted cost for work scheduled(BCWS): 计划完成工作预算成本（PV）</li>
 <li>change control board(CCB): 变更控制委员会</li>
 <li>cost plus fixed fee(CPFF): 成本加固定费用（合同）</li>
 <li>cost plus incentive fee(CPIF): 成本加奖励费用（合同）</li>
@@ -226,11 +224,43 @@ alt="X理论——Y理论" /></li>
 <li>estimate at completion(EAC): 完成工作估算（完工估算）</li>
 <li>early finish date(EF): 最早完工日期</li>
 <li>early start date(ES): 最早开工日期</li>
-<li>estimate (or estimated) to complete(ETC):
-到完成时的估算（剩余工作的成本）</li>
+<li>estimate (or estimated) to complete(ETC): 到完成时的估算（剩余工作的成本）</li>
 <li>earned value(EV): 挣值</li>
 <li>free float, finish to finish(FF): 自由时差，完成 - 完成关系</li>
 <li>firm fixed price(FFP): 完全固定总价（合同）</li>
+<li>fixed price incentive fee(FPIP): 固定价加奖励费用（合同）</li>
+<li>finish to start(FS): 完成 - 开始关系</li>
+<li>graphical evaluation and review technique(GERT): 图示评审技术</li>
+<li>invitation for bid(IFB): 邀标</li>
+<li>late finish date(LF): 最晚完工日期（最迟完工日期）</li>
+<li>level of effort(LOE): 投入水平（人工投入量）</li>
+<li>late start date(LS): 最晚开工日期（最迟开工日期）</li>
+<li>modern project management(MPM): 现代项目管理</li>
+<li>organization breakdown structure: 组织分解结构</li>
+<li>percent complete(PC): 完成百分比</li>
+<li>precedence diagramming method(PDM): 优先图示法（前导图法）</li>
+<li>program evaluation and review method(PERT): 计划评审技术</li>
+<li>planed finish date(PF): 计划完工日期</li>
+<li>project management, project manager(PM): 项目管理、项目经理</li>
+<li>project management body of knowledge(PMBOK): 项目管理知识体系</li>
+<li>project management professional(PMP): 项目管理专业人士</li>
+<li>planned start date(PS): 计划开工日期</li>
+<li>quality assurance(QA): 质量保障</li>
+<li>quality control(QC): 质量控制</li>
+<li>responsibility assignment matrix(RAM): 责任分配矩阵</li>
+<li>remaining duration(RDU): 剩余工期</li>
+<li>request for proposal(RFP): 请求建议书（方案建议书）</li>
+<li>request for quotation(RFQ): 请求报价单</li>
+<li>scheduled finish date, start to finish(SF): 计划完工日期，开始-完成关系</li>
+<li>statement of work(SOW): 工作说明书</li>
+<li>schedule performance index(SPI): 进度绩效指数</li>
+<li>scheduled start date, start to start(SS): 计划开工日期，开始-开始关系</li>
+<li>schedule variance(SV): 进度偏差</li>
+<li>target completion date(TC): 目标完成日期</li>
+<li>total float, target finish date(TF): 总时差，目标完成日期</li>
+<li>target start date(TS): 目标开始日期</li>
+<li>total quality management(TQM): 全面质量管理</li>
+<li>work breakdown structure(WBS): 工作分解结构</li>
 </ul>
 ]]></content>
       <categories>
