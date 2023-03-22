@@ -131,6 +131,11 @@ date: 2023-03-09 15:21:22
 - [easy ai](https://easyai.tech/) - 产品经理的人工智能学习库
 - [Kagi](https://labs.kagi.com/ai/sum) - url 文章总结器
 - [帮小忙](https://tool.browser.qq.com/) - 帮小忙, 万能工具宝藏
+- [notion](https://www.notion.so/) - 辅助写作工具
+- [Midjourney](https://www.midjourney.com/) - 辅助画画工具
+- [tome](https://beta.tome.app/) - 一款 AI 驱动、自动生成 PPT 的幻灯片内容生成工具
+- [descript](https://www.descript.com/) - 像编辑文档一样编辑音视频
+- [runwayml](https://runwayml.com/) - 视频制作的新一代视频内容生成工具
 
 # 字体
 - [nerdfonts](https://www.nerdfonts.com/)
