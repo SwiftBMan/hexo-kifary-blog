@@ -140,6 +140,8 @@ date: 2023-03-09 15:21:22
 - [descript](https://www.descript.com/) - 像编辑文档一样编辑音视频
 - [runwayml](https://runwayml.com/) - 视频制作的新一代视频内容生成工具
 - [文心一格](https://yige.baidu.com/) - AI 艺术和创意辅助平台
+- [OpenNLP](https://opennlp.apache.org/) - Apache OpenNLP库是一个基于机器学习的工具包，用于处理自然语言文本
+- [stockfishchess](https://stockfishchess.org/) - 开源国际象棋引擎
 
 # 字体
 - [nerdfonts](https://www.nerdfonts.com/)

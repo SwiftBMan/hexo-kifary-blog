@@ -105,6 +105,7 @@ date: 2023-03-06 14:22:16
 - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/) - 面向 .NET 开发人员的 IDE
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html) - 微信小程序
 - [Lightly](https://lightly.teamcode.com/) - 新一代的 C IDE
+- [cursor](https://www.cursor.so/) - Write, edit, and chat about your code with a powerful AI
 
 # 游戏
 - IDE
