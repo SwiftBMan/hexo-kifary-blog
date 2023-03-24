@@ -344,11 +344,11 @@ href="https://hexo.io/zh-cn/docs/tag-plugins#文章摘要和截断">文章摘要
 <li>中间件由低向上可分为<strong>底层型中间件、通用型中间件和集成型中间件</strong>三个大的层次。</li>
 <li>大数据的5个特征，俗称"5V":
 <ul>
-<li>Value(价值)：指的是价值密度低。价值密度的高低与数据总量的大小成反比</li>
-<li>Variety(多样)：指的是数据类型繁多</li>
-<li>Veracity(真实性)：指的是数据来自各种、各类信息系统网络，以及网络终端的行为或痕迹不易作假</li>
-<li>Velocity(高速)：指的是处理速度快。这是大数据区别于传统数据挖掘的最显著特征</li>
-<li>Volume(大量)：指的是数据体量巨大</li>
+<li><strong>Value(价值)</strong>：指的是价值密度低。价值密度的高低与数据总量的大小成反比</li>
+<li><strong>Variety(多样)</strong>：指的是数据类型繁多</li>
+<li><strong>Veracity(真实性)</strong>：指的是数据来自各种、各类信息系统网络，以及网络终端的行为或痕迹不易作假</li>
+<li><strong>Velocity(高速)</strong>：指的是处理速度快。这是大数据区别于传统数据挖掘的最显著特征</li>
+<li><strong>Volume(大量)</strong>：指的是数据体量巨大</li>
 </ul></li>
 </ul>
 ]]></content>
