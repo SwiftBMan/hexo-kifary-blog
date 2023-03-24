@@ -89,6 +89,7 @@ date: 2023-03-09 15:21:22
   - [Gin](https://gin-gonic.com/zh-cn/) - Go语言最快的全功能Web框架
   - [docker](https://www.docker.com/) - Develop faster. Run anywhere.
 - [BuildAdmin](https://wonderful-code.gitee.io/) - 使用流行技术栈快速创建商业级后台管理系统
+- [sails](https://sailsjs.com/) - Node.js 的后端 MVC 框架
 
 # 跨平台
 - [Flutter](https://flutter.cn)
@@ -124,6 +125,8 @@ date: 2023-03-09 15:21:22
 - [tower](https://tower.im/) - 高效办公
 - [cryptography](https://crypto-online.cn/) - 在线密码学
 - [91 化简](https://91huajian.cn/) - 一款开源的、免费的简历设计神器
+- [wonder share](https://democreator.wondershare.cn/) - PPT 式创作视频，精彩演绎的一天
+- [迅捷PDF转换器](https://app.xunjiepdf.com/)
 
 # AI
 - [interiorai](https://interiorai.com/) - 室内装修
@@ -136,6 +139,7 @@ date: 2023-03-09 15:21:22
 - [tome](https://beta.tome.app/) - 一款 AI 驱动、自动生成 PPT 的幻灯片内容生成工具
 - [descript](https://www.descript.com/) - 像编辑文档一样编辑音视频
 - [runwayml](https://runwayml.com/) - 视频制作的新一代视频内容生成工具
+- [文心一格](https://yige.baidu.com/) - AI 艺术和创意辅助平台
 
 # 字体
 - [nerdfonts](https://www.nerdfonts.com/)
@@ -170,6 +174,7 @@ date: 2023-03-09 15:21:22
   - [MinGW-w64](https://www.mingw-w64.org/)
   - [Turbo C++](https://turbo-c.soft32.com/)
 - [Rust](https://www.rust-lang.org/) - A language empowering everyone to build reliable and efficient software
+  - [Dioxus Labs](https://dioxuslabs.com/) - 一个 Rust 语言的 UI 库，可以使用这个库，为各种设备（Web、桌面、手机、终端）制作用户界面
 - JavaScript
   - [bun](https://bun.sh/)
   - [Node.js](https://nodejs.org/zh-cn/) - Node.js® 是一个开源、跨平台的 JavaScript 运行时环境

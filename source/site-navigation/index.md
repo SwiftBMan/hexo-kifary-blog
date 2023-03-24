@@ -63,6 +63,7 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 - [Switch520](https://xxxxx520.com)
 - [小象游戏](https://www.dxdjyx.com/)
 - [fitgirl](https://fitgirl-repacks.site/)
+- [133游戏仓库](https://www.133yxgame.com/) - 全球最大的游戏交流中心
 
 # 云游戏
 - [START](https://start.qq.com/)
@@ -93,6 +94,7 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 - [BT 之家](http://btbtt15.com/forum-index-fid-951.htm)
 - [大连生活网](https://www.dlkoo.cc)
 - [BTNull](https://www.btnull.nu)
+- [789.im](https://www.789.im/) - 影视资源导航
 
 # 综合资源
 - [海盗湾](https://thepiratebay.org/index.html)
@@ -102,6 +104,7 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 - [B 站](https://www.bilibili.com)
 - [优酷](https://www.youku.com/channel/webhome)
 - [爱奇艺](https://www.iqiyi.com)
+- [筷子视频](https://kuaizi.cc/)
 
 # 找工作
 - [BOSS 直聘](https://www.zhipin.com) - 互联网招聘神器
@@ -129,3 +132,7 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 
 # 娱乐
 - [GGTalk](https://talk.swift.gg/) - 程序员的闲聊节目
+
+# 设计
+- [设计导航](https://jiafangbb.com/) - 在这里，让设计更简单
+
