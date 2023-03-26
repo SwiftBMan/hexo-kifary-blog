@@ -33,6 +33,8 @@ date: 2023-03-06 14:22:16
 # 终端
 - [Warp](https://www.warp.dev) - Warp 是一个非常快的、基于 Rust 的终端
 - [FinalShell](http://www.hostbuf.com/t/988.html) - FinalShell 是一体化的的服务器，网络管理软件，不仅是ssh客户端，还是功能强大的开发，运维工具，充分满足开发，运维需求
+- [Tabby](https://tabby.sh/) - Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections.
+- [WindTerm](https://kingtoolbox.github.io/)
 
 # 浏览器
 - [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/) - Chrome，不一样的浏览器体验
@@ -62,6 +64,10 @@ date: 2023-03-06 14:22:16
 - [UninstallPKG](https://www.corecode.io/) - remove unwanted packages from your Mac
 - [WPS Office](https://www.wps.cn/) - WPS Office，让你高效解决办公问题
 - [XMind](https://xmind.cn/) - XMind 是一款 全功能 的思维导图和头脑风暴软件
+- [lemon](https://lemon.qq.com/) - macOS 清理垃圾软件
+- [The Unarchiver](https://theunarchiver.com/) - 解压缩
+- [NTFS Tool](https://www.ntfstool.com/)
+- [Mounty for NTFS](https://mounty.app/)
 
 # 模拟器
 - 游戏模拟器
@@ -151,6 +157,7 @@ date: 2023-03-06 14:22:16
 - [阿里云盘](https://www.aliyundrive.com/)
 - [百度网盘](https://pan.baidu.com/)
 - [城通网盘](https://www.ctfile.com/p/login?ref=https%3A%2F%2Fhome.ctfile.com%2F%23item-files)
+- [腾讯微云](https://www.weiyun.com/)
 - [夸克网盘](https://www.myquark.cn/?ct=empl&si=u_wc)
 - [迅雷](https://dl.xunlei.com/)
 - [Downie](https://www.downie.cn/) - Downie支持youtube、instagram、头条、bilibili、新片场等多达千余网站

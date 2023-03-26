@@ -99,6 +99,7 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 # 综合资源
 - [海盗湾](https://thepiratebay.org/index.html)
 - [pixabay](https://pixabay.com/music/)
+- [磁力猫](https://狸猫.com)
 
 # 在线视频
 - [B 站](https://www.bilibili.com)

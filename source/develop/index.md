@@ -100,6 +100,7 @@ date: 2023-03-09 15:21:22
 - [ReactNative](https://reactnative.cn/)
 - [ionic framework](https://ionicframework.com/docs)
 - [Taro](https://taro.zone/) - 小程序
+- [Tauri](https://tauri.app/zh-cn/) - 构建跨平台的快速、安全、前端隔离应用
 
 # SDK
 - [友盟](https://www.umeng.com) - 分享统计
