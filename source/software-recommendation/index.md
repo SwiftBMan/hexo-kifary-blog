@@ -134,6 +134,7 @@ date: 2023-03-06 14:22:16
 # AI
 - [X Studio](https://singer.xiaoice.com) - 语音合成
 - [notion](https://www.notion.so/desktop) - 人工智能辅助写作工具
+- [careered](https://www.careered.ai/tool/cover-letter) - AI 求职信
 
 # 设计、建模、绘画等
 - [Figma](https://www.figma.com/) - 推荐
