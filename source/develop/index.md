@@ -16,6 +16,8 @@ date: 2023-03-09 15:21:22
 - 模拟器
   - [Citra](https://github.com/citra-emu/citra) - 3DS 模拟器
   - [ppsspp](https://github.com/hrydgard/ppsspp) - PSP 模拟器
+  - [Dolphin](https://github.com/dolphin-emu/dolphin) - GameCube 和 Wii 模拟器
+  - [OpenEmu](https://github.com/OpenEmu/OpenEmu) - macOS 平台的全能复古游戏模拟器
 - 图形库
   - [SDL](https://github.com/libsdl-org/SDL/tree/main)- 跨平台图形库
     - [libSDL](https://www.libsdl.org/)
