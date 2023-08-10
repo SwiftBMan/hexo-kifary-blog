@@ -2,7 +2,7 @@
 
 ```
 ========================================
-NexT version 8.13.2
+NexT version 8.18.0
 Documentation: https://theme-next.js.org
 ========================================
 hexo: 6.3.0
