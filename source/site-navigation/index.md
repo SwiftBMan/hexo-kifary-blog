@@ -55,15 +55,12 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 {% endlinkgrid %}
 
 # 游戏资源
-- [上游世界](https://www.vgter.com)
-- [OldManEmu](https://www.oldmanemu.net)
+- [OldManEmu](https://www.OldmanTVG.net)
 - [游侠网](https://www.ali213.net)
 - [游民星空](https://www.gamersky.com)
 - [3DMGAME](https://www.3dmgame.com/)
-- [Switch520](https://xxxxx520.com)
 - [小象游戏](https://www.dxdjyx.com/)
 - [fitgirl](https://fitgirl-repacks.site/)
-- [133游戏仓库](https://www.133yxgame.com/) - 全球最大的游戏交流中心
 
 # 云游戏
 - [START](https://start.qq.com/)
@@ -73,39 +70,29 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 - [斗鱼云游戏](https://cloudgame.douyu.com)
 
 # 动漫资源
-- [Mikan](https://mikanani.me/)
 - [天空树](https://www.comicat.org/complete-1.html)
-- [动漫花园](https://acg.rip/team/84)
 - [诸神字幕组](https://subs.kamigami.org)
 - [爱恋动漫](http://www.kisssub.org)
-- [萌番组](https://bangumi.moe)
 
 # 电影资源
 - [追新番](http://fanxinzhui.com/)
 - [RARBG](https://rargb.to/)
 - [美剧天堂](https://www.meijutt.tv/)
 - [布谷TV](https://www.bugutv.net/)
-- [电影天堂](https://www.dytt8.net/index2.htm)
 - [蓝光电影网](https://www.1080.cn)
-- [高清网](https://www.gaoqingw.com)
 - [中国蓝光网](http://www.languangdy.com)
 - [蓝光原盘分享网](http://www.hdshare.cn)
 - [Subtitles](https://www.opensubtitles.org/en/search/subs) - 字幕
-- [BT 之家](http://btbtt15.com/forum-index-fid-951.htm)
 - [大连生活网](https://www.dlkoo.cc)
-- [BTNull](https://www.btnull.nu)
-- [789.im](https://www.789.im/) - 影视资源导航
 
 # 综合资源
 - [海盗湾](https://thepiratebay.org/index.html)
-- [pixabay](https://pixabay.com/music/)
-- [磁力猫](https://狸猫.com)
+- [pixabay](https://pixabay.com/music/) - 免费音乐
 
 # 在线视频
 - [B 站](https://www.bilibili.com)
 - [优酷](https://www.youku.com/channel/webhome)
 - [爱奇艺](https://www.iqiyi.com)
-- [筷子视频](https://kuaizi.cc/)
 
 # 找工作
 - [BOSS 直聘](https://www.zhipin.com) - 互联网招聘神器
@@ -130,9 +117,6 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
   - [stackover flow](https://survey.stackoverflow.co/)
   - [spectrum](https://spectrum.ieee.org/)
   - [pypl](https://pypl.github.io/)
-
-# 娱乐
-- [GGTalk](https://talk.swift.gg/) - 程序员的闲聊节目
 
 # 设计
 - [设计导航](https://jiafangbb.com/) - 在这里，让设计更简单

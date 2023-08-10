@@ -256,7 +256,8 @@ date: 2023-03-09 15:21:22
 - [netlify](https://app.netlify.com/)
 
 # 电子书/文档
-- [C 语言教程](https://wangdoc.com/clang/)
+- [C 语言教程](https://wangdoc.com/clang/) - 作者：阮一峰
+- [TypeScript 教程](https://wangdoc.com/typescript/) - 作者：阮一峰 TypeScript 开源教程，介绍基本概念和用法，面向初学者
 - [PyTorch](https://pytorch123.com/) - PyTorch 是一个基于 Torch 的 Python 开源机器学习库，用于自然语言处理等应用程序
 - [NumPy](https://www.numpy.org.cn/) — NumPy 是用 Python 进行科学计算的基础软件包
 - [Pandas](https://www.pypandas.cn/) — Pandas 是一个强大的分析结构化数据的工具集
