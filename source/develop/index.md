@@ -36,6 +36,27 @@ date: 2023-03-09 15:21:22
   - [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - H5 交互
   - [YYKit](https://github.com/ibireme/YYKit) - 常用工具库，值得学习，已经不更新了
 
+# 嵌入式开发
+- [alldatasheetcn](https://www.alldatasheetcn.com) - 芯片资料查找
+- [Arduino官方网站](https://www.arduino.cc/) - Arduino是一种开源的电子原型平台，提供了易于使用的硬件和软件工具，适用于初学者和专业人士。
+- [Raspberry Pi官方网站](https://www.raspberrypi.org/) - Raspberry Pi是一款低成本、高性能的小型计算机，广泛用于物联网、嵌入式系统和学习编程。
+- [STM32官方网站](https://www.st.com/) - STM32是一系列基于ARM Cortex-M内核的32位单片机，具有丰富的外设和强大的性能。
+- [Microchip官方网站](https://www.microchip.com/) - Microchip是一家领先的半导体公司，提供各种单片机和开发工具，如PIC和AVR系列。
+- [ESP32官方网站](https://www.espressif.com/en/products/hardware/esp32/overview) - ESP32是一款低功耗的Wi-Fi和蓝牙芯片，适用于物联网和嵌入式应用。
+- [AVR Freaks](https://www.avrfreaks.net/) - AVR Freaks是一个活跃的社区，专注于AVR单片机和相关开发工具。你可以在这里找到各种教程、代码示例和论坛讨论。
+- [Mbed官方网站](https://os.mbed.com/) - Mbed是一种开源的嵌入式开发平台，支持多种单片机和开发板。你可以在这里找到各种资源和工具，帮助你快速开发嵌入式应用。
+- [Hackster.io](https://www.hackster.io/) - Hackster.io是一个社区平台，聚集了全球的创客和开发者。你可以在这里找到各种单片机项目的教程、示例代码和创意灵感。
+- [Instructables](https://www.instructables.com/) - Instructables是一个社区平台，提供了大量的DIY项目教程。你可以在这里找到许多关于单片机的项目和教程。
+- [Hackaday](https://hackaday.com/) - Hackaday是一个致力于硬件创新和开源项目的社区平台。你可以在这里找到各种单片机项目、教程和新闻。
+- [Electronics-Lab](https://www.electronics-lab.com/) - Electronics-Lab是一个电子工程师和爱好者的社区平台，提供了许多单片机项目、电路设计和技术文章。
+- [All About Circuits](https://www.allaboutcircuits.com/) - All About Circuits是一个电子工程师社区，提供了丰富的电子学教程、电路设计和技术资源。
+- [Embedded.com](https://www.embedded.com/) - Embedded.com是一个专注于嵌入式系统开发的网站，提供了各种技术文章、设计指南和开发工具。
+- [Circuit Digest](https://circuitdigest.com/) - Circuit Digest是一个电子工程师社区，提供了各种电子项目、电路设计和技术文章。
+- [ElectroSchematics](https://www.electroschematics.com/) - ElectroSchematics是一个电子电路图和项目分享的网站，提供了许多电子电路图和项目教程。
+- [EDAboard](https://www.edaboard.com/) - EDAboard是一个电子设计自动化（EDA）社区，提供了许多关于电路设计、仿真和PCB布局的讨论和资源。
+- [OpenCores](https://opencores.org/) - OpenCores是一个开源硬件社区，提供了许多开源的FPGA和ASIC设计项目。
+
+
 # 鸿蒙
 - [华为鸿蒙](https://www.harmonyos.com)
 - [鸿蒙学堂](https://hmxt.org)
