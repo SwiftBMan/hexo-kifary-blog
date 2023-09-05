@@ -24,14 +24,14 @@ content</br>
 
 #### 例子
 
-##### 没有提供参数，普通的 **blockquote** 
+##### 没有提供参数，普通的 **blockquote**
 
 {% blockquote %}
 \{\% blockquote \%\}</br>
 普通的 blockquote</br>
 \{\% endblockquote \%\}
 {% endblockquote %}
-  
+
 {% blockquote %}
 普通的 blockquote
 {% endblockquote %}
@@ -174,7 +174,7 @@ alert('Hello World!');
 {% post_path Hexo-标签插件使用 false %}</br>
 {% post_link Hexo-标签插件使用 插件使用 false %}
 
-### [Embed image](https://hexo.io/zh-cn/docs/tag-plugins#Embed-image) 
+### [Embed image](https://hexo.io/zh-cn/docs/tag-plugins#Embed-image)
 
 ### [Raw](https://hexo.io/zh-cn/docs/tag-plugins#Raw)
 

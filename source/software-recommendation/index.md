@@ -40,9 +40,12 @@ date: 2023-03-06 14:22:16
 - [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/) - Chrome，不一样的浏览器体验
 - [Microsoft Edge](https://www.microsoft.com/en-us/edge?exp=e00&form=MA13FJ) - 微软良心浏览器
 
-# PCB
+# 硬件设计
+- [Altium Designer](https://www.altium.com) - Altium Designer 是一款功能强大的电路设计和 PCB 布局软件。它提供了全面的设计工具和功能，包括原理图设计、PCB 布局、信号完整性分析和仿真等
 - [KiCad](https://www.kicad.org) - 一个跨平台和开源的电子设计自动化套件
 - [EasyEDA](https://easyeda.com) - 更简单和强大在线 PCB 设计工具
+- [Eagle](https://www.autodesk.com/products/eagle/overview) - Eagle 是一款流行的电路设计软件，提供了易于使用的界面和强大的功能。它支持原理图设计、PCB 布局和自动布线等功能，并且具有广泛的元件库和社区支持
+- [OrCAD](https://www.orcad.com) - OrCAD 是一款专业的电路设计软件，提供了全面的设计工具和功能。它支持原理图设计、PCB 布局、信号完整性分析和仿真等，并且适用于复杂的电路设计项目
 
 # Markdown
 - [Typora（收费）](https://typoraio.cn) - 一款 Markdown 编辑器和阅读器
