@@ -167,6 +167,7 @@ date: 2023-03-09 15:21:22
 - [文心一格](https://yige.baidu.com/) - AI 艺术和创意辅助平台
 - [OpenNLP](https://opennlp.apache.org/) - Apache OpenNLP库是一个基于机器学习的工具包，用于处理自然语言文本
 - [stockfishchess](https://stockfishchess.org/) - 开源国际象棋引擎
+- [aihub](https://www.aihub.cn/) - 该网站收集各种 AI 工具和资源
 
 # 字体
 - [nerdfonts](https://www.nerdfonts.com/)
@@ -292,3 +293,9 @@ date: 2023-03-09 15:21:22
 - [TensorFlow](https://tensorflow.google.cn/?hl=zh_cn) — 一个核心开源库，可以帮助您开发和训练机器学习模型
 - [Matplotlib](https://www.matplotlib.org.cn/) — Matplotlib 是一个 Python 的 2D 绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形
 - [docker_practice](https://yeasy.gitbook.io/docker_practice/) - docker 教程
+
+# 设计
+- [yesicon](https://yesicon.app/) - 中文的图标搜索引擎
+
+# 版本控制
+- [fossil](https://fossil-scm.org/home/uv/download.html) - 轻量级的版本控制工具
