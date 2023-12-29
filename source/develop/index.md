@@ -13,6 +13,8 @@ date: 2023-03-09 15:21:22
   - [zju-icicles](https://github.com/QSCTech/zju-icicles) - 浙江大学课程攻略共享计划
   - [REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) - 清华大学计算机系课程攻略
   - [计算机速成课](https://github.com/1c7/Crash-Course-Computer-Science-Chinese)
+  - [project-based-learning](https://github.com/practical-tutorials/project-based-learning) - 跟着项目学编程
+  - [Hello 算法](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
 - 模拟器
   - [Citra](https://github.com/citra-emu/citra) - 3DS 模拟器
   - [ppsspp](https://github.com/hrydgard/ppsspp) - PSP 模拟器
