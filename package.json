@@ -24,28 +24,27 @@
     "blog-auto-deploy": "npm run push-clean-build-deploy"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.0.0"
   },
   "dependencies": {
-    "hexo": "^6.3.0",
-    "hexo-deployer-git": "^3.0.0",
+    "hexo": "^7.0.0",
+    "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
-    "hexo-related-posts": "^1.5.1",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.0.0",
-    "hexo-renderer-pandoc": "^0.3.1",
-    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-renderer-pandoc": "^0.4.0",
+    "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "^4.5.1",
-    "hexo-theme-fluid": "^1.9.3",
-    "hexo-theme-icarus": "^5.1.0",
-    "hexo-theme-landscape": "^0.0.3",
-    "hexo-theme-next": "^8.13.2",
+    "hexo-theme-butterfly": "^4.12.0",
+    "hexo-theme-fluid": "^1.9.7",
+    "hexo-theme-icarus": "^5.3.0",
+    "hexo-theme-landscape": "^1.0.0",
+    "hexo-theme-next": "^8.19.1",
     "hexo-word-counter": "^0.1.0"
   },
   "devDependencies": {
