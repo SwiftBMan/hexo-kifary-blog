@@ -6,7 +6,7 @@ date: 2023-03-03 15:18:05
 # 学习
 {% linkgrid %}
 菜鸟教程 | https://www.runoob.com/ | 前端、移动端、后端等教程 | ../images/apple-touch-icon-k.png
-微信读书 | https://weread.qq.com/ | 高质量的电子书 | ../images/apple-touch-icon-k.png
+微信读书 | https://weread.qq.com/ | 高质量的电子书（大部分收费） | ../images/apple-touch-icon-k.png
 脚本之家 | https://www.jb51.net | 电子书、软件等 | https://www.jb51.net/images/logo.gif
 书栈网 | https://www.bookstack.cn | 开源编程书籍 | https://static.sitestack.cn/static/images/logo.png
 中国大学MOOC | https://www.icourse163.org | 国家精品课程在线学习平台 | https://edu-image.nosdn.127.net/3310f128e53b406f94400f7ae6046db2.png?imageView&quality=100
