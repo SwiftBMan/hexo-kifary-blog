@@ -24,11 +24,6 @@ NSHipster | https://nshipster.cn/ | 关注被忽略的 Objective-C、Swift 和 C
 % Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | ../images/apple-touch-icon-k.png
 {% endlinkgrid %}
 
-# 在线电子书
-{% linkgrid %}
-CS-Notes | http://www.cyc2018.xyz/#算法 | 算法、计算机基础、数据库等 | https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/githubio/LogoMakr_0zpEzN.png
-{% endlinkgrid %}
-
 # 工具
 {% linkgrid %}
 AI 帮个忙 | https://ai-toolbox.codefuture.top/ | 多功能 AI 小帮手 | https://ai-toolbox.codefuture.top/icon.png

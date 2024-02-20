@@ -14,7 +14,6 @@ date: 2023-03-09 15:21:22
   - [REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) - 清华大学计算机系课程攻略
   - [计算机速成课](https://github.com/1c7/Crash-Course-Computer-Science-Chinese)
   - [project-based-learning](https://github.com/practical-tutorials/project-based-learning) - 跟着项目学编程
-  - [Hello 算法](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
 - 模拟器
   - [Citra](https://github.com/citra-emu/citra) - 3DS 模拟器
   - [ppsspp](https://github.com/hrydgard/ppsspp) - PSP 模拟器
@@ -25,6 +24,10 @@ date: 2023-03-09 15:21:22
     - [libSDL](https://www.libsdl.org/)
   - [OpenGL](https://www.opengl.org/)
 - [create-dmg](https://github.com/sindresorhus/create-dmg) - Create a good-looking DMG for your macOS app in seconds
+
+# 电子书
+- [Hello 算法](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
+- [CS-Notes](http://www.cyc2018.xyz) - 算法、计算机基础、数据库、java
 
 # 移动端
 - iOS
@@ -180,8 +183,10 @@ date: 2023-03-09 15:21:22
 - [DejaVu](https://dejavu-fonts.github.io/)
 
 # 框架
-- [Astro](https://astro.build/)
-- [elm](https://elm-lang.org/)
+- [Astro](https://astro.build/) - The web framework for content-driven websites （内容驱动网站的web框架）
+- [elm](https://elm-lang.org/) - A delightful language for reliable web applications
+- [Tauri](https://tauri.app/) - Build an optimized, secure, and frontend-independent application for multi-platform deployment （构建跨平台的快速、安全、前端隔离应用）
+- [Electron](https://www.electronjs.org/) - Build cross-platform desktop apps with JavaScript, HTML, and CSS（使用三剑客构建跨平台桌面应用）
 
 # 包管理
 - JavaScript

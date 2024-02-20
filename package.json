@@ -24,7 +24,7 @@
     "blog-auto-deploy": "npm run push-clean-build-deploy"
   },
   "hexo": {
-    "version": "7.0.0"
+    "version": "7.1.1"
   },
   "dependencies": {
     "hexo": "^7.0.0",
