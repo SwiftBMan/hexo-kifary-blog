@@ -12,9 +12,6 @@
     "editor.stickyScroll.enabled": true,
     // 连字符
     "editor.fontLigatures": false,
-    // 终端 terminal
-    // 控制是否启用终端铃声，这在终端名称旁边显示为视觉对象铃铛。
-    "terminal.integrated.enableBell": true,
     // 文件 files
     // 设置文件立即保存
     "files.autoSave": "afterDelay",
@@ -150,5 +147,9 @@
         "Yasm",
         "yuzu",
         "zarm"
-    ]
+    ],
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+    "terminal.integrated.enableVisualBell": true
 }

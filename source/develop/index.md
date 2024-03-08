@@ -173,6 +173,7 @@ date: 2023-03-09 15:21:22
 - [OpenNLP](https://opennlp.apache.org/) - Apache OpenNLP库是一个基于机器学习的工具包，用于处理自然语言文本
 - [stockfishchess](https://stockfishchess.org/) - 开源国际象棋引擎
 - [aihub](https://www.aihub.cn/) - 该网站收集各种 AI 工具和资源
+- [ollama](https://ollama.com/) - 本地运行大模型
 
 # 字体
 - [nerdfonts](https://www.nerdfonts.com/)

@@ -34,6 +34,29 @@ Futurepedia | https://www.futurepedia.io | 最大的 AI 工具目录，每天更
 奇迹秀工具箱 | https://www.qijishow.com/down/index.html | 常用工具箱 | ../images/apple-touch-icon-k.png
 爱达杂货铺 | https://adzhp.net | 收集有用的东西 | https://adzhp.net/wp-content/uploads/2020/01/默认标题_自定义px_2019.02.08-2.png
 {% endlinkgrid %}
+- [excalidraw](https://excalidraw.com/) - 一款轻量的手绘风格电子白板在线应用
+- [爱发音](https://fayin.love/) - 练习英语发音
+
+# AI 工具
+- 国外
+  - [ChatGPT](https://chat.openai.com/) - OpenAI
+  - [gammas](https://gamma.app/) - PPT自动生成
+  - [albus](https://albus.org/zh/) - 图像生成
+  - [suno](https://app.suno.ai/) - 音乐生成
+  - [sora](https://openai.com/sora) - 文字转视频
+- 国内
+  - [文心一言](https://yiyan.baidu.com/) - 百度
+  - [通义千问](https://tongyi.aliyun.com/)(已开源) - 阿里巴巴
+  - [360AI](https://ai.360.com/)
+    - [360智脑](https://chat.360.com/)
+    - [360AI搜索](https://www.sou.com/)
+    - [360AI浏览器](https://browser.360.cn/ai/?src=ai_360_com)
+    - [360智绘](https://aigc.360.com/?src=ai_360_com)
+    - [AI数字员工](https://ai.n.cn/home?src=ai_360_com)
+  - [讯飞星火](https://xinghuo.xfyun.cn/desk)
+  - [腾讯混元助手](https://hunyuan.tencent.com/)
+- 应用
+  - [Arc](https://arc.net/) - AI 浏览器
 
 # 软件
 {% linkgrid %}
@@ -112,7 +135,4 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
   - [stackover flow](https://survey.stackoverflow.co/)
   - [spectrum](https://spectrum.ieee.org/)
   - [pypl](https://pypl.github.io/)
-
-# 设计
-- [设计导航](https://jiafangbb.com/) - 在这里，让设计更简单
 
