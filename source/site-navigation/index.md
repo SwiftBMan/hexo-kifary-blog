@@ -8,7 +8,6 @@ date: 2023-03-03 15:18:05
 菜鸟教程 | https://www.runoob.com/ | 前端、移动端、后端等教程 | ../images/apple-touch-icon-k.png
 微信读书 | https://weread.qq.com/ | 高质量的电子书（大部分收费） | ../images/apple-touch-icon-k.png
 脚本之家 | https://www.jb51.net | 电子书、软件等 | https://www.jb51.net/images/logo.gif
-书栈网 | https://www.bookstack.cn | 开源编程书籍 | https://static.sitestack.cn/static/images/logo.png
 中国大学MOOC | https://www.icourse163.org | 国家精品课程在线学习平台 | https://edu-image.nosdn.127.net/3310f128e53b406f94400f7ae6046db2.png?imageView&quality=100
 慕课网 | https://www.imooc.com | 程序员的梦工厂 | https://www.imooc.com/static/img/index/logo2020.png
 牛客网 | https://www.nowcoder.com | 互联网求职神器和备考学习平台 | https://static.nowcoder.com/fe/file/logo/1.png
@@ -26,9 +25,7 @@ NSHipster | https://nshipster.cn/ | 关注被忽略的 Objective-C、Swift 和 C
 
 # 工具
 {% linkgrid %}
-AI 帮个忙 | https://ai-toolbox.codefuture.top/ | 多功能 AI 小帮手 | https://ai-toolbox.codefuture.top/icon.png
 AI 导航网 | https://www.ainav.cn | 整理最前沿的人工智能工具平台 | ../images/apple-touch-icon-k.png
-AI 研究所 | http://www.aiyjs.com | 国内外 AI 工具资讯首发站 | http://www.aiyjs.com/wp-content/uploads/2023/02/AI研究所logo-2.png
 Futurepedia | https://www.futurepedia.io | 最大的 AI 工具目录，每天更新 | https://www.futurepedia.io/_next/static/media/futurepedia.85a9d4b9.svg
 菜鸟工具 | https://c.runoob.com/ | 不止与工具 | ../images/apple-touch-icon-k.png
 奇迹秀工具箱 | https://www.qijishow.com/down/index.html | 常用工具箱 | ../images/apple-touch-icon-k.png
@@ -44,6 +41,7 @@ Futurepedia | https://www.futurepedia.io | 最大的 AI 工具目录，每天更
   - [albus](https://albus.org/zh/) - 图像生成
   - [suno](https://app.suno.ai/) - 音乐生成
   - [sora](https://openai.com/sora) - 文字转视频
+  - [imagica](https://get.imagica.ai/) - AI 创建APP
 - 国内
   - [文心一言](https://yiyan.baidu.com/) - 百度
   - [通义千问](https://tongyi.aliyun.com/)(已开源) - 阿里巴巴
@@ -74,23 +72,24 @@ JSPang | https://jspang.com | 前端免费视频技术博主 | https://blogimage
 
 # 游戏资源
 - [OldManEmu](https://www.OldmanTVG.net)
+- [fitgirl](https://fitgirl-repacks.site/)
 - [游侠网](https://www.ali213.net)
 - [游民星空](https://www.gamersky.com)
 - [3DMGAME](https://www.3dmgame.com/)
-- [小象游戏](https://www.dxdjyx.com/)
-- [fitgirl](https://fitgirl-repacks.site/)
+- [keylol](https://keylol.com) - 游戏汉化
 
 # 云游戏
 - [START](https://start.qq.com/)
 - [网易云游戏](https://cg.163.com/)
 - [咪咕快游](https://www.migufun.com)
 - [虎牙云游戏](https://yowa.huya.com)
-- [斗鱼云游戏](https://cloudgame.douyu.com)
 
 # 动漫资源
 - [天空树](https://www.comicat.org/complete-1.html)
 - [诸神字幕组](https://subs.kamigami.org)
 - [爱恋动漫](http://www.kisssub.org)
+- [萌番组](https://bangumi.moe) - 需翻墙
+- [动漫花园](http://share.dmhy.org) - 需翻墙
 
 # 电影资源
 - [追新番](http://fanxinzhui.com/)

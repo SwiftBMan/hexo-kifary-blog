@@ -176,3 +176,6 @@ date: 2023-03-06 14:22:16
 
 # windows
 - [Magpie](https://github.com/Blinue/Magpie/releases) - 游戏窗口分辨率调节工具
+
+# 音乐工具
+- [MuseScore](https://musescore.org/zh-hans) - 这是一款功能强大的开源打谱软件，支持多种乐器和谱类别，默认乐器是钢琴。你可以在上面更改界面字体，拥有丰富的偏好设置。MuseScore支持通过键盘输入音符，也可以配合MIDI键盘进行演奏。由于它是开源的，因此社区支持丰富，你可以找到各种教程和插件来扩展其功能。

@@ -109,6 +109,12 @@ menu:
   software-recommendation: /software-recommendation/ || fa fa-th-large
   # 开发
   develop: /develop/ || fa fa-code
+  # 读书笔记
+  reading-notes:
+    default: /reading-notes/ || fa-solid fa-notes-medical
+    教育:
+      default: /education/ || fa-solid fa-school
+      不必牺牲自己也可以教出幸福的孩子: /不必牺牲自己也可以教出幸福的孩子.html || fa-solid fa-book
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -202,6 +208,7 @@ links:
   hexo-zh-cn: https://hexo.io/zh-cn/
   hexo-theme-next: https://theme-next.js.org
   fontawesome: https://fontawesome.com/
+  mermaid: https://mermaid.js.org/
   stylus: https://stylus-lang.com
   nunjucks: https://mozilla.github.io/nunjucks/
   pug: https://pugjs.org/api/getting-started.html
