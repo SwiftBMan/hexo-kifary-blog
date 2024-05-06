@@ -24,6 +24,8 @@ date: 2023-03-09 15:21:22
     - [libSDL](https://www.libsdl.org/)
   - [OpenGL](https://www.opengl.org/)
 - [create-dmg](https://github.com/sindresorhus/create-dmg) - Create a good-looking DMG for your macOS app in seconds
+- [plasmo](https://github.com/PlasmoHQ/plasmo) - 浏览器扩展程序开发框架
+- [openCV](https://github.com/opencv/opencv) - 开源机器视觉库
 
 # 电子书
 - [Hello 算法](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
@@ -32,6 +34,10 @@ date: 2023-03-09 15:21:22
 # 移动端
 - iOS
   - [awesome-ios](https://github.com/vsouza/awesome-ios#readme)
+  - [Awesome Swift](https://github.com/matteocrippa/awesome-swift) - 一个很棒的Swift相关指南列表
+  - [NSHipster](https://nshipster.com/) - NSHipster是一个关于Objective-C、Swift和Cocoa中被忽略的部分的日志
+  - [awesome-ios-ui](https://github.com/cjwirth/awesome-ios-ui) - iOS UI 库
+  - [苹果审核指南](https://developer.apple.com/cn/app-store/review/guidelines/)
   - [QMUI iOS](https://qmuiteam.com/ios) - 致力于提高项目 UI 开发效率的解决方案
   - [AAChartKit](https://github.com/AAChartModel/AAChartKit) - 图表
   - [Charts](https://github.com/danielgindi/Charts) - 图表
