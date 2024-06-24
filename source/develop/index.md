@@ -15,10 +15,27 @@ date: 2023-03-09 15:21:22
   - [计算机速成课](https://github.com/1c7/Crash-Course-Computer-Science-Chinese)
   - [project-based-learning](https://github.com/practical-tutorials/project-based-learning) - 跟着项目学编程
 - 模拟器
-  - [Citra](https://github.com/citra-emu/citra) - 3DS 模拟器
+  - [Citra](https://github.com/citra-emu/citra) - 3DS 模拟器（被任天堂举报下架了）
+    - [citra-emulator](https://citra-emulator.com/)
+  - [melonDS](https://github.com/melonDS-emu/melonDS) - NDS 模拟器
+  - [DeSmuME](https://github.com/TASEmulators/desmume) - NDS 模拟器
+  - [Delta](https://github.com/rileytestut/Delta) - iOS GB/GBA、N64、NDS模拟器
+  - [snes9x](https://github.com/snes9xgit/snes9x) - Portable Super Nintendo Entertainment System (TM) emulator
+  - [bsnes](https://github.com/bsnes-emu/bsnes) - bsnes is a multi-platform Super Nintendo (Super Famicom) emulator, originally developed by Near, which focuses on performance, features, and ease of use
+  - [Visual Boy Advance](https://visualboyadvance.org/) - GBA 模拟器
+  - [mGBA](https://github.com/mgba-emu/mgba) - GBA 模拟器
+  - [NO$GBA](https://www.nogba.com/) - GBA 模拟器
+  - [SameBoy](https://github.com/LIJI32/SameBoy) - GB/GBC 模拟器
+  - [WinKawaks](https://www.winkawaks.org/) - 街机
+  - [Provenance](https://github.com/Provenance-Emu/Provenance) - An iOS & tvOS Frontend for Multiple Emulators
   - [ppsspp](https://github.com/hrydgard/ppsspp) - PSP 模拟器
   - [Dolphin](https://github.com/dolphin-emu/dolphin) - GameCube 和 Wii 模拟器
   - [OpenEmu](https://github.com/OpenEmu/OpenEmu) - macOS 平台的全能复古游戏模拟器
+  - [MAME](https://github.com/mamedev/mame)
+  - [RetroArch]([RetroArch](https://www.retroarch.com/)) - RetroArch is a frontend for emulators, game engines and media players
+  - [Play!](https://www.purei.org/) - PS2 模拟器
+  - [PCSX2](https://github.com/PCSX2/pcsx2) - PS2 模拟器
+  - [Mupen64Plus](https://github.com/mupen64plus/mupen64plus-core) - N64 模拟器
 - 图形库
   - [SDL](https://github.com/libsdl-org/SDL/tree/main)- 跨平台图形库
     - [libSDL](https://www.libsdl.org/)
@@ -26,6 +43,11 @@ date: 2023-03-09 15:21:22
 - [create-dmg](https://github.com/sindresorhus/create-dmg) - Create a good-looking DMG for your macOS app in seconds
 - [plasmo](https://github.com/PlasmoHQ/plasmo) - 浏览器扩展程序开发框架
 - [openCV](https://github.com/opencv/opencv) - 开源机器视觉库
+- [ns-emu-tools](https://github.com/triwinds/ns-emu-tools)
+- [RPCS3](https://github.com/RPCS3/rpcs3) - PS3 模拟器
+- [Vita3k](https://github.com/Vita3K/Vita3K) - PSVita模拟器
+- [mednafen](https://mednafen.github.io/) - Mednafen is a portable, utilizing OpenGL and SDL, argument(command-line)-driven multi-system emulator
+- [Cemu](https://github.com/cemu-project/Cemu) - Software to emulate Wii U games and applications on PC
 
 # 电子书
 - [Hello 算法](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
