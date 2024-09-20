@@ -1,6 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo 标签插件使用</title>
+    <url>/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h3 id="引用块">引用块</h3>
+<blockquote><p>{% blockquote [author[, source]] [link] [source_link_title] %}</br>
+content</br> {% endblockquote %}</p>
+</blockquote>
+<h4 id="例子">例子</h4>
+<h5 id="没有提供参数普通的-blockquote">没有提供参数，普通的
+<strong>blockquote</strong></h5>
+<blockquote><p>{% blockquote %}</br> 普通的 blockquote</br> {% endblockquote %}</p>
+</blockquote>
+<blockquote><p>普通的 blockquote</p>
+</blockquote>
+<h5 id="引用书上的句子">引用书上的句子</h5>
+<blockquote><p>{% blockquote David Levithan, Wide Awake %}</br> Do not just seek
+happiness for yourself. Seek happiness for all. Through kindness.
+Through mercy.</br> {% endblockquote %}</p>
+</blockquote>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all.
+Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+<h5 id="引用链接">引用链接</h5>
+<blockquote><p>{% blockquote Seth Godin
+http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html
+Welcome to Island Marketing %}</br> Every interaction is both precious
+and an opportunity to delight.</br> {% endblockquote %}</p>
+</blockquote>
+<blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
+<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html">Welcome to Island Marketing</a></cite></footer></blockquote>
+<h3 id="代码块">代码块</h3>
+<blockquote><p>{% codeblock [title] [lang:language] [url] [link text] [additional
+options] %}</br> code snippet</br> {% endcodeblock %}</p>
+</blockquote>
+<h4 id="例子-1">例子</h4>
+<h5 id="普通代码块">普通代码块</h5>
+<blockquote><p>{% codeblock %}</br> alert('Hello World!');</br> {% endcodeblock
+%}</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
+<h5 id="一个参数完整的代码块">一个参数完整的代码块</h5>
+<blockquote><p>{% codeblock 这是一个 oc 代码 lang:objc http://www.baidu.com 百度搜索
+line_number:true line_threshold:0 highlight:true first_line:0 mark:1
+wrap:true %}</br> [rectangle setX: 10 y: 10 width: 20 height: 20];</br>
+[rectangle setX: 10 y: 10 width: 20 height: 20];</br> {% endcodeblock
+%}</p>
+</blockquote>
+<figure class="highlight objc"><figcaption><span>这是一个 oc 代码</span><a href="http://www.baidu.com">百度搜索</a></figcaption><table><tr><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br><span class="line marked">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+<h3 id="jsfiddle">jsFiddle</h3>
+<p>在文中嵌入<a href="https://jsfiddle.net">jsFiddle</a>，<a
+href="https://jsfiddle.net">jsFiddle</a>是一款HTML, CSS,
+JAVASCRIPT在线调试工具 <blockquote><p>{% jsfiddle shorttag [tabs] [skin] [width] [height] %}</br> {%
+jsfiddle Kifary/zp6n3sh0/1 js,html,css,result light %}</p>
+</blockquote></p>
+<h3 id="gist">Gist</h3>
+<blockquote><p>{% gist 35b1d8ab0323a44c289b62f365b7a302 test1 %}</br> {% gist
+35b1d8ab0323a44c289b62f365b7a302 test2 %}</p>
+</blockquote>
+<h3 id="iframe">iframe</h3>
+<p>使用 iframe 嵌入 <a href="https://www.bilibili.com">bilibili</a> 视频
+<blockquote><p>{% iframe url [width] [height] %}</br> {% iframe
+//player.bilibili.com/player.html?aid=730017073&amp;bvid=BV11D4y167FQ&amp;cid=819030469&amp;page=1
+930 542 %}</p>
+</blockquote> <iframe src="//player.bilibili.com/player.html?aid=730017073&bvid=BV11D4y167FQ&cid=819030469&page=1" width="930" height="542" frameborder="0" loading="lazy" allowfullscreen></iframe></p>
+<p>使用 iframe 嵌入 <a href="https://music.163.com">网易云音乐</a></p>
+<blockquote><p>{% iframe
+//music.163.com/outchain/player?type=0&amp;id=2309983541&amp;auto=1&amp;height=430
+330 450 %}</br></p>
+<p>{% iframe
+//music.163.com/outchain/player?type=0&amp;id=2320041657&amp;auto=1&amp;height=90
+330 110 %}</br></p>
+<p>{% iframe
+//music.163.com/outchain/player?type=0&amp;id=2320041657&amp;auto=1&amp;height=32
+298 52 %}</p>
+</blockquote>
+<iframe src="//music.163.com/outchain/player?type=0&id=2309983541&auto=1&height=430" width="330" height="450" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<iframe src="//music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=90" width="330" height="110" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<iframe src="//music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=32" width="298" height="52" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<h3 id="image">Image</h3>
+<blockquote><p>{% img [class names] /path/to/image [width] [height] '"title text"
+"alt text"' %}</br> {% img
+https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/android-chrome-512x512.png
+100 100 %}</p>
+</blockquote>
+<img src="https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/favicon.ico" class="" width="44" height="44">
+<h3 id="link">Link</h3>
+<blockquote><p>{% link text url [external] [title] %}</br> {% link 百度一下
+https://www.baidu.com [external] [超连接] %}</p>
+</blockquote>
+<a href="https://www.baidu.com/" title="[external] [超连接]" target="">百度一下</a>
+<h3 id="include-code">Include Code</h3>
+<blockquote><p>{% include_code [title] [lang:language] [from:line] [to:line]
+path/to/file %}</br> {% include_code file lang:javascript from:1 to:20
+file.js %}</p>
+</blockquote>
+<figure class="highlight javascript"><figcaption><span>file</span><a href="/hexo-kifary-blog/downloads/code/file.js">view raw</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> { readFile, readFileSync, stat, statSync } = <span class="built_in">require</span>(<span class="string">&#x27;hexo-fs&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">File</span> {</span><br><span class="line">  <span class="title function_">constructor</span>(<span class="params">{ source, path, params, type }</span>) {</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">source</span> = source;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">path</span> = path;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">params</span> = params;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">type</span> = type;</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="title function_">read</span>(<span class="params">options</span>) {</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">readFile</span>(<span class="variable language_">this</span>.<span class="property">source</span>, options);</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="title function_">readSync</span>(<span class="params">options</span>) {</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">readFileSync</span>(<span class="variable language_">this</span>.<span class="property">source</span>, options);</span><br><span class="line">  }</span><br></pre></td></tr></table></figure>
+<h3 id="youtube">Youtube</h3>
+<blockquote><p>视频</br> {% youtube lJIrF4YjHfQ %}</br> 播放列表</br> {% youtube
+PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' %}</br> 禁止 YouTube
+cookie</br> {% youtube lJIrF4YjHfQ false %}</br> {% youtube
+PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo 'playlist' false %}</p>
+</blockquote>
+<h3 id="引用文章"><a
+href="https://hexo.io/zh-cn/docs/tag-plugins#引用文章">引用文章</a></h3>
+<blockquote><p>{% post_path Hexo-标签插件使用 false %}</br> {% post_link
+Hexo-标签插件使用 '<b>插件使用</b>' false %}</p>
+</blockquote>
+/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/
+<p></br> <a href="/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/" title="Hexo 标签插件使用">插件使用</a></p>
+<h3 id="embed-image"><a
+href="https://hexo.io/zh-cn/docs/tag-plugins#Embed-image">Embed
+image</a></h3>
+<h3 id="raw"><a
+href="https://hexo.io/zh-cn/docs/tag-plugins#Raw">Raw</a></h3>
+<h3 id="文章摘要和截断"><a
+href="https://hexo.io/zh-cn/docs/tag-plugins#文章摘要和截断">文章摘要和截断</a></h3>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>信息系统项目管理师专业英语</title>
     <url>/hexo-kifary-blog/zh/2023/03/21/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/</url>
     <content><![CDATA[<h1 id="项目管理过程英汉对照">项目管理过程英汉对照</h1>
@@ -177,94 +301,101 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 标签插件使用</title>
-    <url>/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h3 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h3><blockquote><p>{% blockquote [author[, source]] [link] [source_link_title] %}</br><br>content</br><br>{% endblockquote %}</p>
-</blockquote>
-
-<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><h5 id="没有提供参数，普通的-blockquote"><a href="#没有提供参数，普通的-blockquote" class="headerlink" title="没有提供参数，普通的 blockquote"></a>没有提供参数，普通的 <strong>blockquote</strong></h5><blockquote><p>{% blockquote %}</br><br>普通的 blockquote</br><br>{% endblockquote %}</p>
-</blockquote>
-
-<blockquote><p>普通的 blockquote</p>
-</blockquote>
-
-<h5 id="引用书上的句子"><a href="#引用书上的句子" class="headerlink" title="引用书上的句子"></a>引用书上的句子</h5><blockquote><p>{% blockquote David Levithan, Wide Awake %}</br><br>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</br><br>{% endblockquote %}</p>
-</blockquote>
-
-<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-
-<h5 id="引用链接"><a href="#引用链接" class="headerlink" title="引用链接"></a>引用链接</h5><blockquote><p>{% blockquote Seth Godin <a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html">http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html</a> Welcome to Island Marketing %}</br><br>Every interaction is both precious and an opportunity to delight.</br><br>{% endblockquote %}</p>
-</blockquote>
-
-<blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
-<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html">Welcome to Island Marketing</a></cite></footer></blockquote>
-
-<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><blockquote><p>{% codeblock [title] [lang:language] [url] [link text] [additional options] %}</br><br>code snippet</br><br>{% endcodeblock %}</p>
-</blockquote>
-
-<h4 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h4><h5 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h5><blockquote><p>{% codeblock %}</br><br>alert(&#39;Hello World!&#39;);</br><br>{% endcodeblock %}</p>
-</blockquote>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
-
-<h5 id="一个参数完整的代码块"><a href="#一个参数完整的代码块" class="headerlink" title="一个参数完整的代码块"></a>一个参数完整的代码块</h5><blockquote><p>{% codeblock 这是一个 oc 代码 lang:objc <a href="http://www.baidu.com/">http://www.baidu.com</a> 百度搜索 line_number:true line_threshold:0 highlight:true first_line:0 mark:1 wrap:true %}</br><br>[rectangle setX: 10 y: 10 width: 20 height: 20];</br><br>[rectangle setX: 10 y: 10 width: 20 height: 20];</br><br>{% endcodeblock %}</p>
-</blockquote>
-
-<figure class="highlight objc"><figcaption><span>这是一个 oc 代码</span><a href="http://www.baidu.com">百度搜索</a></figcaption><table><tr><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br><span class="line marked">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
-
-<h3 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h3><p>在文中嵌入<a href="https://jsfiddle.net/">jsFiddle</a>，<a href="https://jsfiddle.net/">jsFiddle</a>是一款HTML, CSS, JAVASCRIPT在线调试工具</p>
-<blockquote><p>{% jsfiddle shorttag [tabs] [skin] [width] [height] %}</br><br>{% jsfiddle Kifary&#x2F;zp6n3sh0&#x2F;1  js,html,css,result light %}</p>
-</blockquote>
-
-<h3 id="Gist"><a href="#Gist" class="headerlink" title="Gist"></a>Gist</h3><blockquote><p>{% gist 35b1d8ab0323a44c289b62f365b7a302 test1 %}</br><br>{% gist 35b1d8ab0323a44c289b62f365b7a302 test2 %}</p>
-</blockquote>
-
-<h3 id="iframe"><a href="#iframe" class="headerlink" title="iframe"></a>iframe</h3><p>使用 iframe 嵌入 <a href="https://www.bilibili.com/">bilibili</a> 视频</p>
-<blockquote><p>{% iframe url [width] [height] %}</br><br>{% iframe &#x2F;&#x2F;player.bilibili.com&#x2F;player.html?aid&#x3D;730017073&amp;bvid&#x3D;BV11D4y167FQ&amp;cid&#x3D;819030469&amp;page&#x3D;1 930 542 %}</p>
-</blockquote>
-<iframe src="//player.bilibili.com/player.html?aid=730017073&bvid=BV11D4y167FQ&cid=819030469&page=1" width="930" height="542" frameborder="0" loading="lazy" allowfullscreen></iframe>
-
-<p>使用 iframe 嵌入 <a href="https://music.163.com/">网易云音乐</a></p>
-<blockquote><p>{% iframe &#x2F;&#x2F;music.163.com&#x2F;outchain&#x2F;player?type&#x3D;0&amp;id&#x3D;2309983541&amp;auto&#x3D;1&amp;height&#x3D;430 330 450 %}</br></p>
-<p>{% iframe &#x2F;&#x2F;music.163.com&#x2F;outchain&#x2F;player?type&#x3D;0&amp;id&#x3D;2320041657&amp;auto&#x3D;1&amp;height&#x3D;90 330 110 %}</br></p>
-<p>{% iframe &#x2F;&#x2F;music.163.com&#x2F;outchain&#x2F;player?type&#x3D;0&amp;id&#x3D;2320041657&amp;auto&#x3D;1&amp;height&#x3D;32 298 52 %}</p>
-</blockquote>
-<iframe src="//music.163.com/outchain/player?type=0&id=2309983541&auto=1&height=430" width="330" height="450" frameborder="0" loading="lazy" allowfullscreen></iframe>
-
-<iframe src="//music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=90" width="330" height="110" frameborder="0" loading="lazy" allowfullscreen></iframe>
-
-<iframe src="//music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=32" width="298" height="52" frameborder="0" loading="lazy" allowfullscreen></iframe>
-
-<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><blockquote><p>{% img [class names] &#x2F;path&#x2F;to&#x2F;image [width] [height] ‘“title text” “alt text”‘ %}</br><br>{% img <a href="https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/android-chrome-512x512.png">https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/android-chrome-512x512.png</a> 100 100 %}</p>
-</blockquote>
-
-<img src="https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/favicon.ico" class="" width="44" height="44">
-
-<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><blockquote><p>{% link text url [external] [title] %}</br><br>{% link 百度一下 <a href="https://www.baidu.com/">https://www.baidu.com</a> [external] [超连接] %}</p>
-</blockquote>
-
-<a href="https://www.baidu.com/" title="[external] [超连接]" target="">百度一下</a>
-
-<h3 id="Include-Code"><a href="#Include-Code" class="headerlink" title="Include Code"></a>Include Code</h3><blockquote><p>{% include_code [title] [lang:language] [from:line] [to:line] path&#x2F;to&#x2F;file %}</br><br>{% include_code file lang:javascript from:1 to:20 file.js %}</p>
-</blockquote>
-<figure class="highlight javascript"><figcaption><span>file</span><a href="/hexo-kifary-blog/downloads/code/file.js">view raw</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> { readFile, readFileSync, stat, statSync } = <span class="built_in">require</span>(<span class="string">&#x27;hexo-fs&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">File</span> {</span><br><span class="line">  <span class="title function_">constructor</span>(<span class="params">{ source, path, params, type }</span>) {</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">source</span> = source;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">path</span> = path;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">params</span> = params;</span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">type</span> = type;</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="title function_">read</span>(<span class="params">options</span>) {</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">readFile</span>(<span class="variable language_">this</span>.<span class="property">source</span>, options);</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="title function_">readSync</span>(<span class="params">options</span>) {</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_">readFileSync</span>(<span class="variable language_">this</span>.<span class="property">source</span>, options);</span><br><span class="line">  }</span><br></pre></td></tr></table></figure>
-
-<h3 id="Youtube"><a href="#Youtube" class="headerlink" title="Youtube"></a>Youtube</h3><blockquote><p>视频</br><br>{% youtube lJIrF4YjHfQ %}</br><br>播放列表</br><br>{% youtube PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo ‘playlist’ %}</br><br>禁止 YouTube cookie</br><br>{% youtube lJIrF4YjHfQ false %}</br><br>{% youtube PL9hW1uS6HUfscJ9DHkOSoOX45MjXduUxo ‘playlist’ false %}</p>
-</blockquote>
-
-<h3 id="引用文章"><a href="#引用文章" class="headerlink" title="引用文章"></a><a href="https://hexo.io/zh-cn/docs/tag-plugins#%E5%BC%95%E7%94%A8%E6%96%87%E7%AB%A0">引用文章</a></h3><blockquote><p>{% post_path Hexo-标签插件使用 false %}</br><br>{% post_link Hexo-标签插件使用 ‘<b>插件使用</b>‘ false %}</p>
-</blockquote>
-
-/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/</br>
-<a href="/hexo-kifary-blog/zh/2022/11/06/Hexo-%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/" title="Hexo 标签插件使用">插件使用</a>
-
-<h3 id="Embed-image"><a href="#Embed-image" class="headerlink" title="Embed image"></a><a href="https://hexo.io/zh-cn/docs/tag-plugins#Embed-image">Embed image</a></h3><h3 id="Raw"><a href="#Raw" class="headerlink" title="Raw"></a><a href="https://hexo.io/zh-cn/docs/tag-plugins#Raw">Raw</a></h3><h3 id="文章摘要和截断"><a href="#文章摘要和截断" class="headerlink" title="文章摘要和截断"></a><a href="https://hexo.io/zh-cn/docs/tag-plugins#%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81%E5%92%8C%E6%88%AA%E6%96%AD">文章摘要和截断</a></h3>]]></content>
+    <title>信息系统项目管理师易混淆知识点汇总</title>
+    <url>/hexo-kifary-blog/zh/2023/03/23/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88%E6%98%93%E6%B7%B7%E6%B7%86%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<ul>
+<li><strong>职能型、矩阵型、项目型组织结构</strong>
+<ul>
+<li>概念
+<ul>
+<li><strong>职能型</strong>：职能型组织结构是按职能来组织部门分工，即从企业高层到基层，均把承担相同职能的管理业务及其人员组合在一起，设置相应的管理部门和管理职务。</li>
+<li><strong>矩阵型</strong>：矩阵型组织结构是把按职能划分的部门和按产品（或项目、服务等）划分的部门结合起来组成一个矩阵，使同一个员工既同原职能部门保持组织与业务的联系，又参加产品或项目小组的工作，即在直线职能型基础上，再增加一种横向的领导关系。</li>
+<li><strong>项目型</strong>：项目型组织结构是指那些一切工作都围绕项目进行、通过项目创造价值并达成自身战略目标的组织。</li>
+</ul></li>
+<li>区别
+<ul>
+<li>项目经理的权力大小不同。项目经理权力由小到大排序：职能型 &lt; 弱矩阵
+&lt; 平衡矩阵 &lt; 强矩阵 &lt; 项目型。</li>
+<li>组织中全职参与工作的职员比例不同。职能型组织：没有、弱矩阵型组织：0-25%、平衡矩阵型组织：15%-60%、强矩阵型组织：50%-95%、项目型组织：85%-100%。</li>
+<li>组织结构图不同</li>
+</ul></li>
+</ul></li>
+<li><strong>交叠、迭代</strong>
+<ul>
+<li>概念
+<ul>
+<li><strong>交叠</strong>：交叠是指前一个阶段还未结束时就开始后一个阶段的工作，两个阶段部分并行开展。</li>
+<li><strong>迭代</strong>：迭代是指两个阶段执行相同的活动，但后一阶段的活动会以前一阶段的活动为基础，在更高的水平层面上进行。</li>
+</ul></li>
+<li>区别
+<ul>
+<li>交叠关系是两个项目阶段在执行顺序上相互交叉、部分并行开展。迭代关系是指相同的活动在不同阶段重复进行，一次比一次做得好。</li>
+<li>交叠关系很可能提高返工的风险。迭代关系是为了渐进明细，可以提高可交付成果通过验收的可能性。</li>
+</ul></li>
+</ul></li>
+<li><strong>项目、运营</strong>
+<ul>
+<li>概念
+<ul>
+<li><strong>项目</strong>：项目是为了达到特定目的，使用一定资源，在确定的期间内，为特定发起人而提供独特的产品、服务或成果而进行的一次性努力。</li>
+<li><strong>运营</strong>：运营是组织为实现目标而在标准化的生产线上或根据标准化的服务流程而开展的持续性工作，重复性地生产出同样的产品或提供同样的服务。</li>
+</ul></li>
+<li>区别
+<ul>
+<li>运营是持续不断和重复进行的，项目是临时性的、独特的。</li>
+<li>项目的目标是实现其目标（约束性目标和成果性目标），然后结束项目。运营的目标一般是为了维持业务的经营。</li>
+<li>项目具有逐步完善的特点，不可能一开始就明确全部细节。运营遵循标准化的流程开展工作，一开始就能够明确工作的全部细节。</li>
+<li>项目目标实现时，项目也就结束了。运营目标实现时，会不断地用新目标取代旧目标。</li>
+</ul></li>
+</ul></li>
+<li><strong>项目管理计划、项目文件</strong>
+<ul>
+<li>概念
+<ul>
+<li><strong>项目管理计划</strong>：项目管理计划是项目的主计划或称为总体计划，它确定了执行、监控和结束项目的方式和方法，包括项目需要执行的过程、项目生命周期、里程碑和阶段划分等全局性内容。</li>
+<li><strong>项目文件</strong>：项目文件是会影响项目管理工作但不属于项目管理计划的所有文件。</li>
+</ul></li>
+<li>区别
+<ul>
+<li>项目管理计划是经过整合各子计划得到的单一文件，项目文件是众多文件的统称。</li>
+<li>项目管理计划及其子计划都是规划管理过程中的成果，项目文件可以是启动、规划、执行、监控和收尾过程的成果。</li>
+</ul></li>
+</ul></li>
+<li><strong>项目阶段、项目管理过程组</strong>
+<ul>
+<li>概念
+<ul>
+<li><strong>项目阶段</strong>：项目阶段是一组具有逻辑关系的项目活动的集合，通常以一个或多个可交付成果的完成为结束。</li>
+<li><strong>项目管理过程组</strong>：项目管理过程组是一组具有逻辑关系的项目管理过程的集合。</li>
+</ul></li>
+<li>区别
+<ul>
+<li>项目阶段是项目技术工作的集合。项目管理过程组是项目管理工作的集合。</li>
+<li>项目阶段之间的关系存在有两种基本类型：顺序关系和交叠关系。项目管理过程组之间的关系存在有三种基本类型：顺序关系、交叠关系和循环关系。</li>
+</ul></li>
+</ul></li>
+<li><strong>投资回收期、投资回报率</strong>
+<ul>
+<li>概念
+<ul>
+<li><strong>投资回收期</strong>：投资回收期是指从项目启动到收回全部投资所需的时间段。</li>
+<li><strong>投资回报率</strong>：投资回报率是项目在整个产品生命周期中的年均利润与项目投资额之比。</li>
+</ul></li>
+<li>区别
+<ul>
+<li>投资回收期越小越好，投资回报率越大越好。</li>
+<li>计算公式不同，投资回收期分为静态投资回收期和动态投资回收期。</li>
+</ul></li>
+</ul></li>
+</ul>
+]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>软考</category>
+        <category>信息系统项目管理师</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
+        <tag>软考</tag>
+        <tag>信息系统项目管理师</tag>
       </tags>
   </entry>
   <entry>
@@ -590,104 +721,6 @@
         <tag>软考</tag>
         <tag>信息系统项目管理师</tag>
         <tag>项目管理知识体系ITO</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>信息系统项目管理师易混淆知识点汇总</title>
-    <url>/hexo-kifary-blog/zh/2023/03/23/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88%E6%98%93%E6%B7%B7%E6%B7%86%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<ul>
-<li><strong>职能型、矩阵型、项目型组织结构</strong>
-<ul>
-<li>概念
-<ul>
-<li><strong>职能型</strong>：职能型组织结构是按职能来组织部门分工，即从企业高层到基层，均把承担相同职能的管理业务及其人员组合在一起，设置相应的管理部门和管理职务。</li>
-<li><strong>矩阵型</strong>：矩阵型组织结构是把按职能划分的部门和按产品（或项目、服务等）划分的部门结合起来组成一个矩阵，使同一个员工既同原职能部门保持组织与业务的联系，又参加产品或项目小组的工作，即在直线职能型基础上，再增加一种横向的领导关系。</li>
-<li><strong>项目型</strong>：项目型组织结构是指那些一切工作都围绕项目进行、通过项目创造价值并达成自身战略目标的组织。</li>
-</ul></li>
-<li>区别
-<ul>
-<li>项目经理的权力大小不同。项目经理权力由小到大排序：职能型 &lt; 弱矩阵
-&lt; 平衡矩阵 &lt; 强矩阵 &lt; 项目型。</li>
-<li>组织中全职参与工作的职员比例不同。职能型组织：没有、弱矩阵型组织：0-25%、平衡矩阵型组织：15%-60%、强矩阵型组织：50%-95%、项目型组织：85%-100%。</li>
-<li>组织结构图不同</li>
-</ul></li>
-</ul></li>
-<li><strong>交叠、迭代</strong>
-<ul>
-<li>概念
-<ul>
-<li><strong>交叠</strong>：交叠是指前一个阶段还未结束时就开始后一个阶段的工作，两个阶段部分并行开展。</li>
-<li><strong>迭代</strong>：迭代是指两个阶段执行相同的活动，但后一阶段的活动会以前一阶段的活动为基础，在更高的水平层面上进行。</li>
-</ul></li>
-<li>区别
-<ul>
-<li>交叠关系是两个项目阶段在执行顺序上相互交叉、部分并行开展。迭代关系是指相同的活动在不同阶段重复进行，一次比一次做得好。</li>
-<li>交叠关系很可能提高返工的风险。迭代关系是为了渐进明细，可以提高可交付成果通过验收的可能性。</li>
-</ul></li>
-</ul></li>
-<li><strong>项目、运营</strong>
-<ul>
-<li>概念
-<ul>
-<li><strong>项目</strong>：项目是为了达到特定目的，使用一定资源，在确定的期间内，为特定发起人而提供独特的产品、服务或成果而进行的一次性努力。</li>
-<li><strong>运营</strong>：运营是组织为实现目标而在标准化的生产线上或根据标准化的服务流程而开展的持续性工作，重复性地生产出同样的产品或提供同样的服务。</li>
-</ul></li>
-<li>区别
-<ul>
-<li>运营是持续不断和重复进行的，项目是临时性的、独特的。</li>
-<li>项目的目标是实现其目标（约束性目标和成果性目标），然后结束项目。运营的目标一般是为了维持业务的经营。</li>
-<li>项目具有逐步完善的特点，不可能一开始就明确全部细节。运营遵循标准化的流程开展工作，一开始就能够明确工作的全部细节。</li>
-<li>项目目标实现时，项目也就结束了。运营目标实现时，会不断地用新目标取代旧目标。</li>
-</ul></li>
-</ul></li>
-<li><strong>项目管理计划、项目文件</strong>
-<ul>
-<li>概念
-<ul>
-<li><strong>项目管理计划</strong>：项目管理计划是项目的主计划或称为总体计划，它确定了执行、监控和结束项目的方式和方法，包括项目需要执行的过程、项目生命周期、里程碑和阶段划分等全局性内容。</li>
-<li><strong>项目文件</strong>：项目文件是会影响项目管理工作但不属于项目管理计划的所有文件。</li>
-</ul></li>
-<li>区别
-<ul>
-<li>项目管理计划是经过整合各子计划得到的单一文件，项目文件是众多文件的统称。</li>
-<li>项目管理计划及其子计划都是规划管理过程中的成果，项目文件可以是启动、规划、执行、监控和收尾过程的成果。</li>
-</ul></li>
-</ul></li>
-<li><strong>项目阶段、项目管理过程组</strong>
-<ul>
-<li>概念
-<ul>
-<li><strong>项目阶段</strong>：项目阶段是一组具有逻辑关系的项目活动的集合，通常以一个或多个可交付成果的完成为结束。</li>
-<li><strong>项目管理过程组</strong>：项目管理过程组是一组具有逻辑关系的项目管理过程的集合。</li>
-</ul></li>
-<li>区别
-<ul>
-<li>项目阶段是项目技术工作的集合。项目管理过程组是项目管理工作的集合。</li>
-<li>项目阶段之间的关系存在有两种基本类型：顺序关系和交叠关系。项目管理过程组之间的关系存在有三种基本类型：顺序关系、交叠关系和循环关系。</li>
-</ul></li>
-</ul></li>
-<li><strong>投资回收期、投资回报率</strong>
-<ul>
-<li>概念
-<ul>
-<li><strong>投资回收期</strong>：投资回收期是指从项目启动到收回全部投资所需的时间段。</li>
-<li><strong>投资回报率</strong>：投资回报率是项目在整个产品生命周期中的年均利润与项目投资额之比。</li>
-</ul></li>
-<li>区别
-<ul>
-<li>投资回收期越小越好，投资回报率越大越好。</li>
-<li>计算公式不同，投资回收期分为静态投资回收期和动态投资回收期。</li>
-</ul></li>
-</ul></li>
-</ul>
-]]></content>
-      <categories>
-        <category>软考</category>
-        <category>信息系统项目管理师</category>
-      </categories>
-      <tags>
-        <tag>软考</tag>
-        <tag>信息系统项目管理师</tag>
       </tags>
   </entry>
 </search>
