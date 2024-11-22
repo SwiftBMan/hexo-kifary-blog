@@ -133,6 +133,8 @@ date: 2023-03-09 15:21:22
   - [快应用](https://www.finclip.com/downloads)
   - [字节跳动小程序](https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/introduction/usage-guide)
   - [QQ 小程序](https://q.qq.com/wiki/tools/devtool/)
+  - 工具
+    - [Rspack](https://github.com/web-infra-dev/rspack) - 基于Rust的高性能 Web 打包工具(使用兼容API无缝替换webpack)
 
 # 设计
 - [arco.design](https://arco.design/?from=thosefree.com) - 字节跳动出品的企业级设计系统
@@ -216,6 +218,7 @@ date: 2023-03-09 15:21:22
 - [elm](https://elm-lang.org/) - A delightful language for reliable web applications
 - [Tauri](https://tauri.app/) - Build an optimized, secure, and frontend-independent application for multi-platform deployment （构建跨平台的快速、安全、前端隔离应用）
 - [Electron](https://www.electronjs.org/) - Build cross-platform desktop apps with JavaScript, HTML, and CSS（使用三剑客构建跨平台桌面应用）
+- [FastHTML](https://fastht.ml/) - 一个Python的Web框架，Django的替代品，用起来更简单
 
 # 包管理
 - JavaScript

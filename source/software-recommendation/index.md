@@ -71,6 +71,7 @@ date: 2023-03-06 14:22:16
 - [The Unarchiver](https://theunarchiver.com/) - 解压缩
 - [NTFS Tool](https://www.ntfstool.com/)
 - [Mounty for NTFS](https://mounty.app/)
+- [Sound box](https://soundbox.fun/) - 一个在线音效网站，提供多种自然环境音效以及白噪音
 
 # 模拟器
 - 游戏模拟器
@@ -138,6 +139,8 @@ date: 2023-03-06 14:22:16
 - [X Studio](https://singer.xiaoice.com) - 语音合成
 - [notion](https://www.notion.so/desktop) - 人工智能辅助写作工具
 - [careered](https://www.careered.ai/tool/cover-letter) - AI 求职信
+- [DuckDuckGo](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1) - 免费AI聊天
+- [302.AI](https://302.ai/)(收费，有开源版本) - 它的定位是"AI 应用超市"，可以看作是一个适配层，适配了各种各样的 AI 模型，让你都能通过它来使用
 
 # 设计、建模、绘画等
 - [Figma](https://www.figma.com/) - 推荐
