@@ -162,11 +162,25 @@ date: 2023-03-09 15:21:22
 - [Tauri](https://tauri.app/zh-cn/) - 构建跨平台的快速、安全、前端隔离应用
 
 # SDK
-- [友盟](https://www.umeng.com) - 分享统计
-- [智齿科技](https://www.sobot.com) - 客服
-- [百度地图](https://lbsyun.baidu.com)
-- [高德地图](https://lbs.amap.com)
-- [腾讯地图](https://lbs.qq.com)
+- 支付
+  - [微信支付](https://pay.weixin.qq.com/)
+  - [支付宝支付](https://open.alipay.com/)
+  - [银联支付](https://open.unionpay.com/)
+  - [ping++](https://www.pingxx.com/) - 聚合支付
+- 地图
+  - [百度地图](https://lbsyun.baidu.com) - Web、Android、iOS、HarmonyOS、Flutter
+  - [高德地图](https://lbs.amap.com) - Web、Android、iOS、HarmonyOS、微信小程序
+  - [腾讯地图](https://lbs.qq.com) - Web、Android、iOS、HarmonyOS、微信小程序
+- 分享/推送/统计/一键登录/验证
+  - [MobTech](https://www.mob.com/)
+  - [友盟](https://www.umeng.com)
+- 客服
+  - [智齿科技](https://www.sobot.com)
+- 即时通讯
+  - [网易云信](https://yunxin.163.com/)
+  - [环信](https://www.easemob.com/)
+  - [融云](https://www.rongcloud.cn/)
+
 
 # 工具
 - [Neumorphism](https://neumorphism.io) - 轻拟态
