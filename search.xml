@@ -683,17 +683,55 @@
   <entry>
     <title>iOS 知识点汇总</title>
     <url>/hexo-kifary-blog/zh/2024/11/21/iOS-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<ol>
+    <content><![CDATA[<ol type="1">
 <li>Objective-C是一种面向对象的编程语言，它是C语言的<strong>超集</strong>(superset)。它是由Smalltalk演化而来的。Objective-C是动态语言，使用动态绑定的消息结构，这意味着在运行时进行对象的类型检查。对象在接收到其他对象发来的消息时，执行的方法是由消息的接收者决定的。也就是说，执行后续代码是由运行期环境决定的而不是由编译器决定的。</li>
 <li>Objective-C使用<strong>自动引用计数</strong>(ARC)来进行内存管理的，在Objective-C中，每个对象都有一个引用计数器，当对象的引用计数器为0时，对象就会被销毁。</li>
 <li>在Objective-C中，所有的类都是继承自NSObject类。NSObject类是Objective-C中所有类的基类。</li>
-<li>在Objective-C中，对象一般都是存储在<strong>堆空间</strong>(heap space)中的, 而指向这个对象的指针是存储在<strong>栈空间</strong>(stack space)中的。如果是非对象类型的数据，比如<em>int、float</em>等，一般是存储在栈空间中的，这么做的原因是因为这些数据类型的大小是固定的，所以可以在栈空间中分配足够的空间来存储它们。提高程序的效率。</li>
-<li>如果两个类互相引用，需要使用<code>@class</code>关键字来解<strong>决循环引用</strong>(chicken-and-egg situation)的问题。<code>@class</code>也有<strong>向前声明</strong>(forward declaring)的作用，目的是为了提高编译速度。在有需要细节的地方，使用<code>#import</code>关键字来引入头文件。使用向前声明可以降低类之间的<strong>耦合</strong>(coupling)。如果是继承某个超类，则必须引入那个超类的头文件。如果遵循某个<strong>协议</strong>(protocol)，则必须引入那个协议的头文件。协议要单独放在一个头文件中或者移至“class-continuation 分类”中，如果放在一个大的头文件中，必定会产生依赖问题，而且还会增加编译时间。</li>
+<li>在Objective-C中，对象一般都是存储在<strong>堆空间</strong>(heap
+space)中的, 而指向这个对象的指针是存储在<strong>栈空间</strong>(stack
+space)中的。如果是非对象类型的数据，比如<em>int、float</em>等，一般是存储在栈空间中的，这么做的原因是因为这些数据类型的大小是固定的，所以可以在栈空间中分配足够的空间来存储它们。提高程序的效率。</li>
+<li>如果两个类互相引用，需要使用<code>@class</code>关键字来解<strong>决循环引用</strong>(chicken-and-egg
+situation)的问题。<code>@class</code>也有<strong>向前声明</strong>(forward
+declaring)的作用，目的是为了提高编译速度。在有需要细节的地方，使用<code>#import</code>关键字来引入头文件。使用向前声明可以降低类之间的<strong>耦合</strong>(coupling)。如果是继承某个超类，则必须引入那个超类的头文件。如果遵循某个<strong>协议</strong>(protocol)，则必须引入那个协议的头文件。协议要单独放在一个头文件中或者移至“class-continuation
+分类”中，如果放在一个大的头文件中，必定会产生依赖问题，而且还会增加编译时间。</li>
 <li>应该使用字面量语法来创建字符串、数值、数组、字典。这样可以提高代码的可读性和可维护性。应该通过下标操作来访问数组和字典中的元素。用字面量创建数组和字典时，要确保不含nil，否则会导致程序崩溃。如果是自定义的子类，则无法使用字面量来创建。</li>
 <li>不要使用预处理指令定义常量。因为定义出来的常量不包含类型信息，编译器只是做简单的替换工作，这样会导致如果有人修改了或者重新定义了此常量值，就会照成严重的后果。应该使用<code>static const</code>在.m文件中定义常量，static使其只作用在编译单元内，const是为了不让常量值被修改，否者如果其它.m文件有同样名称的常量，编译器就会报错。可以在头文件中使用<code>extern</code>关键字来声明常量，并在.m文件中定义其值。因为Objective-C没有命名空间的特性,这种常量需要加上与之相关的类目加以区分，否者编译期间会产生错误和冲突。</li>
 <li>应该使用枚举来表示状态，而不是使用布尔值。枚举类型可以让代码更加清晰和易于理解。我们应该给这些值取个简单易懂的名字。如果枚举的选项需要进行组合使用，则要将值定义为2的幂。可以使用NS_ENUM与NS_OPTIONS宏来定义枚举类型并指明其底层数据类型，只能是整型数据。不然就是采用编译器默认的数据类型。在使用switch语句解析枚举时，不要实现default分支，因为如果加入新的枚举，编译器就不会发出警告了，这可能会导致程序出现问题。</li>
 <li>可以使用<code>@property</code>来定义属性，编译器自动生成存取方法，然后通过设置原子性、读写权限、内存管理来制定属性的行为。这些关键字包括<code>atomic</code>、<code>nonatomic</code>、<code>copy</code>、<code>strong</code>、<code>weak</code>、<code>assign</code>等。在设置属性所对应的实例变量时，一定要遵循从该属性所声明的语义。开发iOS应用时，应该使用<code>nonatomic</code>关键字来提高性能，一般情况下应用都是单线程情况，所以没必要使用原子性。<code>getter=&lt;name&gt;</code>关键字可以修改属性的getter方法的名称。<code>setter=&lt;name&gt;</code>关键字可以修改属性的setter方法的名称。</li>
 <li><code>@synthesize</code>关键字可以修改属性的别名，默认是带下划线的属性名。<code>@dynamic</code>关键字可以告诉编译器，属性的实现是在运行时动态绑定的，即不在编译器生成存取方法。</li>
+<li>在对象内部读取数据时，应该直接通过实例变量来读，而写入数据时，则应通过属性来写，这样做不仅可以提高读取的速度，又能控制对属性的写入操作，内存管理语义得以保持一致。如果直接访问实例变量，KVO将不会触发，而如果通过属性来访问实例变量，则会触发KVO。在初始化化及dealloc方法中，总是应该直接通过实例变量来读取数据。懒加载也需要通过属性来实现，这样做可以不需要重复创建，且需要的时候才会创建。</li>
+<li>iOS应用的生命周期是指从应用程序的启动，到应用程序结束整个阶段的全过程。生命周期的状态会互相转换，来应对各种响应事件和突发状况。iOS生命周期状态包括未运行、未激活、已激活、后台和挂起。每一个iOS应用都是通过UIApplication对象来监控程序的生命周期全过程，并在不同的状态下执行不同的任务。</li>
+<li>Swift特点：
+<ul>
+<li>编写代码更加简洁</li>
+<li>SwiftUI 所见即所得</li>
+<li>便于扩展，可桥接调用Objective-C代码</li>
+<li>支持闭包</li>
+<li>支持面向过程和面向对象编程</li>
+<li>Swift是类型安全语言，类型之间转换很严格</li>
+<li>Swift使用单一文件，不需要.h和.m文件</li>
+<li>强大的字符处理能力</li>
+<li>中文也可作为变量名和函数名</li>
+<li>switch语句功能强大</li>
+<li>强大的函数特性，函数嵌套、函数作为变量，返回值等</li>
+<li>强大的枚举和结构体，枚举可自定义原始数据类型，可给枚举和结构体添加方法，结构体是值类型非引用类型，结构体可以创建下标</li>
+<li>易用的扩展、协议、泛型</li>
+</ul></li>
+<li>Swift提供了一个整数类型Int，它会根据应用程序的运行环境自动调节大小：在32位平台，Int与Int32宽度一致，而在64位平台，Int与Int64宽度一致。除了一些特殊情况，推荐使用Int类型来创建代码中的整数值，这有助于代码的一致性和互操作性。</li>
+<li>视图控制器的生命周期
+<ol type="1">
+<li>创建一个视图控制器对象，并分配内存空间（alloc）</li>
+<li>对视图控制器对象进行初始化操作（init）</li>
+<li>如果从故事版文件创建视图，则从故事版中加载视图（loadView）</li>
+<li>视图载入完成，可以进行一些自定义的操作（viewDidLoad）</li>
+<li>视图将要被展示在屏幕上（viewWillAppear）</li>
+<li>视图已经在屏幕上完成渲染操作并正确显示（viewDidAppear）</li>
+<li>视图即将布局其子视图（viewWillLayoutSubviews）</li>
+<li>视图已经完成子视图的布局（viewDidLayoutSubviews）</li>
+<li>视图将要从屏幕上消失（viewWillDisappear）</li>
+<li>视图已经从屏幕中消失（viewDidDisappear）</li>
+<li>视图被销毁（dealloc）</li>
+</ol></li>
 </ol>
 ]]></content>
       <categories>
