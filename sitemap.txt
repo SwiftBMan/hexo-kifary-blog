@@ -1,5 +1,5 @@
-https://swiftbman.github.io/hexo-kifary-blog/develop/index.html
 https://swiftbman.github.io/hexo-kifary-blog/zh/2024/11/21/iOS-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/
+https://swiftbman.github.io/hexo-kifary-blog/develop/index.html
 https://swiftbman.github.io/hexo-kifary-blog/software-recommendation/index.html
 https://swiftbman.github.io/hexo-kifary-blog/reading-notes/education/%E4%B8%8D%E5%BF%85%E7%89%BA%E7%89%B2%E8%87%AA%E5%B7%B1%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%95%99%E5%87%BA%E5%B9%B8%E7%A6%8F%E7%9A%84%E5%AD%A9%E5%AD%90.html
 https://swiftbman.github.io/hexo-kifary-blog/reading-notes/education/index.html
