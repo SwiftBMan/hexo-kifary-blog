@@ -3,7 +3,8 @@ title: 开发
 date: 2023-03-09 15:21:22
 ---
 
-# [Github](https://github.com/)
+## [Github](https://github.com/)
+
 - 资料
   - [awesome](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
   - [cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) - 计算机自学指南
@@ -49,11 +50,13 @@ date: 2023-03-09 15:21:22
 - [mednafen](https://mednafen.github.io/) - Mednafen is a portable, utilizing OpenGL and SDL, argument(command-line)-driven multi-system emulator
 - [Cemu](https://github.com/cemu-project/Cemu) - Software to emulate Wii U games and applications on PC
 
-# 电子书
+## 电子书
+
 - [Hello 算法](https://github.com/krahets/hello-algo) - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
 - [CS-Notes](http://www.cyc2018.xyz) - 算法、计算机基础、数据库、java
 
-# 移动端
+## 移动端
+
 - iOS
   - [awesome-ios](https://github.com/vsouza/awesome-ios#readme)
   - [Awesome Swift](https://github.com/matteocrippa/awesome-swift) - 一个很棒的Swift相关指南列表
@@ -69,7 +72,8 @@ date: 2023-03-09 15:21:22
   - [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) - H5 交互
   - [YYKit](https://github.com/ibireme/YYKit) - 常用工具库，值得学习，已经不更新了
 
-# 嵌入式开发
+## 嵌入式开发
+
 - [alldatasheetcn](https://www.alldatasheetcn.com) - 芯片资料查找
 - [Arduino官方网站](https://www.arduino.cc/) - Arduino是一种开源的电子原型平台，提供了易于使用的硬件和软件工具，适用于初学者和专业人士。
 - [Raspberry Pi官方网站](https://www.raspberrypi.org/) - Raspberry Pi是一款低成本、高性能的小型计算机，广泛用于物联网、嵌入式系统和学习编程。
@@ -89,22 +93,25 @@ date: 2023-03-09 15:21:22
 - [EDAboard](https://www.edaboard.com/) - EDAboard是一个电子设计自动化（EDA）社区，提供了许多关于电路设计、仿真和PCB布局的讨论和资源。
 - [OpenCores](https://opencores.org/) - OpenCores是一个开源硬件社区，提供了许多开源的FPGA和ASIC设计项目。
 
+## 鸿蒙
 
-# 鸿蒙
 - [华为鸿蒙](https://www.harmonyos.com)
 - [鸿蒙学堂](https://hmxt.org)
 
-# Linux
+## Linux
+
 - [openEuler](https://www.openeuler.org/zh/)
 - [CentOS](https://www.centos.org/#top)
 - [Ubuntu](https://cn.ubuntu.com/)
 - [dashdash](https://dashdash.io/) - 命令行文档
 
-# Shell
+## Shell
+
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell
 - [starship](https://starship.rs/zh-cn/) - 轻量、迅速、可无限定制的高颜值终端！
 
-# 前端
+## 前端
+
 - [Vue](https://cn.vuejs.org)
   - 框架
     - [Cube UI](https://didi.github.io/cube-ui/#/zh-CN) - 基于 Vue.js 实现的精致移动端组件库
@@ -136,13 +143,16 @@ date: 2023-03-09 15:21:22
   - 工具
     - [Rspack](https://github.com/web-infra-dev/rspack) - 基于Rust的高性能 Web 打包工具(使用兼容API无缝替换webpack)
 
-# 设计
+## 设计
+
 - [arco.design](https://arco.design/?from=thosefree.com) - 字节跳动出品的企业级设计系统
 - [Ant Design](https://ant.design/index-cn) - antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品
 - [TDesign](https://tdesign.tencent.com/) - 企业级设计体系
 - [Aseprite](https://www.aseprite.org/)
+- [yesicon](https://yesicon.app/) - 中文的图标搜索引擎
 
-# 后端
+## 后端
+
 - [Go](https://go.dev)
   - [Gin](https://gin-gonic.com/zh-cn/) - Go语言最快的全功能Web框架
   - [Beego](http://beego.gocn.vip/beego/zh/) - 国产框架、稳定、社区丰富
@@ -150,7 +160,8 @@ date: 2023-03-09 15:21:22
 - [BuildAdmin](https://wonderful-code.gitee.io/) - 使用流行技术栈快速创建商业级后台管理系统
 - [sails](https://sailsjs.com/) - Node.js 的后端 MVC 框架
 
-# 跨平台
+## 跨平台
+
 - [Flutter](https://flutter.cn)
 - [dotnet](https://dotnet.microsoft.com/zh-cn/)
 - [ruby motion](http://www.rubymotion.com/cn/)
@@ -161,7 +172,8 @@ date: 2023-03-09 15:21:22
 - [Taro](https://taro.zone/) - 小程序
 - [Tauri](https://tauri.app/zh-cn/) - 构建跨平台的快速、安全、前端隔离应用
 
-# SDK
+## SDK
+
 - 支付
   - [微信支付](https://pay.weixin.qq.com/)
   - [支付宝支付](https://open.alipay.com/)
@@ -181,8 +193,8 @@ date: 2023-03-09 15:21:22
   - [环信](https://www.easemob.com/)
   - [融云](https://www.rongcloud.cn/)
 
+## 工具
 
-# 工具
 - [Neumorphism](https://neumorphism.io) - 轻拟态
 - [tool](https://tool.lu) - 程序员的工具箱
 - [Json](https://www.bejson.com/jsonviewernew/) - Json
@@ -203,7 +215,8 @@ date: 2023-03-09 15:21:22
 - [迅捷PDF转换器](https://app.xunjiepdf.com/)
 - [cpolar](https://www.cpolar.com/) - 内网穿透
 
-# AI
+## AI
+
 - [interiorai](https://interiorai.com/) - 室内装修
 - [AI 模型](https://hub.baai.ac.cn/?tag_id=90)
 - [easy ai](https://easyai.tech/) - 产品经理的人工智能学习库
@@ -220,7 +233,8 @@ date: 2023-03-09 15:21:22
 - [aihub](https://www.aihub.cn/) - 该网站收集各种 AI 工具和资源
 - [ollama](https://ollama.com/) - 本地运行大模型
 
-# 字体
+## 字体
+
 - [nerdfonts](https://www.nerdfonts.com/)
 - [source-code-pro](https://adobe-fonts.github.io/source-code-pro/)
 - [FiraCode](https://github.com/tonsky/FiraCode)
@@ -228,14 +242,16 @@ date: 2023-03-09 15:21:22
 - [Google font](https://fonts.google.com/) - 需要翻墙
 - [DejaVu](https://dejavu-fonts.github.io/)
 
-# 框架
+## 框架
+
 - [Astro](https://astro.build/) - The web framework for content-driven websites （内容驱动网站的web框架）
 - [elm](https://elm-lang.org/) - A delightful language for reliable web applications
 - [Tauri](https://tauri.app/) - Build an optimized, secure, and frontend-independent application for multi-platform deployment （构建跨平台的快速、安全、前端隔离应用）
 - [Electron](https://www.electronjs.org/) - Build cross-platform desktop apps with JavaScript, HTML, and CSS（使用三剑客构建跨平台桌面应用）
 - [FastHTML](https://fastht.ml/) - 一个Python的Web框架，Django的替代品，用起来更简单
 
-# 包管理
+## 包管理
+
 - JavaScript
   - [pnpm](https://www.pnpm.cn/) - 速度快、节省磁盘空间的软件包管理器
   - [npm](https://www.npmjs.com/) - Take your JavaScript development up a notch
@@ -246,7 +262,8 @@ date: 2023-03-09 15:21:22
   - [vcpkg](https://vcpkg.io/en/index.html) - C/C++ dependency manager from Microsoft
   - [clibs](https://www.clibs.org/) - Package manager for the C programming language
 
-# 编译器/解释器/编程语言
+## 编译器/解释器/编程语言
+
 - [Assembler]
   - [gas](https://sourceware.org/binutils/docs/)
   - [nasm](https://www.nasm.us/doc/)
@@ -300,14 +317,17 @@ date: 2023-03-09 15:21:22
 - [Java-ORACLE](https://www.oracle.com/cn/java/technologies/)
 - [FreePascal](https://www.freepascal.org/)
 
-# 代码托管
+## 代码托管
+
 - [Coding](https://coding.net/)
 - [Gitee](https://gitee.com/)
 
-# 命令行工具
+## 命令行工具
+
 - [Git](https://git-scm.com/) - 分布式版本管理
 
-# 游戏开发
+## 游戏开发
+
 - [Unreal Engine](https://www.unrealengine.com/zh-CN)
 - [Unity](https://unity.cn/)
 - [Cocos](https://www.cocos.com/)
@@ -319,25 +339,30 @@ date: 2023-03-09 15:21:22
 - [amethyst](https://amethyst.rs/)
 - [piston](https://www.piston.rs/)
 
-# 低代码平台
+## 低代码平台
+
 - [illa](https://www.illacloud.com/zh-CN)
 
-# 镜像源
+## 镜像源
+
 - [腾讯软件源](https://mirrors.cloud.tencent.com/)
 - [阿里巴巴开源镜像站](https://developer.aliyun.com/mirror/)
 - [清华大学镜像站](https://tuna.moe/)
 - [GHCup](http://mirrors.ustc.edu.cn/help/ghcup.html)
 - [npm mirror 镜像站](http://www.npmmirror.com/)
 
-# CDN
+## CDN
+
 - [cdnjs](https://cdnjs.com/)
 - [unpkg](https://unpkg.com/)
 - [jsdelivr](https://www.jsdelivr.com/)
 
-# 部署
+## 部署
+
 - [netlify](https://app.netlify.com/)
 
-# 电子书/文档
+## 电子书/文档
+
 - [C 语言教程](https://wangdoc.com/clang/) - 作者：阮一峰
 - [TypeScript 教程](https://wangdoc.com/typescript/) - 作者：阮一峰 TypeScript 开源教程，介绍基本概念和用法，面向初学者
 - [PyTorch](https://pytorch123.com/) - PyTorch 是一个基于 Torch 的 Python 开源机器学习库，用于自然语言处理等应用程序
@@ -348,8 +373,6 @@ date: 2023-03-09 15:21:22
 - [Matplotlib](https://www.matplotlib.org.cn/) — Matplotlib 是一个 Python 的 2D 绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形
 - [docker_practice](https://yeasy.gitbook.io/docker_practice/) - docker 教程
 
-# 设计
-- [yesicon](https://yesicon.app/) - 中文的图标搜索引擎
+## 版本控制
 
-# 版本控制
 - [fossil](https://fossil-scm.org/home/uv/download.html) - 轻量级的版本控制工具
