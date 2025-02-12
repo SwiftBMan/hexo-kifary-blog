@@ -38,14 +38,14 @@ categories:
     - 易用的扩展、协议、泛型
 14. Swift提供了一个整数类型Int，它会根据应用程序的运行环境自动调节大小：在32位平台，Int与Int32宽度一致，而在64位平台，Int与Int64宽度一致。除了一些特殊情况，推荐使用Int类型来创建代码中的整数值，这有助于代码的一致性和互操作性。
 15. 视图控制器的生命周期
-    1.  创建一个视图控制器对象，并分配内存空间（alloc）
-    2.  对视图控制器对象进行初始化操作（init）
-    3.  如果从故事版文件创建视图，则从故事版中加载视图（loadView）
-    4.  视图载入完成，可以进行一些自定义的操作（viewDidLoad）
-    5.  视图将要被展示在屏幕上（viewWillAppear）
-    6.  视图已经在屏幕上完成渲染操作并正确显示（viewDidAppear）
-    7.  视图即将布局其子视图（viewWillLayoutSubviews）
-    8.  视图已经完成子视图的布局（viewDidLayoutSubviews）
-    9.  视图将要从屏幕上消失（viewWillDisappear）
+    1. 创建一个视图控制器对象，并分配内存空间（alloc）
+    2. 对视图控制器对象进行初始化操作（init）
+    3. 如果从故事版文件创建视图，则从故事版中加载视图（loadView）
+    4. 视图载入完成，可以进行一些自定义的操作（viewDidLoad）
+    5. 视图将要被展示在屏幕上（viewWillAppear）
+    6. 视图已经在屏幕上完成渲染操作并正确显示（viewDidAppear）
+    7. 视图即将布局其子视图（viewWillLayoutSubviews）
+    8. 视图已经完成子视图的布局（viewDidLayoutSubviews）
+    9. 视图将要从屏幕上消失（viewWillDisappear）
     10. 视图已经从屏幕中消失（viewDidDisappear）
     11. 视图被销毁（dealloc）
