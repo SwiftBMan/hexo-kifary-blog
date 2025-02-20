@@ -779,6 +779,33 @@
       </tags>
   </entry>
   <entry>
+    <title>iOS 中 Framework  和 Static Library 哪个更常用</title>
+    <url>/hexo-kifary-blog/zh/2025/02/20/iOS-%E4%B8%AD-Framework-%E5%92%8C-Static-Library-%E5%93%AA%E4%B8%AA%E6%9B%B4%E5%B8%B8%E7%94%A8/</url>
+    <content><![CDATA[<p>在iOS开发中，Framework和Static Library（静态库）都有各自的应用场景和优缺点，因此无法一概而论哪个更常用。它们的选择往往取决于具体项目的需求、团队的开发习惯以及性能考虑等因素。</p>
+<h3 id="Framework的优点与应用场景"><a href="#Framework的优点与应用场景" class="headerlink" title="Framework的优点与应用场景"></a>Framework的优点与应用场景</h3><ol>
+<li><strong>一站式分享方案</strong>：Framework包含代码签名、头文件、二进制执行文件、静态资源文件等，提供了更为完整的封装。</li>
+<li><strong>无需设置头文件搜索路径</strong>：使用Framework时，Xcode会自动处理头文件搜索路径，简化了配置工作。</li>
+<li><strong>避免代码冲突</strong>：由于Framework与其运行环境相对隔离，即使App和Framework中包含了同名的类，也不会发生冲突。</li>
+<li><strong>支持模块化开发</strong>：Framework使得开发者能够更高效地组织代码和共享功能模块，有助于提升开发效率。</li>
+</ol>
+<p>Framework在iOS开发中越来越受欢迎，特别是在需要封装复杂功能、共享代码或创建可重用组件时。它支持模块化开发，有助于提升代码的可维护性和复用性。</p>
+<h3 id="Static-Library的优点与应用场景"><a href="#Static-Library的优点与应用场景" class="headerlink" title="Static Library的优点与应用场景"></a>Static Library的优点与应用场景</h3><ol>
+<li><strong>减小包大小</strong>：如果多个App需要使用相同的第三方库，使用Static Library可以避免在每个App中都包含一份完整的库文件，从而减小包大小。</li>
+<li><strong>简单的依赖管理</strong>：Static Library不依赖于特定的运行环境，只需将库文件和头文件添加到项目中即可使用。</li>
+<li><strong>性能优势</strong>：由于Static Library在编译时被链接到App中，因此在运行时加载速度可能更快（尽管这种差异在现代设备上可能不太明显）。</li>
+</ol>
+<p>Static Library适用于那些希望减小App包大小、简化依赖管理或需要确保代码在编译时就已经固定的场景。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>综上所述，Framework和Static Library在iOS开发中都有各自的优势和应用场景。选择哪个更常用取决于项目的具体需求、团队的开发习惯以及性能考虑等因素。在某些情况下，开发者可能会结合使用两者以充分利用它们的优点。例如，可以使用Framework来封装复杂的功能模块，同时使用Static Library来共享一些基础的、不会频繁更改的库文件。</p>
+]]></content>
+      <categories>
+        <category>iOS 开发</category>
+      </categories>
+      <tags>
+        <tag>iOS 知识点</tag>
+        <tag>iOS SDK 开发</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>iOS SDK 开发的应用场景和创业变现以及市场生存空间</title>
     <url>/hexo-kifary-blog/zh/2025/02/20/iOS-SDK-%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%92%8C%E5%88%9B%E4%B8%9A%E5%8F%98%E7%8E%B0%E4%BB%A5%E5%8F%8A%E5%B8%82%E5%9C%BA%E7%94%9F%E5%AD%98%E7%A9%BA%E9%97%B4/</url>
     <content><![CDATA[<h3 id="iOS-SDK开发的应用场景"><a href="#iOS-SDK开发的应用场景" class="headerlink" title="iOS SDK开发的应用场景"></a>iOS SDK开发的应用场景</h3><p>iOS SDK（软件开发工具包）为开发者提供了构建iOS平台上应用程序所需的工具和资源。其应用场景广泛，包括但不限于：</p>
@@ -809,33 +836,6 @@
       <tags>
         <tag>iOS SDK 开发</tag>
         <tag>创业变现</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>iOS 中 Framework  和 Static Library 哪个更常用</title>
-    <url>/hexo-kifary-blog/zh/2025/02/20/iOS-%E4%B8%AD-Framework-%E5%92%8C-Static-Library-%E5%93%AA%E4%B8%AA%E6%9B%B4%E5%B8%B8%E7%94%A8/</url>
-    <content><![CDATA[<p>在iOS开发中，Framework和Static Library（静态库）都有各自的应用场景和优缺点，因此无法一概而论哪个更常用。它们的选择往往取决于具体项目的需求、团队的开发习惯以及性能考虑等因素。</p>
-<h3 id="Framework的优点与应用场景"><a href="#Framework的优点与应用场景" class="headerlink" title="Framework的优点与应用场景"></a>Framework的优点与应用场景</h3><ol>
-<li><strong>一站式分享方案</strong>：Framework包含代码签名、头文件、二进制执行文件、静态资源文件等，提供了更为完整的封装。</li>
-<li><strong>无需设置头文件搜索路径</strong>：使用Framework时，Xcode会自动处理头文件搜索路径，简化了配置工作。</li>
-<li><strong>避免代码冲突</strong>：由于Framework与其运行环境相对隔离，即使App和Framework中包含了同名的类，也不会发生冲突。</li>
-<li><strong>支持模块化开发</strong>：Framework使得开发者能够更高效地组织代码和共享功能模块，有助于提升开发效率。</li>
-</ol>
-<p>Framework在iOS开发中越来越受欢迎，特别是在需要封装复杂功能、共享代码或创建可重用组件时。它支持模块化开发，有助于提升代码的可维护性和复用性。</p>
-<h3 id="Static-Library的优点与应用场景"><a href="#Static-Library的优点与应用场景" class="headerlink" title="Static Library的优点与应用场景"></a>Static Library的优点与应用场景</h3><ol>
-<li><strong>减小包大小</strong>：如果多个App需要使用相同的第三方库，使用Static Library可以避免在每个App中都包含一份完整的库文件，从而减小包大小。</li>
-<li><strong>简单的依赖管理</strong>：Static Library不依赖于特定的运行环境，只需将库文件和头文件添加到项目中即可使用。</li>
-<li><strong>性能优势</strong>：由于Static Library在编译时被链接到App中，因此在运行时加载速度可能更快（尽管这种差异在现代设备上可能不太明显）。</li>
-</ol>
-<p>Static Library适用于那些希望减小App包大小、简化依赖管理或需要确保代码在编译时就已经固定的场景。</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>综上所述，Framework和Static Library在iOS开发中都有各自的优势和应用场景。选择哪个更常用取决于项目的具体需求、团队的开发习惯以及性能考虑等因素。在某些情况下，开发者可能会结合使用两者以充分利用它们的优点。例如，可以使用Framework来封装复杂的功能模块，同时使用Static Library来共享一些基础的、不会频繁更改的库文件。</p>
-]]></content>
-      <categories>
-        <category>iOS 开发</category>
-      </categories>
-      <tags>
-        <tag>iOS 知识点</tag>
-        <tag>iOS SDK 开发</tag>
       </tags>
   </entry>
 </search>

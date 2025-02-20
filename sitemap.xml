@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://swiftbman.github.io/hexo-kifary-blog/about/index.html</loc>
+    
+    <lastmod>2025-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://swiftbman.github.io/hexo-kifary-blog/zh/2025/02/20/iOS-SDK-%E5%BC%80%E5%8F%91%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%92%8C%E5%88%9B%E4%B8%9A%E5%8F%98%E7%8E%B0%E4%BB%A5%E5%8F%8A%E5%B8%82%E5%9C%BA%E7%94%9F%E5%AD%98%E7%A9%BA%E9%97%B4/</loc>
     
     <lastmod>2025-02-20</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://swiftbman.github.io/hexo-kifary-blog/zh/2025/02/20/iOS-%E4%B8%AD-Framework-%E5%92%8C-Static-Library-%E5%93%AA%E4%B8%AA%E6%9B%B4%E5%B8%B8%E7%94%A8/</loc>
-    
-    <lastmod>2025-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://swiftbman.github.io/hexo-kifary-blog/about/index.html</loc>
     
     <lastmod>2025-02-20</lastmod>
     
