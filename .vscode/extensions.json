@@ -8,6 +8,7 @@
         "adpyke.codesnap", // 代码截图
         "davidanson.vscode-markdownlint", // markdown 语法检查
         "marscode.marscode-extension", // AI 代码助手
+        "alibaba-cloud.tongyi-lingma", // AI 代码助手
         "ryanolsonx.solarized", // 主题 solarized
         "vscode-icons-team.vscode-icons", // 文件图标主题
         "syler.ignore", // gitignore 管理

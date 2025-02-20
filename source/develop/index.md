@@ -376,3 +376,12 @@ date: 2023-03-09 15:21:22
 ## 版本控制
 
 - [fossil](https://fossil-scm.org/home/uv/download.html) - 轻量级的版本控制工具
+
+## 云服务
+
+- [阿里云](https://www.aliyun.com/)
+- [腾讯云](https://cloud.tencent.com/)
+- [华为云](https://www.huaweicloud.com/)
+- [七牛云](https://www.qiniu.com/)
+- [微软云](https://azure.microsoft.com/zh-cn/)
+- [移动云](https://ecloud.10086.cn/)

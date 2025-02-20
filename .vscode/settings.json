@@ -167,5 +167,8 @@
     "terminal.integrated.enableVisualBell": true,
     "files.watcherExclude": {
         "**/target": true
+    },
+    "markdownlint.config": {
+        "MD033" : false,
     }
 }
