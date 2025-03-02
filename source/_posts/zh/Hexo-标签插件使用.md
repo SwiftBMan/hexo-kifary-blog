@@ -22,7 +22,7 @@ content</br>
 \{\% endblockquote \%\}
 {% endblockquote %}
 
-#### 例子
+#### 引用块例子
 
 ##### 没有提供参数，普通的 **blockquote**
 
@@ -68,7 +68,7 @@ code snippet</br>
 \{\% endcodeblock \%\}
 {% endquote %}
 
-#### 例子
+#### 代码块例子
 
 ##### 普通代码块
 
