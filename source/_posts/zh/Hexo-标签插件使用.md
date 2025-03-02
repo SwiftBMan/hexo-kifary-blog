@@ -7,7 +7,7 @@ header: true
 post_link: ''
 description: 如何在 Hexo 博客中使用标签插件
 sidebar: true
-sticky: 10
+sticky: 0
 tags:
   - Hexo
 categories:
@@ -51,16 +51,17 @@ Do not just seek happiness for yourself. Seek happiness for all. Through kindnes
 ##### 引用链接
 
 {% blockquote %}
-\{\% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing \%\}</br>
+\{\% blockquote Seth Godin <http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html> Welcome to Island Marketing \%\}</br>
 Every interaction is both precious and an opportunity to delight.</br>
 \{\% endblockquote \%\}
 {% endblockquote %}
 
-{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
+{% blockquote Seth Godin <http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html> Welcome to Island Marketing %}
 Every interaction is both precious and an opportunity to delight.
 {% endblockquote %}
 
 ### 代码块
+
 {% quote %}
 \{\% codeblock [title] [lang:language] [url] [link text] [additional options] \%\}</br>
 code snippet</br>
@@ -70,6 +71,7 @@ code snippet</br>
 #### 例子
 
 ##### 普通代码块
+
 {% blockquote %}
 \{\% codeblock \%\}</br>
 alert(\'Hello World!\');</br>
@@ -83,13 +85,13 @@ alert('Hello World!');
 ##### 一个参数完整的代码块
 
 {% blockquote %}
-\{\% codeblock 这是一个 oc 代码 lang:objc http://www.baidu.com 百度搜索 line_number:true line_threshold:0 highlight:true first_line:0 mark:1 wrap:true \%\}</br>
+\{\% codeblock 这是一个 oc 代码 lang:objc <http://www.baidu.com> 百度搜索 line_number:true line_threshold:0 highlight:true first_line:0 mark:1 wrap:true \%\}</br>
 [rectangle setX: 10 y: 10 width: 20 height: 20];</br>
 [rectangle setX: 10 y: 10 width: 20 height: 20];</br>
 \{\% endcodeblock \%\}
 {% endblockquote %}
 
-{% codeblock 这是一个 oc 代码 lang:objc http://www.baidu.com 百度搜索 line_number:true line_threshold:0 highlight:true first_line:0 mark:1 wrap:true %}
+{% codeblock 这是一个 oc 代码 lang:objc <http://www.baidu.com> 百度搜索 line_number:true line_threshold:0 highlight:true first_line:0 mark:1 wrap:true %}
 [rectangle setX: 10 y: 10 width: 20 height: 20];
 [rectangle setX: 10 y: 10 width: 20 height: 20];
 {% endcodeblock %}
@@ -103,12 +105,14 @@ alert('Hello World!');
 {% endblockquote %}
 
 ### Gist
+
 {% blockquote %}
 \{\% gist 35b1d8ab0323a44c289b62f365b7a302 test1 \%\}</br>
 \{\% gist 35b1d8ab0323a44c289b62f365b7a302 test2 \%\}
 {% endblockquote %}
 
 ### iframe
+
 使用 iframe 嵌入 [bilibili](https://www.bilibili.com) 视频
 {% blockquote %}
 \{\% iframe url [width] [height] \%\}</br>
@@ -132,22 +136,25 @@ alert('Hello World!');
 {% iframe //music.163.com/outchain/player?type=0&id=2320041657&auto=1&height=32 298 52 %}
 
 ### Image
+
 {% blockquote %}
 \{\% img [class names] /path/to/image [width] [height] '"title text" "alt text"' \%\}</br>
-\{\% img https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/android-chrome-512x512.png 100 100 \%\}
+\{\% img <https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/android-chrome-512x512.png> 100 100 \%\}
 {% endblockquote %}
 
-{% img https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/favicon.ico 44 44 %}
+{% img <https://cdn.jsdelivr.net/gh/SwiftBMan/iFigureBed/Blogs/Kifary/favicon.ico> 44 44 %}
 
 ### Link
+
 {% blockquote %}
 \{\% link text url [external] [title] \%\}</br>
-\{\% link 百度一下 https://www.baidu.com [external] [超连接] \%\}
+\{\% link 百度一下 <https://www.baidu.com> [external] [超连接] \%\}
 {% endblockquote %}
 
-{% link 百度一下 https://www.baidu.com [external] [超连接] %}
+{% link 百度一下 <https://www.baidu.com> [external] [超连接] %}
 
 ### Include Code
+
 {% blockquote %}
 \{\% include_code [title] [lang:language] [from:line] [to:line] path/to/file \%\}</br>
 \{\% include_code file lang:javascript from:1 to:20 file.js \%\}
@@ -155,6 +162,7 @@ alert('Hello World!');
 {% include_code file lang:javascript from:1 to:20 file.js %}
 
 ### Youtube
+
 {% blockquote %}
 视频</br>
 \{\% youtube lJIrF4YjHfQ \%\}</br>
@@ -166,6 +174,7 @@ alert('Hello World!');
 {% endblockquote %}
 
 ### [引用文章](https://hexo.io/zh-cn/docs/tag-plugins#引用文章)
+
 {% blockquote %}
 \{\% post_path Hexo-标签插件使用 false \%\}</br>
 \{\% post_link Hexo-标签插件使用 '<b>插件使用</b>' false \%\}
@@ -179,4 +188,3 @@ alert('Hello World!');
 ### [Raw](https://hexo.io/zh-cn/docs/tag-plugins#Raw)
 
 ### [文章摘要和截断](https://hexo.io/zh-cn/docs/tag-plugins#文章摘要和截断)
-
