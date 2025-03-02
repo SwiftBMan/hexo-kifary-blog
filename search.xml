@@ -457,7 +457,7 @@
     <content><![CDATA[<h3 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h3><blockquote><p>{% blockquote [author[, source]] [link] [source_link_title] %}</br><br>content</br><br>{% endblockquote %}</p>
 </blockquote>
 
-<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><h5 id="没有提供参数，普通的-blockquote"><a href="#没有提供参数，普通的-blockquote" class="headerlink" title="没有提供参数，普通的 blockquote"></a>没有提供参数，普通的 <strong>blockquote</strong></h5><blockquote><p>{% blockquote %}</br><br>普通的 blockquote</br><br>{% endblockquote %}</p>
+<h4 id="引用块例子"><a href="#引用块例子" class="headerlink" title="引用块例子"></a>引用块例子</h4><h5 id="没有提供参数，普通的-blockquote"><a href="#没有提供参数，普通的-blockquote" class="headerlink" title="没有提供参数，普通的 blockquote"></a>没有提供参数，普通的 <strong>blockquote</strong></h5><blockquote><p>{% blockquote %}</br><br>普通的 blockquote</br><br>{% endblockquote %}</p>
 </blockquote>
 
 <blockquote><p>普通的 blockquote</p>
@@ -478,7 +478,7 @@
 <h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><blockquote><p>{% codeblock [title] [lang:language] [url] [link text] [additional options] %}</br><br>code snippet</br><br>{% endcodeblock %}</p>
 </blockquote>
 
-<h4 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h4><h5 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h5><blockquote><p>{% codeblock %}</br><br>alert(&#39;Hello World!&#39;);</br><br>{% endcodeblock %}</p>
+<h4 id="代码块例子"><a href="#代码块例子" class="headerlink" title="代码块例子"></a>代码块例子</h4><h5 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h5><blockquote><p>{% codeblock %}</br><br>alert(&#39;Hello World!&#39;);</br><br>{% endcodeblock %}</p>
 </blockquote>
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
