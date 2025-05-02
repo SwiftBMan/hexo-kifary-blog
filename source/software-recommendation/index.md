@@ -3,14 +3,17 @@ title: 软件推荐
 date: 2023-03-06 14:22:16
 ---
 
-# 正版软件购买渠道
+## 正版软件购买渠道
+
 - [艾维商城](https://www.aiviy.com)
 - [数码荔枝](https://store.lizhi.io)
 
-# macOS 开源软件
+## macOS 开源软件
+
 - [awesome-mac](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md#科学上网)
 
-# 数学
+## 数学
+
 - [MATLAB（收费）](https://ww2.mathworks.cn/products/matlab.html) - MATLAB 是数百万工程师和科学家都在使用的编程和数值计算平台，支持数据分析、算法开发和建模
 - [Maple（收费）](https://www.maplesoft.com.cn/index.shtml) - 为教育、工程、研究提供基于数学的软件和服务
 - [Mathematica (收费)](https://www.wolfram.com/mathematica/index.php.zh?source=footer) - 现代科技计算
@@ -25,32 +28,38 @@ date: 2023-03-06 14:22:16
 - [MathType（收费）](https://www.mathtype.cn) - 强大的数学公式编辑器
 - [RStudio](https://www.r-project.org) - 统计计算
 
-# 虚拟机
+## 虚拟机
+
 - [VMware（收费）](https://www.vmware.com/products/workstation-player.html) - 使用 VMware Workstation Player 在 Windows或Linux PC 上轻松运行多个操作系统作为虚拟机
 - [VirtualBox](https://www.virtualbox.org) - VirtualBox 是一款强大的 x86 和 AMD64/Intel64 虚拟化产品，适用于企业和家庭
 - [Parallels（收费）](https://www.parallels.cn) - 一款运行快速、操作简单、功能强大的应用程序，无需重启即可在您的 Intel 或 Apple M 系列 Mac 上运行 Windows。包含 40 多种一键式工具，可简化 Mac 和 Windows 上的日常任务
 
-# 终端
+## 终端
+
 - [Warp](https://www.warp.dev) - Warp 是一个非常快的、基于 Rust 的终端
 - [FinalShell](http://www.hostbuf.com/t/988.html) - FinalShell 是一体化的的服务器，网络管理软件，不仅是ssh客户端，还是功能强大的开发，运维工具，充分满足开发，运维需求
 - [Tabby](https://tabby.sh/) - Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections.
 - [WindTerm](https://kingtoolbox.github.io/)
 
-# 浏览器
+## 浏览器
+
 - [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/) - Chrome，不一样的浏览器体验
 - [Microsoft Edge](https://www.microsoft.com/en-us/edge?exp=e00&form=MA13FJ) - 微软良心浏览器
 
-# 硬件设计
+## 硬件设计
+
 - [Altium Designer](https://www.altium.com) - Altium Designer 是一款功能强大的电路设计和 PCB 布局软件。它提供了全面的设计工具和功能，包括原理图设计、PCB 布局、信号完整性分析和仿真等
 - [KiCad](https://www.kicad.org) - 一个跨平台和开源的电子设计自动化套件
 - [EasyEDA](https://easyeda.com) - 更简单和强大在线 PCB 设计工具
 - [Eagle](https://www.autodesk.com/products/eagle/overview) - Eagle 是一款流行的电路设计软件，提供了易于使用的界面和强大的功能。它支持原理图设计、PCB 布局和自动布线等功能，并且具有广泛的元件库和社区支持
 - [OrCAD](https://www.orcad.com) - OrCAD 是一款专业的电路设计软件，提供了全面的设计工具和功能。它支持原理图设计、PCB 布局、信号完整性分析和仿真等，并且适用于复杂的电路设计项目
 
-# Markdown
+## Markdown
+
 - [Typora（收费）](https://typoraio.cn) - 一款 Markdown 编辑器和阅读器
 
-# 工具
+## 工具
+
 - [He3](https://he3-website-20230216-1309519128.cos-website.ap-hongkong.myqcloud.com/index.html) - 自由、现代、高效开发人员工具箱
 - [iFonts字体助手](https://ifonts.com/client) - iFonts 字体助手是一款字体管理工具
 - [字由](https://www.hellofont.cn/) - 字体管理工具
@@ -73,7 +82,8 @@ date: 2023-03-06 14:22:16
 - [Mounty for NTFS](https://mounty.app/)
 - [Sound box](https://soundbox.fun/) - 一个在线音效网站，提供多种自然环境音效以及白噪音
 
-# 模拟器
+## 模拟器
+
 - 游戏模拟器
   - [yuzu](https://yuzu-emu.org) - yuzu 是由 Citra 开发的一款实验性的任天堂 Switch 开源模拟器
   - [ppsspp](https://www.ppsspp.org/index.html) - psp 模拟器
@@ -92,7 +102,8 @@ date: 2023-03-06 14:22:16
 - 环境模拟
   - [DOSBox](https://www.dosbox.com/) - DOS 模拟器
 
-# IDE
+## IDE
+
 - [Android Studio](https://developer.android.google.cn/studio/) - 安卓开发
 - [Xcode](https://developer.apple.com/cn/xcode/) - 苹果开发
 - [DevEco-Studio](https://developer.harmonyos.com/cn/develop/deveco-studio) - 鸿蒙开发
@@ -117,7 +128,8 @@ date: 2023-03-06 14:22:16
 - [Lightly](https://lightly.teamcode.com/) - 新一代的 C IDE
 - [cursor](https://www.cursor.so/) - Write, edit, and chat about your code with a powerful AI
 
-# 游戏
+## 游戏
+
 - IDE
   - [Unity Hub](https://unity.cn/) - C# 游戏开发工具
   - [Godot_mono](https://godotengine.org/) - The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.
@@ -128,21 +140,28 @@ date: 2023-03-06 14:22:16
 - 游戏加速器
   - [UU 加速器](https://uu.163.com/)
 
-# 编辑器
+## 编辑器
+
 - [Visual Studio Code](https://code.visualstudio.com) - 微软免费的跨平台编辑器
 - [Sublime Text](https://www.sublimetext.com) - 好用的代码编辑器
 
-# 科学上网
+## 科学上网
+
 - [滑猴](https://thick.weianbeina.com/?media_source=ActiveRevenue&campaign_id=zeroclick&platform=macos&zone_id=lanzous.com) - 享受在中国最快的 VPN 服务
 
-# AI
+## AI
+
 - [X Studio](https://singer.xiaoice.com) - 语音合成
 - [notion](https://www.notion.so/desktop) - 人工智能辅助写作工具
 - [careered](https://www.careered.ai/tool/cover-letter) - AI 求职信
 - [DuckDuckGo](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1) - 免费AI聊天
 - [302.AI](https://302.ai/)(收费，有开源版本) - 它的定位是"AI 应用超市"，可以看作是一个适配层，适配了各种各样的 AI 模型，让你都能通过它来使用
+- [trae](https://www.trae.com.cn/) - AI IDE
+- [Cursor](https://www.cursor.so/) - 收费的 AI 编程IDE
+- [飞算 Java AI](https://www.feisuanyz.com/) -  飞算 Java AI
 
-# 设计、建模、绘画等
+## 设计、建模、绘画等
+
 - [Figma](https://www.figma.com/) - 推荐
 - [Framer](https://www.framer.com/) - Design and ship your dream site. Zero code, maximum speed.
 - [krita](https://krita.org/zh/) - Krita 是一款自由开源的免费绘画软件，无需注册、无广告、试用期或者商用限制，让每一位画师都可以有尊严地表达创意
@@ -159,8 +178,10 @@ date: 2023-03-06 14:22:16
 - [Sketch](https://www.sketch.com/) - macOS 专用设计软件
 - [Spline](https://spline.design/) - 轻量级建模软件
 - [ZBrush](https://www.maxon.net/zh/zbrush) - 雕刻软件
+- [aseprite](https://www.aseprite.org/) - 2D 矢量绘图工具，专注于像素绘画
 
-# 下载工具、网盘
+## 下载工具、网盘
+
 - [阿里云盘](https://www.aliyundrive.com/)
 - [百度网盘](https://pan.baidu.com/)
 - [城通网盘](https://www.ctfile.com/p/login?ref=https%3A%2F%2Fhome.ctfile.com%2F%23item-files)
@@ -172,13 +193,20 @@ date: 2023-03-06 14:22:16
 - [Transmit](https://panic.com/transmit/) - FTP
 - [qBittorrent](https://www.qbittorrent.org/) - BT 下载工具
 
-# 播放器
+## 播放器
+
 - [IINA](https://iina.io/) - macOS 的现代媒体播放器
 - [Movist Pro](https://movistprime.com/)
 - [VLC](https://www.videolan.org/vlc/)
 
-# windows
+## windows
+
 - [Magpie](https://github.com/Blinue/Magpie/releases) - 游戏窗口分辨率调节工具
 
-# 音乐工具
+## 音乐工具
+
 - [MuseScore](https://musescore.org/zh-hans) - 这是一款功能强大的开源打谱软件，支持多种乐器和谱类别，默认乐器是钢琴。你可以在上面更改界面字体，拥有丰富的偏好设置。MuseScore支持通过键盘输入音符，也可以配合MIDI键盘进行演奏。由于它是开源的，因此社区支持丰富，你可以找到各种教程和插件来扩展其功能。
+
+## 编程
+
+- [Swift Playgrounds](https://apps.apple.com/cn/app/swift-playgrounds/id1496833156?mt=12) - 苹果官方 Swift 交互式编程

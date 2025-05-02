@@ -4,20 +4,21 @@
 
 ```shell
 ========================================
-NexT version 8.18.0
+NexT version 8.23.0
 Documentation: https://theme-next.js.org
 ========================================
+INFO  Validating config
 hexo: 7.3.0
-hexo-cli: 4.3.1
-os: darwin 24.3.0 15.3
+hexo-cli: 4.3.2
+os: darwin 24.4.0 15.4.1
 
-node: 22.14.0
-acorn: 8.14.0
+node: 22.15.0
+acorn: 8.14.1
 ada: 2.9.2
-amaro: 0.3.0
-ares: 1.34.4
+amaro: 0.4.1
+ares: 1.34.5
 brotli: 1.1.0
-cjs_module_lexer: 1.4.1
+cjs_module_lexer: 2.1.0
 cldr: 46.0
 icu: 76.1
 llhttp: 9.2.1
@@ -26,19 +27,18 @@ napi: 10
 nbytes: 0.1.1
 ncrypto: 0.0.1
 nghttp2: 1.64.0
-nghttp3: 1.6.0
-ngtcp2: 1.10.0
-openssl: 3.0.15+quic
-simdjson: 3.10.1
+openssl: 3.0.16
+simdjson: 3.12.2
 simdutf: 6.0.3
-sqlite: 3.47.2
-tz: 2024b
-undici: 6.21.1
+sqlite: 3.49.1
+tz: 2025a
+undici: 6.21.2
 unicode: 16.0
 uv: 1.49.2
 uvwasi: 0.0.21
-v8: 12.4.254.21-node.22
-zlib: 1.3.0.1-motley-82a5fec
+v8: 12.4.254.21-node.24
+zlib: 1.3.0.1-motley-788cb3c
+zstd: 1.5.6
 ```
 
 ## 一些问题帮助

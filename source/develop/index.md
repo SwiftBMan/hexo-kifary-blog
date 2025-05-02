@@ -7,6 +7,7 @@ date: 2023-03-09 15:21:22
 
 - 资料
   - [awesome](https://github.com/sindresorhus/awesome) - Awesome lists about all kinds of interesting topics
+  - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - 各种项目练手
   - [cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) - 计算机自学指南
   - [rk](https://gitee.com/hyzsbook/rk) - 软考资料
   - [free programming books](https://github.com/EbookFoundation/free-programming-books) - 免费的编程电子书
@@ -232,6 +233,7 @@ date: 2023-03-09 15:21:22
 - [stockfishchess](https://stockfishchess.org/) - 开源国际象棋引擎
 - [aihub](https://www.aihub.cn/) - 该网站收集各种 AI 工具和资源
 - [ollama](https://ollama.com/) - 本地运行大模型
+- [HuggingFace](https://huggingface.co/) - 开源 AI 模型库
 
 ## 字体
 
@@ -338,6 +340,9 @@ date: 2023-03-09 15:21:22
 - [bevy engine](https://bevyengine.org/)
 - [amethyst](https://amethyst.rs/)
 - [piston](https://www.piston.rs/)
+- [Godot](https://godotengine.org/) - 一个开源的跨平台游戏引擎，使用 Rust 语言开发，支持 2D 和 3D 游戏开发
+- [love2d](https://love2d.org/) - 一个开源的跨平台游戏引擎，使用 Lua 语言开发，支持 2D 和 3D 游戏开发
+- [Renpy](https://www.renpy.org/) - 一个开源的跨平台游戏引擎，使用 Python 语言开发，支持 2D 和 3D 游戏开发
 
 ## 低代码平台
 
@@ -385,3 +390,7 @@ date: 2023-03-09 15:21:22
 - [七牛云](https://www.qiniu.com/)
 - [微软云](https://azure.microsoft.com/zh-cn/)
 - [移动云](https://ecloud.10086.cn/)
+
+## 激活码
+
+- [ajihuo](https://www.ajihuo.com/)
